@@ -18,22 +18,54 @@ $navcolor:  #eeeeee;
 
 // Styles for nav list items 
 .nav-view {
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    
+    width: 330px;
     background-color: $navcolor;
     padding: 20px;
 
     h2 {
         font-size: 24px;
+        border-bottom: 2px solid #192ABC;
+        width: 100px;
     }
 
+    button {
+        border: none;
+        background-color: transparent;
+    }
+    
     ul {
+        padding: 0 10px;
+
         li {
+            padding: 15px 0;
             font-size: 20px;
+            list-style: none;
         }
+    }
+
+    .menu-nav {
+        li {
+            border-bottom: 2px solid rgba(196, 196, 196, 0.4);
+        }
+    }
+}
+.explore-nav {
+    img {
+        margin-left: 0px;
     }
 }
 
 .main-view {
+    margin: 0px 0px 0px 330px;
     padding: 0px 100px;
+    header {
+        border-bottom: 2px solid #192ABC;
+    }
 
     section {
         padding: 0px 50px;

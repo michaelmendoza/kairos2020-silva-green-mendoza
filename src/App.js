@@ -1,5 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import apr from './images/apr.png';
+import puffyhost from './images/puffyhost.png';
+import theflame from './images/theflame.png';
+import jeffersonpost from './images/thejeffersonpost.png';
+import dailypost from './images/thedailypost.png';
 import './App.scss';
 
 function App() {
@@ -9,25 +13,25 @@ function App() {
       <nav className="nav-view"> 
         <section className="menu-nav">
           <h2> Menu </h2>
-          <ul>
-            <li className='item-intro' > Introduction </li>
-            <li className='item-method'> Methods </li>
-            <li> Context </li>
-            <li> Discussion </li>
-            <li> Implications </li>
-            <li> Contact </li>
-          </ul>
+        <ul>
+            <li> <button> Introduction </button> </li>
+            <li> <button> Methods </button> </li>
+            <li> <button> Context </button> </li>
+            <li> <button> Discussion </button> </li>
+            <li> <button> Implications </button> </li>
+            <li> <button> Contact </button> </li>
+          </ul> 
         </section>
         <section className="explore-nav"> 
           <h2> Explore </h2>
           <ul>
-            <li> APR </li>
-            <li> Puffy Host </li>
-            <li> Flame </li>
-            <li> Jefferson Post </li>
-            <li> Daily Post </li>
+            <li> <button> <img src={apr} alt="apr"/> </button> </li>
+            <li> <button> <img src={puffyhost} alt="Puffy Host"/> </button> </li>
+            <li> <button> <img src={theflame} alt="Flame"/> </button> </li>
+            <li> <button> <img src={jeffersonpost} alt="Jefferson Post"/> </button> </li>
+            <li> <button> <img src={dailypost} alt="Daily Post"/> </button> </li>
           </ul>
-        </section>
+        </section> 
       </nav>
       <section className="main-view"> 
         <header>
