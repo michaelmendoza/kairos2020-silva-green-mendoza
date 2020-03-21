@@ -13,7 +13,7 @@ $navcolor:  #eeeeee;
 }
 
 .flex-item { 
-
+    flex: 1;
 }
 
 // Styles for nav list items 
@@ -31,6 +31,8 @@ $navcolor:  #eeeeee;
         font-size: 24px;
         border-bottom: 2px solid #192ABC;
         width: 100px;
+
+ 
     }
 
     button {
@@ -63,6 +65,26 @@ $navcolor:  #eeeeee;
 .main-view {
     margin: 0px 0px 0px 330px;
     padding: 0px 100px;
+
+    h2 {
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .title {
+        margin-left: 30px;
+    }
+
+    .authors {
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .fa-bars {
+      color: #192ABC;  
+    }
+
     header {
         border-bottom: 2px solid #192ABC;
     }
