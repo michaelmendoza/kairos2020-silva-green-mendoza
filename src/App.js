@@ -1,6 +1,5 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import headerimage from './images/test.png';
 import './App.scss';
 
 import SideNav from './components/SideNav';

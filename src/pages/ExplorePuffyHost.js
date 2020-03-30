@@ -1,14 +1,13 @@
 import React from 'react';
-
 import Header from '../components/Header';
+import puffyhost from '../images/puffyhost_page.png';
 
 function ExplorePuffyHost() {
   return (
       <section className="main-view"> 
         <Header></Header>
         <section>
-          Puffy Host
-          <img />
+          <img src={puffyhost}/>
        </section>
       </section>
   );
