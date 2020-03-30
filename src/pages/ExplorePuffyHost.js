@@ -7,7 +7,7 @@ function ExplorePuffyHost() {
       <section className="main-view"> 
         <Header></Header>
         <section>
-          <img src={puffyhost}/>
+          <img className="card" src={puffyhost}/>
        </section>
       </section>
   );

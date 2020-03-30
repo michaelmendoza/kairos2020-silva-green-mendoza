@@ -7,7 +7,7 @@ function ExploreAPR() {
       <section className="main-view"> 
         <Header></Header>
         <section>
-          <img src={apr} />
+          <img className="card" src={apr} />
        </section>
       </section>
   );

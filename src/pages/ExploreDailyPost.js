@@ -7,7 +7,7 @@ function ExploreDailyPost() {
       <section className="main-view"> 
         <Header></Header>
         <section>
-          <img src={dailypost}/>
+          <img className="card" src={dailypost}/>
        </section>
       </section>
   );

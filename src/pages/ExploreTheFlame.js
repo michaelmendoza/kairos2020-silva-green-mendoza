@@ -7,7 +7,7 @@ function ExploreTheFlame() {
       <section className="main-view"> 
         <Header></Header>
         <section>
-          <img src={theflame}/>
+          <img className="card" src={theflame}/>
        </section>
       </section>
   );

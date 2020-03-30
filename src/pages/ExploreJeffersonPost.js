@@ -7,7 +7,7 @@ function ExploreJeffersonPost() {
       <section className="main-view"> 
         <Header></Header>
         <section>
-          <img src={jeffersonpost}/>
+          <img className="card" src={jeffersonpost}/>
        </section>
       </section>
   );
