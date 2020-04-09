@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import theflame from '../images/theflame_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
+import InteractivePanel from '../components/InteractivePanel';
 
 function ExploreTheFlame() {
   return (
@@ -9,7 +10,7 @@ function ExploreTheFlame() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <img className="card" src={theflame}/>
+          <InteractivePanel img={theflame}></InteractivePanel>
        </section>
       </section>
   );

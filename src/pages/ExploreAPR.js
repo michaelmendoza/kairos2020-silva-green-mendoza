@@ -10,8 +10,7 @@ function ExploreAPR() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel></InteractivePanel>
-          <img className="card" src={apr} />
+          <InteractivePanel img={apr}></InteractivePanel>
        </section>
       </section>
   );

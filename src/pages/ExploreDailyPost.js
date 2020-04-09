@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import dailypost from '../images/thedailypost_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
+import InteractivePanel from '../components/InteractivePanel';
 
 function ExploreDailyPost() {
   return (
@@ -9,8 +10,8 @@ function ExploreDailyPost() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <img className="card" src={dailypost}/>
-       </section>
+          <InteractivePanel img={dailypost}></InteractivePanel>       
+        </section>
       </section>
   );
 }

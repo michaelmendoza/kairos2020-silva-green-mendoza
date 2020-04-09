@@ -60,12 +60,18 @@
 }
 
 .interactive-panel {
-    position: absolute;
-    width: 600px;
+    position: relative;
+    width: 100%;
+    min-width: 600px;
+
+    .explore-image {
+        width: 100%;
+        margin: 0;
+    }
 
     .interactive-item {
         position: absolute;
-        width: 300px;
+        width: 400px;
         padding: 20px;
         background-color: #ffffff;
         border-radius: 10px;
@@ -75,12 +81,33 @@
         }
 
         .interactive-avatar {
-            font-size: 30px;
-            line-height: 30px;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+            border-radius: 40px;
         }
     
         .interactive-name {
-            font-size: 20px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .interactive-handle {
+            color: #444444;
+        }
+
+        .interactive-check {
+            color: #1DA1F2;
+            margin-right: 4px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        .interactive-actions {
+            color: #444444;
+            margin-top: 14px;
+            i { margin-right: 50px; }
         }
     }
 }
@@ -173,13 +200,6 @@
         text {
             font-size: 24px;
             text-align: justify;
-        }
-    }
-
-    .section-explore {
-        img {
-            width: 100%;
-            padding: 40px 0 0 0;
         }
     }
 
