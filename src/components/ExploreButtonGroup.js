@@ -1,11 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
+import { AppContext, exploreModes} from '../contexts/AppContext';
 
 function ExploreButtonGroup() {
+  const { setExploreMode } = useContext(AppContext);
+  const [ active, setActive ] = useState(["", "", ""]);
 
-  const [active, setActive] = useState(["", "", ""]);
-  const handleNovice = ()=> setActive(["active", "", ""]);
-  const handleExpert = ()=> setActive(["", "active", ""]);
-  const handleBoth = ()=> setActive(["", "", "active"]);
+  const handleNovice = () => { 
+    setActive(["active", "", ""]);  
+    setExploreMode(exploreModes.NOVICE); 
+  };
+  const handleExpert = () =>  { 
+    setActive(["", "active", ""]); 
+    setExploreMode(exploreModes.EXPERT); 
+  };
+  const handleBoth = () => { 
+    setActive(["", "", "active"]); 
+    setExploreMode(exploreModes.BOTH); 
+  };
   
   return (
     <div className="button-group float-right">
