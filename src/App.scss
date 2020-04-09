@@ -14,6 +14,10 @@
     flex: 1;
 }
 
+.float-right { 
+    float: right;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -22,6 +26,41 @@
     /* On mouse-over, add a deeper shadow */
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    }
+}
+
+.button-group {
+    margin: 20px 0;
+
+    button {
+        padding: 12px 20px;
+        border: 1px solid rgba(196, 196, 196, 0.4);
+        color: rgba(120, 120, 120, 1.0);
+
+        &.active {
+            border: 1px solid #192ABC;
+            color: #192ABC;
+            background-color: rgba(196, 196, 196, 0.2);
+        }
+
+        &:hover {
+            border: 1px solid #192ABC;
+            background-color: rgba(196, 196, 196, 0.2);
+        }
+
+        &:focus {
+            outline:none;
+        }
+
+        &:first-of-type {
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        &:last-of-type {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
     }
 }
 
@@ -104,10 +143,11 @@
     }
 
     section {
-        padding: 40px 100px 0px 100px;
+        padding: 0px 100px 0px 100px;
         
         img {
             width: 100%;
+            padding: 40px 0 0 0;
         }
 
         h1 {
