@@ -59,6 +59,32 @@
     }
 }
 
+.interactive-panel {
+    position: absolute;
+    width: 600px;
+
+    .interactive-item {
+        position: absolute;
+        width: 300px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+
+        header {
+            margin-bottom: 6px;
+        }
+
+        .interactive-avatar {
+            font-size: 30px;
+            line-height: 30px;
+        }
+    
+        .interactive-name {
+            font-size: 20px;
+        }
+    }
+}
+
 // Styles for nav list items 
 .nav-view {
     position: fixed;
@@ -128,16 +154,7 @@
     margin: 0px 0px 0px 330px;
     padding: 0px 200px;
     
-    h2 {
-        font-size: 26px;
-        font-weight: 400;
-    }
-
-    header {
-        border-bottom: 2px solid #192ABC;
-    }
-
-    section {
+    .section-article {
         padding: 0px 100px 0px 100px;
         
         img {
@@ -159,17 +176,33 @@
         }
     }
 
-    .title {
-        margin-left: 30px;
+    .section-explore {
+        img {
+            width: 100%;
+            padding: 40px 0 0 0;
+        }
     }
 
-    .authors {
-        margin-right: 30px;
-        font-size: 20px;
-        font-weight: 200;
-    }
+    .header {
+        border-bottom: 2px solid #192ABC;
 
-    .fa-bars {
-      color: #192ABC;  
+        h2 {
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        .title {
+            margin-left: 30px;
+        }
+
+        .authors {
+            margin-right: 30px;
+            font-size: 20px;
+            font-weight: 200;
+        }
+
+        .fa-bars {
+        color: #192ABC;  
+        }
     }
 }

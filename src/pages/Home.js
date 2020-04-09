@@ -7,7 +7,7 @@ function Home() {
   return (
       <section className="main-view"> 
         <Header></Header>
-        <section>
+        <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Home</h1>
           <text>

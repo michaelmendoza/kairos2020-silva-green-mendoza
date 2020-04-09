@@ -7,7 +7,7 @@ function Methods() {
   return (
       <section className="main-view"> 
         <Header></Header>
-        <section>
+        <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Methods</h1>
           <text>

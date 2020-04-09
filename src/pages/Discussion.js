@@ -7,7 +7,7 @@ function Discussion() {
   return (
       <section className="main-view"> 
         <Header></Header>
-        <section>
+        <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Discussion</h1>
           <text>

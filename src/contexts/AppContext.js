@@ -10,7 +10,7 @@ export const exploreModes = {
 export const AppContext = createContext();
 
 class AppContextProvider extends Component {
-
+    
     state = {
         exploreMode: exploreModes.NONE
     }

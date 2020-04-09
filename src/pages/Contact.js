@@ -7,7 +7,7 @@ function Contact() {
   return (
       <section className="main-view"> 
         <Header></Header>
-        <section>
+        <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Contact</h1>
           <text>
