@@ -2,7 +2,7 @@ import React from 'react';
 import { Router } from '@reach/router';
 import './App.scss';
 
-import SideNav from './components/SideNav';
+import NavView from './components/NavView';
 import Home from './pages/Home';
 import Introduction from './pages/Introduction';
 import Methods from './pages/Methods';
@@ -19,7 +19,7 @@ import ExploreDailyPost from './pages/ExploreDailyPost';
 function App() {
   return (
     <div className="app flex-container">
-      <SideNav></SideNav>
+      <NavView></NavView>
       <Router>
         <Home path="/"></Home>
         <Introduction path="introduction"></Introduction>

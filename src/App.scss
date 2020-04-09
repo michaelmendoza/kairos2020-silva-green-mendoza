@@ -45,10 +45,14 @@
     button {
         border: none;
         background-color: transparent;
+
+        &:focus {
+            outline:none;
+        }
     }
     
     ul {
-        padding: 0 10px;
+        padding: 0 20px;
 
         li {
             padding: 15px 0;
@@ -62,14 +66,17 @@
             height: 27.5px;
             border-bottom: 2px solid rgba(196, 196, 196, 0.4);
             
+            &:hover {
+                list-style: initial;
+            }
+
             button {
                 line-height: 27.5px;
             }
 
             button:hover {
                 color: #192ABC;
-                font-size: 24px;
-                font-weight: 600px;
+                text-decoration: underline;
             }
         }
     }

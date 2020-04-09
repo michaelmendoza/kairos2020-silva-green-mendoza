@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <header> 
+    <header className="header"> 
         <h2 className="flex-container"> 
         <span> <i className="fas fa-bars"></i> </span> 
         <text className="title"> What do first-year students find reliable in online sources? </text>

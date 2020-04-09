@@ -7,7 +7,7 @@ import theflame from '../images/theflame.png';
 import jeffersonpost from '../images/thejeffersonpost.png';
 import dailypost from '../images/thedailypost.png';
 
-function SideNav() {
+function NavView() {
   return (
     <nav className="nav-view"> 
       <section className="menu-nav">
@@ -35,4 +35,4 @@ function SideNav() {
   );
 }
 
-export default SideNav;
+export default NavView;
