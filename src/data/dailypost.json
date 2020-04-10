@@ -1,12 +1,12 @@
 {
-    "novice": [
-      { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": " " },
-      { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": " " },
-      { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": " " }
-    ],
-    "expert": [
-        { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": " " },
-        { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": " " },
-        { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": " " }
-    ]
-  }
+  "novice": [
+    { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": "7% directly mentioned that the “immediate ad after opening up” the article was off-putting. This pop up was actually a petition which said something about the political bent of the source, though these students often missed that." },
+    { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": "16% of students focused on the “cheap ads on the sides of the page” that were distracting, but could also “be obnoxious or inappropriate.” They did not connect these comments to why this damaged the reputability of the source." },
+    { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": "Experts noted that the article “seems to be more of a blog or opinionated post” and “relied a lot on pathos.” They demonstrated deeper understanding of the rhetorical situation." }
+  ],
+  "expert": [
+      { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": "Experts noted that the article “seems to be more of a blog or opinionated post” and “relied a lot on pathos.” They demonstrated deeper understanding of the rhetorical situation." },
+      { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": "44% of students felt like there was too much “political bias” and that its “inflammatory tone against Republicans” made it less credible. They were able to suss out the political bent of the piece." },
+      { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": "Expert students noticed that the discussion was “one-sided” and that “it doesn’t really look at two sides of the story or weigh up any other options.” They were able to analyze the argumentation strategies and how that affected credibility." }
+  ]
+}

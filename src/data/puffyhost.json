@@ -1,12 +1,12 @@
 {
-    "novice": [
-      { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": " " },
-      { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": " " },
-      { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": " " }
-    ],
-    "expert": [
-        { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": " " },
-        { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": " " },
-        { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": " " }
-    ]
-  }
+  "novice": [
+    { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": "7% of students focused on the domain: “is a .com—don’t like those.” This attitude fails to recognize that many widely respected popular sources are .coms." },
+    { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": "Though many students had heard of Huffington Post, they weren’t sure how trustworthy they found it, and were not sure how to find out how reputable of a publishing venue it was: “It's a Huff Post article...Sometimes you find weird stuff on there that may not necessarily be true.”" },
+    { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": "Some novices were convinced by the fact that the article “doesn’t make any outlandish or unreasonable claims. Nothing seems glaringly wrong.” These students are relying on their own reactions to the article rather than fact-checking." }
+  ],
+  "expert": [
+      { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": "54% of students liked that the author “is a president of a university and that she is talking about her area of expertise” while acknowledging that her job affects her views on education." },
+      { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": "Experts understood that the author “clearly writes [the] piece as an opinion, but backs opinion with multiple sources and good reasoning.” Classifying the genre constraints helped students contextualize the information." },
+      { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": "More experienced students evaluated the sources cited: The Harvard Business Review, the Washington Post, and an employment study by the author’s university." }
+  ]
+}
