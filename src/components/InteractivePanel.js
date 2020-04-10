@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
+import noviceImage from '../images/novice.png';
+import expertImage from '../images/expert.png';
 
 function InteractiveCard(props) {
+    const iconImage = props.type == 'novice' ? noviceImage : expertImage;
+
     return (
         <div className="interactive-card card flex-container" style={props.data.style2}>
-            <img className="interactive-avatar"  src="https://cms-assets.tutsplus.com/uploads/users/107/posts/24710/image/35-flat-animals-fox.jpg"/>
+            <img className="interactive-avatar" src={iconImage}/>
             <div className="flex-item">
                 <header>
-                    <span className="interactive-name"> Novice </span> 
+                    <span className="interactive-name"> {props.type} </span> 
                     <i className="fas fa-check-circle interactive-check"></i>
-                    <span className="interactive-handle"> @novice </span> 
-                </header>
+                    <span className="interactive-handle"> {'@'+ props.type} </span> 
+                </header>  
                 <div className="interactive-text"> {props.data.text} </div>
                 <div className="interactive-actions"> 
                     <i className="far fa-comment"></i>
@@ -26,11 +30,11 @@ function InteractiveItem(props) {
 
     return (
         <div className = "interactive-item flex-container"  style={props.data.style}>
-            <button className="interactive-prompt" onMouseEnter = {() => setShow(true)} onMouseLeave = {() => setShow(false)}>
-                <div className="speech-bubble"></div>
+            <button className={"interactive-prompt " + props.type} onMouseEnter = {() => setShow(true)} onMouseLeave = {() => setShow(false)}>
+                <div className="speech-bubble" ></div>
             </button>
             
-            { show && <InteractiveCard data={props.data}></InteractiveCard> }
+            { show && <InteractiveCard data={props.data} type={props.type}></InteractiveCard> }
         </div>
       );  
 }
@@ -48,18 +52,19 @@ function InteractivePanel(props) {
         ],
         expert: [
             { text: "31% of students recognized NPR as a well-known source: “NPR is a nationally recognized radio station” and “NPR is a trusted news site.”",
-            style: { top: '10%', left: '10%'}},
+            style: { top: '2%'}, style2: {left: '20%'}},
             { text: "Experts dug deep enough to find the author’s credentials: “She works with news related to health issues, so she knows what she's talking about.”",
-            style: { top: '10%', left: '10%'}},
+            style: { top: '16%'}, style2: {left: '20%'}},
             { text: "Experts recognized the expert, credible research presented: “They have a quote from someone at John Hopkins University” and “[she] has researched among many organizations such as the FDA.”",
-            style: { top: '10%', left: '10%'}}
+            style: { top: '72%'}, style2: {left: '65%'}}
         ]
     }
 
   return (
     <div className="interactive-panel"> 
         <img className="interactive-explore-image card" src={props.img} />
-        { interactiveData.novice.map((item) => { return <InteractiveItem data={item}></InteractiveItem> })}
+        { interactiveData.novice.map((item) => { return <InteractiveItem data={item} type={"novice"}></InteractiveItem> })}
+        { interactiveData.expert.map((item) => { return <InteractiveItem data={item} type={"expert"}></InteractiveItem> })}
     </div>
   );
 }

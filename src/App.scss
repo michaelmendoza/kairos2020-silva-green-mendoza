@@ -31,21 +31,21 @@
     width: 60px;
     height: 40px;
     margin: 10px;
-}
 
-.speech-bubble:after {
-    content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 10px solid transparent;
-	border-top-color: #c74542;
-	border-bottom: 0;
-	border-right: 0;
-	margin-left: -5px;
-	margin-bottom: -10px;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-top-color: #c74542;
+        border-bottom: 0;
+        border-right: 0;
+        margin-left: -5px;
+        margin-bottom: -10px;
+    }
 }
 
 .button-group {
@@ -100,19 +100,43 @@
 
         .interactive-prompt {
             position: absolute;
-            left: -100px;
             width: 80px;
             height: 80px;
             padding: 0;
             border: none; 
-            border-radius: 40px;
+
+            &.novice {
+                left: -100px;
+
+                .speech-bubble {
+                    background: #f28258;
+                    
+                    &:after {
+                        border-top-color: #f28258;
+                    }
+                }
+            }
+
+            &.expert {
+                right: -100px;
+
+                .speech-bubble {
+                    background: #a5bde7;
+                    
+                    &:after {
+                        border-top-color: #a5bde7;
+                    }
+                }
+            }
 
             &:focus {
                 outline:none;
             }
 
-            &:hover {
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            .speech-bubble {
+                &:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+                }
             }
         }
 
@@ -139,6 +163,7 @@
         .interactive-name {
             font-size: 18px;
             font-weight: 600;
+            text-transform: capitalize;
         }
 
         .interactive-handle {
