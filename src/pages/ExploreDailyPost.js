@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
-import dailypost from '../images/thedailypost_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
 import InteractivePanel from '../components/InteractivePanel';
+
+import dailypost from '../images/thedailypost_page.png';
+import jsondata from '../data/dailypost.json';
 
 function ExploreDailyPost() {
   return (
@@ -10,7 +12,7 @@ function ExploreDailyPost() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel img={dailypost}></InteractivePanel>       
+          <InteractivePanel img={dailypost} json={jsondata}></InteractivePanel>       
         </section>
       </section>
   );

@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
-import theflame from '../images/theflame_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
 import InteractivePanel from '../components/InteractivePanel';
+
+import theflame from '../images/theflame_page.png';
+import jsondata from '../data/theflame.json';
 
 function ExploreTheFlame() {
   return (
@@ -10,7 +12,7 @@ function ExploreTheFlame() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel img={theflame}></InteractivePanel>
+          <InteractivePanel img={theflame} json={jsondata}></InteractivePanel>
        </section>
       </section>
   );

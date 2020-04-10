@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
-import puffyhost from '../images/puffyhost_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
 import InteractivePanel from '../components/InteractivePanel';
+
+import puffyhost from '../images/puffyhost_page.png';
+import jsondata from '../data/puffyhost.json';
 
 function ExplorePuffyHost() {
   return (
@@ -10,7 +12,7 @@ function ExplorePuffyHost() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel img={puffyhost}></InteractivePanel>
+          <InteractivePanel img={puffyhost} json={jsondata}></InteractivePanel>
        </section>
       </section>
   );

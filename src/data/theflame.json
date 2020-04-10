@@ -1,0 +1,12 @@
+{
+    "novice": [
+      { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": " " },
+      { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": " " },
+      { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": " " }
+    ],
+    "expert": [
+        { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": " " },
+        { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": " " },
+        { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": " " }
+    ]
+  }

@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
-import apr from '../images/apr_page.png';
 import ExploreButtonGroup from '../components/ExploreButtonGroup';
 import InteractivePanel from '../components/InteractivePanel';
+
+import apr from '../images/apr_page.png';
+import jsondata from '../data/apr.json';
 
 function ExploreAPR() {
   return (
@@ -10,7 +12,7 @@ function ExploreAPR() {
         <Header></Header>
         <section className="section-explore">
           <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel img={apr}></InteractivePanel>
+          <InteractivePanel img={apr} json={jsondata}></InteractivePanel>
        </section>
       </section>
   );
