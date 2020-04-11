@@ -1,3 +1,22 @@
+// Media query sizes
+$media-L: 1440px;
+$media-M: 900px;
+$media-S: 768px;
+$media-S: 668px;
+
+// Document level media queries
+html {
+    font-size: 16px;
+}
+@media (max-width: $media-L) {
+    html { font-size: 14px; }
+}
+@media (max-width: $media-M) {
+    html { font-size: 12px; }
+}
+@media (max-width: $media-S) {
+    html { font-size: 10px; }
+}
 
 // Styles for flex layout
 .flex-container { 
@@ -159,9 +178,9 @@
         header {
             margin-bottom: 6px;
         }
-
+        
         .interactive-name {
-            font-size: 18px;
+            font-size: 1.1em;
             font-weight: 600;
             text-transform: capitalize;
         }
@@ -173,10 +192,10 @@
         .interactive-check {
             color: #1DA1F2;
             margin-right: 4px;
-            font-size: 18px;
-            line-height: 18px;
+            font-size: 1.1em;
+            line-height: 1.1em;
         }
-
+        
         .interactive-actions {
             color: #444444;
             margin-top: 14px;
@@ -192,12 +211,11 @@
     left:0;
     bottom:0;
     
-    width: 330px;
+    width: 18em;
     background-color: #eeeeee; 
     padding: 20px;
 
     h2 {
-        font-size: 24px;
         border-bottom: 2px solid #192ABC;
         width: 100px;
     }
@@ -216,7 +234,7 @@
 
         li {
             padding: 15px 0;
-            font-size: 20px;
+            font-size: 1.25em;
             list-style: none;
         }
     }
@@ -251,8 +269,8 @@
 }
 
 .main-view {
-    margin: 0px 0px 0px 330px;
-    padding: 0px 200px;
+    margin: 0px 0px 0px 370px;
+    padding: 0px 10em;
     
     .section-article {
         padding: 0px 100px 0px 100px;
@@ -264,38 +282,40 @@
 
         h1 {
             color: #ffffff;
-            font-size: 60px;
+            font-size: 3.75em;
             font-weight: 500;
             margin: -100px 0 75px 40px;
             text-transform: uppercase;
         }
 
-        text {
-            font-size: 24px;
+        p {
+            font-size: 1.5em;
             text-align: justify;
         }
     }
-
+    
     .header {
         border-bottom: 2px solid #192ABC;
 
-        h2 {
-            font-size: 26px;
-            font-weight: 400;
+        .header-content {
+            font-size: 1.6em;
+            margin: 0.8em 0;
         }
 
+        .fa-bars {
+            color: #192ABC;  
+            }
+
         .title {
-            margin-left: 30px;
+            font-size: 1em;
+            margin: 0 0 0 30px;
+            font-weight: 400;
         }
 
         .authors {
             margin-right: 30px;
-            font-size: 20px;
+            font-size: 0.8em;
             font-weight: 200;
-        }
-
-        .fa-bars {
-        color: #192ABC;  
         }
     }
 }

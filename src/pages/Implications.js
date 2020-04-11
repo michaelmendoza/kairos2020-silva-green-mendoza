@@ -10,9 +10,9 @@ function Implications() {
         <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Implications</h1>
-          <text>
+          <article>
             <p> Text body </p>
-          </text>
+          </article>
        </section>
       </section>
   );

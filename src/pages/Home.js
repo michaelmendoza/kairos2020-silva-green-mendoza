@@ -10,9 +10,9 @@ function Home() {
         <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Home</h1>
-          <text>
+          <article>
             Home
-          </text>
+          </article>
        </section>
       </section>
   );

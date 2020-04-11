@@ -12,17 +12,16 @@ export const AppContext = createContext();
 class AppContextProvider extends Component {
     
     state = {
-        exploreMode: exploreModes.NONE
+        novice: false, // Show all novice comments
+        expert: false  // Show all expert comments
     }
-
-    setExploreMode = (mode) => {
-        this.setState({ exploreMode: mode});
-        console.log("Debug: Setting ExploreMode - " + mode);
-    }
+    
+    setNovice = (show) => { this.setState({ novice: show }); console.log("Debug: Show Novice - " + show); } 
+    setExpert = (show) => { this.setState({ expert: show }); console.log("Debug: Show Expert - " + show); } 
 
     render() {
         return(
-            <AppContext.Provider value={{...this.state, setExploreMode:this.setExploreMode}}>
+            <AppContext.Provider value={{...this.state, setNovice:this.setNovice, setExpert:this.setExpert}}>
                 { this.props.children}
             </AppContext.Provider>
         )

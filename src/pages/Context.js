@@ -10,9 +10,9 @@ function Context() {
         <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Context</h1>
-          <text>
+          <article>
             <p> Text body </p>
-          </text>
+          </article>
        </section>
       </section>
   );
