@@ -5,7 +5,11 @@ function MainView(props) {
   return (
       <section className="main-view"> 
         <Header></Header>
-        {props.children}
+        <div className="flex-container">
+          <span className="flex-item"></span>
+          {props.children}
+          <span className="flex-item"></span>
+        </div>
       </section>
   );
 }

@@ -15,9 +15,10 @@ function NavView() {
       <ul>
           <li> <Link to="introduction"> <button> Introduction </button> </Link> </li>
           <li> <Link to="methods" ><button> Methods </button> </Link> </li>
-          <li> <Link to="context" ><button> Context </button> </Link> </li>
-          <li> <Link to="discussion" ><button> Discussion </button> </Link> </li>
+          <li> <Link to="findings" ><button> Findings </button> </Link> </li>
+          <li> <Link to="context" ><button> Context and Discussion </button> </Link> </li>
           <li> <Link to="implications" ><button> Implications </button> </Link> </li>
+          <li> <Link to="references"><button> References </button></Link></li>
           <li> <Link to="contact" ><button> Contact </button> </Link> </li>
         </ul> 
       </section>

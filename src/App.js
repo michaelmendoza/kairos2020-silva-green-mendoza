@@ -9,8 +9,9 @@ import Home from './pages/Home';
 import Introduction from './pages/Introduction';
 import Methods from './pages/Methods';
 import Context from './pages/Context';
-import Discussion from './pages/Discussion';
+import Findings from './pages/Findings';
 import Implications from './pages/Implications';
+import References from './pages/References';
 import Contact from './pages/Contact';
 import ExploreAPR from './pages/ExploreAPR';
 import ExplorePuffyHost from './pages/ExplorePuffyHost';
@@ -25,19 +26,20 @@ function App() {
         <NavView></NavView>
         <MainView> 
           <Router>
-              <Home path="/"></Home>
-              <Introduction path="introduction"></Introduction>
-              <Methods path="methods"></Methods>
-              <Context path="context"></Context>
-              <Discussion path="discussion"></Discussion>
-              <Implications path="implications"></Implications>
-              <Contact path="contact"></Contact>
-              <ExploreAPR path="apr"></ExploreAPR>
-              <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
-              <ExploreTheFlame path="theflame"></ExploreTheFlame>
-              <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
-              <ExploreDailyPost path="dailypost"></ExploreDailyPost>
-            </Router>
+            <Home path="/"></Home>
+            <Introduction path="introduction"></Introduction>
+            <Methods path="methods"></Methods>
+            <Findings path="findings"></Findings>
+            <Context path="context"></Context>
+            <Implications path="implications"></Implications>
+            <References path="references"></References>
+            <Contact path="contact"></Contact>
+            <ExploreAPR path="apr"></ExploreAPR>
+            <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
+            <ExploreTheFlame path="theflame"></ExploreTheFlame>
+            <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
+            <ExploreDailyPost path="dailypost"></ExploreDailyPost>
+          </Router>
         </MainView>
       </AppContextProvider>
     </div>
