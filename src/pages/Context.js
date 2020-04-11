@@ -5,7 +5,7 @@ function Context() {
   return (
       <section className="section-article">
         <img src={headerimage} alt="header"/>
-        <h1>Context and Disussion</h1>
+        <h1>Context and Discussion</h1>
         <article>
           <p>  
             The question of what students believe about what they read online intersects many fields including

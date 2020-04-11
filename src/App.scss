@@ -34,6 +34,10 @@ html {
     flex-direction: row;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .flex-item { 
     flex: 1;
 }
@@ -183,6 +187,7 @@ html {
             height: 80px;
             padding: 0;
             border: none; 
+            background-color: transparent;
 
             &.novice {
                 left: -100px;
@@ -318,7 +323,7 @@ html {
 
             button:hover {
                 color: $primary;
-                text-decoration: underline;
+                //text-decoration: underline;
             }
         }
     }
@@ -368,9 +373,15 @@ html {
         padding: 0 1em;
     }
 
-    .references_page {
+    &.references-page {
         p {
             font-size: 1.2em;
+        }
+    }
+
+    &.contacts-page {
+        .contacts-header_image {
+            height: 140px;
         }
     }
 }
@@ -401,4 +412,32 @@ html {
     }
 }
 
+.contact-card {
+    display: inline-block;
+    width: 24em;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    margin-bottom: 2em;
+
+    img {
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        padding: 0;
+        clip-path: circle(48% at 50% 50%)
+    }
+    
+    h4 {
+        font-size: 1.1em;
+        font-weight: 400;
+        margin: 0 0 0.5em 0;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 1em;
+    }
+}
 

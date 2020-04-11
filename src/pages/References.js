@@ -27,10 +27,10 @@ function References() {
   ]
 
   return (
-      <section className="section-article">
+      <section className="section-article references-page">
         <img src={headerimage} alt="header"/>
         <h1>References</h1> 
-        <article className="references_page">
+        <article>
           { references.map((reference)=> { return <p>{reference}</p> }) }
         </article>
       </section>
