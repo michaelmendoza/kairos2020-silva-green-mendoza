@@ -8,13 +8,13 @@ $media-S: 668px;
 html {
     font-size: 16px;
 }
-@media (max-width: $media-L) {
+@media screen and (max-width: $media-L) {
     html { font-size: 14px; }
 }
-@media (max-width: $media-M) {
+@media screen and (max-width: $media-M) {
     html { font-size: 12px; }
 }
-@media (max-width: $media-S) {
+@media screen and (max-width: $media-S) {
     html { font-size: 10px; }
 }
 
@@ -238,7 +238,7 @@ html {
             list-style: none;
         }
     }
-    
+
     .menu-nav {
         li {
             height: 27.5px;

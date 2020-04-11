@@ -8,12 +8,9 @@ import jsondata from '../data/dailypost.json';
 
 function ExploreDailyPost() {
   return (
-      <section className="main-view"> 
-        <Header></Header>
-        <section className="section-explore">
-          <ExploreButtonGroup></ExploreButtonGroup>
-          <InteractivePanel img={dailypost} json={jsondata}></InteractivePanel>       
-        </section>
+      <section className="section-explore">
+        <ExploreButtonGroup></ExploreButtonGroup>
+        <InteractivePanel img={dailypost} json={jsondata}></InteractivePanel>       
       </section>
   );
 }

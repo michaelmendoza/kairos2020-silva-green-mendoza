@@ -3,6 +3,7 @@ import { Router } from '@reach/router';
 import './App.scss';
 
 import AppContextProvider from './contexts/AppContext';
+import MainView from './components/MainView';
 import NavView from './components/NavView';
 import Home from './pages/Home';
 import Introduction from './pages/Introduction';
@@ -21,21 +22,23 @@ function App() {
   return (
     <div className="app flex-container">
       <AppContextProvider>
-      <NavView></NavView>
-        <Router>
-          <Home path="/"></Home>
-          <Introduction path="introduction"></Introduction>
-          <Methods path="methods"></Methods>
-          <Context path="context"></Context>
-          <Discussion path="discussion"></Discussion>
-          <Implications path="implications"></Implications>
-          <Contact path="contact"></Contact>
-          <ExploreAPR path="apr"></ExploreAPR>
-          <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
-          <ExploreTheFlame path="theflame"></ExploreTheFlame>
-          <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
-          <ExploreDailyPost path="dailypost"></ExploreDailyPost>
-        </Router>
+        <NavView></NavView>
+        <MainView> 
+          <Router>
+              <Home path="/"></Home>
+              <Introduction path="introduction"></Introduction>
+              <Methods path="methods"></Methods>
+              <Context path="context"></Context>
+              <Discussion path="discussion"></Discussion>
+              <Implications path="implications"></Implications>
+              <Contact path="contact"></Contact>
+              <ExploreAPR path="apr"></ExploreAPR>
+              <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
+              <ExploreTheFlame path="theflame"></ExploreTheFlame>
+              <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
+              <ExploreDailyPost path="dailypost"></ExploreDailyPost>
+            </Router>
+        </MainView>
       </AppContextProvider>
     </div>
   );
