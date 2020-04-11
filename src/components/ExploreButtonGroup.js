@@ -16,8 +16,8 @@ function ExploreButtonGroup() {
   
   return (
     <div className="button-group">
-      <button className = { active[0] } onClick={handleNovice} > <i className= "fas fa-user"></i> Novice </button>
-      <button className = { active[1] } onClick = {handleExpert}> <i className="fas fa-user-graduate"></i> Expert </button>
+      <button className = { novice ? "active" : "" } onClick={handleNovice} > <i className= "fas fa-user"></i> Novice </button>
+      <button className = { expert ? "active" : "" } onClick = {handleExpert}> <i className="fas fa-user-graduate"></i> Expert </button>
     </div>
   );
 }
