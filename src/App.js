@@ -1,6 +1,7 @@
 import React from 'react';
 import { Router } from '@reach/router';
 import './App.scss';
+import './styles/checker.scss';
 
 import AppContextProvider from './contexts/AppContext';
 import MainView from './components/MainView';

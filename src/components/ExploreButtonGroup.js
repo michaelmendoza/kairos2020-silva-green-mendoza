@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { AppContext } from '../contexts/AppContext';
-
+import Switch from './Switch';
 function ExploreButtonGroup() {
   const { novice, expert, setNovice, setExpert } = useContext(AppContext);
   const [ active, setActive ] = useState(["", ""]);
@@ -16,8 +16,10 @@ function ExploreButtonGroup() {
   
   return (
     <div className="button-group">
+      <Switch></Switch>
       <button className = { novice ? "active" : "" } onClick={handleNovice} > <i className= "fas fa-user"></i> Novice </button>
       <button className = { expert ? "active" : "" } onClick = {handleExpert}> <i className="fas fa-user-graduate"></i> Expert </button>
+      <Switch></Switch>
     </div>
   );
 }

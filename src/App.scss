@@ -12,7 +12,14 @@ $secondary:#ff4f15;
 $table: $primary;//#5189cb;
 $blockquote:$primary;//#5189cb;;
 $novice: lighten($secondary ,15%); // #f28258; 
-$expert: lighten($primary, 10%);  //#a5bde7;
+$expert: lighten($primary, 10%);  //#a5bde7; 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
 
 // Document level media queries
 html {
@@ -38,6 +45,10 @@ html {
     flex-wrap: wrap;
 }
 
+.flex-space-around {
+    justify-content: space-around;
+}
+
 .flex-item { 
     flex: 1;
 }
@@ -45,7 +56,6 @@ html {
 .float-right { 
     float: right;
 }
-
 
 .table {
     border-collapse: collapse;
@@ -269,6 +279,16 @@ html {
     }
 }
 
+.main-view {
+    margin: 0px 0px 0px 20.5em;
+    padding: 0px 5%;
+    width: 100%;
+
+    @media screen and (max-width: $media-S) {
+        margin: 0;
+    }
+}
+
 // Styles for nav list items 
 .nav-view {
     position: fixed;
@@ -276,9 +296,13 @@ html {
     left:0;
     bottom:0;
     
-    width: 18em;
+    width: 20em;
     background-color: #eeeeee; 
     padding: 1.25em;
+
+    @media screen and (max-width: $media-S) {
+        display: none;
+    }
 
     h2 {
         border-bottom: 0.125em solid $primary;
@@ -310,7 +334,8 @@ html {
 
     .menu-nav {
         li {
-            height: 1.625em;
+            text-align: left;
+            height: 3.5em;
             border-bottom: 2px solid rgba(196, 196, 196, 0.4);
             
             &:hover {
@@ -318,7 +343,8 @@ html {
             }
 
             button {
-                line-height: 1.625em;
+                text-align: left;
+                //line-height: 1.625em;
             }
 
             button:hover {
@@ -337,17 +363,11 @@ html {
     }
 }
 
-.main-view {
-    margin: 0px 0px 0px 20.5em;
-    padding: 0px 5%;
-    width: 100%;
-}
-
 .section-article {
     padding: 0px 4em 0px 4em;
     margin-bottom: 10em;
     width: 100%;
-    max-width: 60em;
+    max-width: 80em;
 
     img {
         width: 100%;
@@ -356,14 +376,15 @@ html {
 
     h1 {
         color: #ffffff;
-        font-size: 3.75em;
+        font-size: 3em;
         font-weight: 500;
-        margin: -100px 0 75px 40px;
+        margin: -85px 0 75px 40px;
         text-transform: uppercase;
     }
 
     p, li {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        line-height: 1.4em;
         font-weight: 300;
         text-align: justify;
     }
@@ -381,7 +402,7 @@ html {
 
     &.contacts-page {
         .contacts-header_image {
-            height: 140px;
+            height: 150px;
         }
     }
 }
@@ -401,29 +422,34 @@ html {
     
     .title {
         font-size: 1em;
-        margin: 0 0 0 1.875em;
+        margin: 0 1em;
         font-weight: 400;
     }
 
     .authors {
-        margin-right: 1.875em;
+        margin: 0 1em;
         font-size: 0.8em;
         font-weight: 200;
     }
 }
 
+.spacer {
+    color:white;
+}
+
 .contact-card {
-    display: inline-block;
+    font-size: 0.8em;
     width: 24em;
     padding: 2em;
     text-align: center;
     border-radius: 1em;
+    margin: 0 1em;
     margin-bottom: 2em;
 
     img {
         overflow: hidden;
-        width: 200px;
-        height: 200px;
+        width: 12.5em;
+        height: 12.5em;
         padding: 0;
         clip-path: circle(48% at 50% 50%)
     }
@@ -437,7 +463,7 @@ html {
     p {
         font-size: 1em;
         text-align: center;
-        margin-top: 1em;
+        margin: 0 0 0.5em 0;       
     }
 }
 
