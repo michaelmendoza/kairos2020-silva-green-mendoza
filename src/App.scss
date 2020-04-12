@@ -35,7 +35,7 @@ html {
     html { font-size: 10px; }
 }
 @media screen and (max-width: $media-XS) {
-    html { font-size: 8px; }
+    
 }
 
 // Styles for flex layout
@@ -290,7 +290,7 @@ html {
     @media screen and (max-width: $media-M) {
         margin: 0px 0px 0px 15em;
     }
-    @media screen and (max-width: $media-S) {
+    @media screen and (max-width: $media-XS) {
         margin: 0;
     }
 }
@@ -309,7 +309,7 @@ html {
     @media screen and (max-width: $media-M) {
         width: 15em;
     }
-    @media screen and (max-width: $media-S) {
+    @media screen and (max-width: $media-XS) {
         display: none;
     }
 
