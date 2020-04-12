@@ -2,7 +2,7 @@
 $media-L: 1440px;
 $media-M: 900px;
 $media-S: 768px;
-$media-S: 668px;
+$media-XS: 668px;
 
 // Colors
 //192ABC
@@ -33,6 +33,9 @@ html {
 }
 @media screen and (max-width: $media-S) {
     html { font-size: 10px; }
+}
+@media screen and (max-width: $media-XS) {
+    html { font-size: 8px; }
 }
 
 // Styles for flex layout
@@ -284,6 +287,9 @@ html {
     padding: 0px 5%;
     width: 100%;
 
+    @media screen and (max-width: $media-M) {
+        margin: 0px 0px 0px 15em;
+    }
     @media screen and (max-width: $media-S) {
         margin: 0;
     }
@@ -300,6 +306,9 @@ html {
     background-color: #eeeeee; 
     padding: 1.25em;
 
+    @media screen and (max-width: $media-M) {
+        width: 15em;
+    }
     @media screen and (max-width: $media-S) {
         display: none;
     }
@@ -335,7 +344,7 @@ html {
     .menu-nav {
         li {
             text-align: left;
-            height: 3.5em;
+            //height: 3.5em;
             border-bottom: 2px solid rgba(196, 196, 196, 0.4);
             
             &:hover {
