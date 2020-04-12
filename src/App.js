@@ -26,7 +26,7 @@ function App() {
       <AppContextProvider>
         <NavView></NavView>
         <MainView> 
-          <Router>
+          <Router primary={false}> 
             <Home path="/"></Home>
             <Introduction path="introduction"></Introduction>
             <Methods path="methods"></Methods>
