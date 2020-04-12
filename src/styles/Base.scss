@@ -1,0 +1,58 @@
+// Media query sizes
+$media-L: 1440px;
+$media-M: 900px;
+$media-S: 768px;
+$media-XS: 668px;
+
+// Colors
+$primary:#4468dc;
+$secondary:#ff4f15;
+$table: $primary;
+$blockquote:$primary;
+$novice: lighten($secondary ,15%); 
+$expert: lighten($primary, 10%); 
+
+// Functions and Mixins
+$browser-context: 16;
+
+// Taken from https://css-tricks.com/snippets/sass/px-to-em-functions/
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}
+
+@mixin font-size($size) {
+    font-size: em($size);
+}
+
+// Documents level settings 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+// Document level media queries
+html {
+    font-size: 16px;
+}
+@media screen and (max-width: $media-L) {
+    html { font-size: 14px; }
+}
+@media screen and (max-width: $media-M) {
+    html { font-size: 12px; }
+}
+@media screen and (max-width: $media-S) {
+    html { font-size: 10px; }
+}
+@media screen and (max-width: $media-XS) {
+    
+}

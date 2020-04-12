@@ -1,0 +1,228 @@
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 em(4px) em(8px) 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    /* On mouse-over, add a deeper shadow */
+    &:hover {
+        box-shadow: 0 em(8px) em(16px) 0 rgba(0,0,0,0.4);
+    }
+}
+
+/* Taken from https://leaverou.github.io/bubbly/ */
+.speech-bubble {
+	position: relative;
+	background: #c74542;
+    border-radius: .4em;
+    width: em(60px);
+    height: em(40px);
+    margin: em(10px);
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: em(10px) solid transparent;
+        border-top-color: #c74542;
+        border-bottom: 0;
+        border-right: 0;
+        margin-left: em(-5px);
+        margin-bottom: em(-10px);
+    }
+}
+
+.button-group {
+    margin: em(20px) 0;
+
+    button {
+        padding: em(12px) em(20px);
+        border: em(1px) solid rgba(196, 196, 196, 0.4);
+        color: rgba(120, 120, 120, 1.0);
+
+        &.active {
+            border: em(1px) solid $primary;
+            color: $primary;
+            background-color: rgba(196, 196, 196, 0.2);
+        }
+
+        &:hover {
+            border: em(1px) solid $primary;
+            background-color: rgba(196, 196, 196, 0.2);
+        }
+
+        &:focus {
+            outline:none;
+        }
+
+        &:first-of-type {
+            border-top-left-radius: em(20px);
+            border-bottom-left-radius: em(20px);
+        }
+
+        &:last-of-type {
+            border-top-right-radius: em(20px);
+            border-bottom-right-radius: em(20px);
+        }
+    }
+}
+
+.header {
+    width: 100%;
+    border-bottom: 2px solid $primary;
+
+    .header-content {
+        font-size: 1.6em;
+        margin: 0.8em 0;
+    }
+
+    .fa-bars {
+        color: $primary;  
+        }
+    
+    .title {
+        font-size: 1em;
+        margin: 0 1em;
+        font-weight: 400;
+    }
+
+    .authors {
+        margin: 0 1em;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}
+
+.interactive-panel {
+    position: relative;
+    width: 100%;
+
+    .interactive-explore-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .interactive-item {
+        position: absolute;
+        width: 100%;
+
+        .interactive-prompt {
+            position: absolute;
+            width: em(80px);
+            height: em(80px);
+            padding: 0;
+            border: none; 
+            background-color: transparent;
+
+            &.novice {
+                left: em(-100px);
+
+                .speech-bubble {
+                    background: $novice;
+                    
+                    &:after {
+                        border-top-color: $novice;
+                    }
+                }
+            }
+
+            &.expert {
+                right: em(-100px);
+
+                .speech-bubble {
+                    background: $expert;
+                    
+                    &:after {
+                        border-top-color: $expert;
+                    }
+                }
+            }
+
+            &:focus {
+                outline:none;
+            }
+
+            .speech-bubble {
+                &:hover {
+                    box-shadow: 0 em(8px) em(16px) 0 rgba(0,0,0,0.4);
+                }
+            }
+        }
+
+        .interactive-card {
+            position: absolute;
+            width: em(400px);
+            padding: 1.25em;
+            background-color: #ffffff;
+            border-radius: em(10px);
+        }
+
+        .interactive-avatar {
+            width: em(80px);
+            height: em(80px);
+            margin-right: 1.25em;
+            box-shadow: 0 em(8px) em(16px) 0 rgba(0,0,0,0.1);
+            border-radius: em(40px);
+        }
+    
+        header {
+            margin-bottom: 0.375em;
+        }
+        
+        .interactive-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .interactive-handle {
+            color: #444444;
+        }
+
+        .interactive-check {
+            color: #1DA1F2;
+            margin-right: 0.25em;
+            font-size: 1.1em;
+            line-height: 1.1em;
+        }
+        
+        .interactive-actions {
+            color: #444444;
+            margin-top: 0.875em;
+            i { width: 33%; }
+        }
+    }
+}
+
+.contact-card {
+    font-size: 0.8em;
+    width: 24em;
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    margin: 0 1em;
+    margin-bottom: 2em;
+
+    img {
+        overflow: hidden;
+        width: 12.5em;
+        height: 12.5em;
+        padding: 0;
+        clip-path: circle(48% at 50% 50%)
+    }
+    
+    h4 {
+        font-size: 1.1em;
+        font-weight: 400;
+        margin: 0 0 0.5em 0;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+        margin: 0 0 0.5em 0;       
+    }
+}

@@ -1,0 +1,14 @@
+
+.section-article {
+    &.references-page {
+        p {
+            font-size: 1.2em;
+        }
+    }
+
+    &.contacts-page {
+        .contacts-header_image {
+            height: em(150px);
+        }
+    }
+}
