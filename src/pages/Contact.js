@@ -1,5 +1,5 @@
 import React from 'react';
-import headerimage from '../images/test.png';
+import headerimage from '../images/contact.png';
 import eliseimage from '../images/elisesilva.png';
 import jessicaimage from '../images/jessicagreen.png';
 import michaelimage from '../images/michaelmendoza.jpeg';
