@@ -1,5 +1,5 @@
 import React from 'react';
-import ExploreFilter from '../components/ExporeFilter';
+import ExploreFilter from '../components/ExploreFilter';
 import InteractivePanel from '../components/InteractivePanel';
 import jeffersonpost from '../images/thejeffersonpost_page.png';
 import jsondata from '../data/jeffersonpost.json';
