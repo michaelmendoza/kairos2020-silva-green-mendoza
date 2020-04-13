@@ -35,6 +35,31 @@
     }
 }
 
+.explore-filter {
+    margin: em(20px) 0;
+
+    .switch-label {
+        margin: 0 1em;
+        color: #444444;
+
+        i {
+            margin: 0 0.25em;
+        }
+    }
+
+    .novice {
+        input:checked + .slider, input:focus + .slider {
+          background-color: $novice;
+        }
+      }
+    
+      .expert {
+        input:checked + .slider, input:focus + .slider {
+          background-color: $expert;
+        }
+      }
+}
+
 .button-group {
     margin: em(20px) 0;
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Switch() {
+function Switch({props}) {
     return(
         <label className="switch">
-            <input type="checkbox"/>
+            <input type="checkbox" onChange={props.handleChange}/>
             <span className="slider round"></span>
         </label>
     );

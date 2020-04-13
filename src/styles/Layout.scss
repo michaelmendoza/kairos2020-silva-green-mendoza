@@ -13,6 +13,11 @@
     justify-content: space-around;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-item { 
     flex: 1;
 }
@@ -112,7 +117,7 @@
 }
 
 .section-article {
-    padding: 0px 4em 0px 4em;
+    padding: 0 4em 0 4em;
     margin-bottom: 10em;
     width: 100%;
     max-width: 80em;
@@ -126,7 +131,7 @@
         color: #ffffff;
         font-size: 3em;
         font-weight: 500;
-        margin: em(-85px) em(0) em(75px) em(40px);
+        margin: -2em 0em 2em 0.8em;
         text-transform: uppercase;
     }
 
@@ -140,19 +145,5 @@
     li {
         margin: 1em 0 0 0 ;
         padding: 0 1em;
-    }
-}
-
-.section-article {
-    &.references-page {
-        p {
-            font-size: 1.2em;
-        }
-    }
-
-    &.contacts-page {
-        .contacts-header_image {
-            height: em(150px);
-        }
     }
 }
