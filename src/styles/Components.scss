@@ -38,14 +38,18 @@
 .explore-filter {
     margin: em(20px) 0;
 
-    .explore-show {
-        margin: 0 1em;
-        color: #444444;
-        height: 0;
-        top: em(40px);
+    .top { height: 0; top: em(0px); }
+    .left { left: -5.25em; }
+    .right { right: -4.9em; }
+    .underline { color:#222222; border-bottom: 2px solid $primary; }
 
-        &.left { left: -6.75em; }
-        &.right { right: -7.25em; }
+    .explore-filter-label {
+        margin: 0 1em;
+    }
+    
+    .explore-show {
+        margin: 0 0.25em;
+        color: #444444;
 
         button {
             border: none;
