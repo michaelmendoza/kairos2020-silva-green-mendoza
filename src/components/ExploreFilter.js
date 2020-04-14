@@ -16,8 +16,8 @@ function ExploreFilter() {
         <label className="explore-show left">
           Novice 
           <button className={ novice ? "active" : ""} onClick={handleNovice}> 
-              <i class="fa fa-eye"></i>
-              <i class="fa fa-eye-slash"></i>
+              <i className="fa fa-eye"></i>
+              <i className="fa fa-eye-slash"></i>
           </button>
         </label>
 
@@ -26,8 +26,8 @@ function ExploreFilter() {
         <label className="explore-show right">
           Expert
           <button className={ expert ? "active" : ""} onClick={handleExpert}> 
-              <i class="fa fa-eye"></i>
-              <i class="fa fa-eye-slash"></i>
+              <i className="fa fa-eye"></i>
+              <i className="fa fa-eye-slash"></i>
           </button>
         </label>
       </div>

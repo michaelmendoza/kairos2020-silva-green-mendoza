@@ -42,21 +42,26 @@
     }
 }
 
+.section-explore {
+    @media screen and (max-width: $media-XS) {
+        margin: 0 5em;
+    }
+}
+
 // Styles for nav list items 
 .nav-view {
- 
-    //font-size: 0.75em;
+    font-size: 0.9em;
     position: sticky;
     top: 0;
     
-    width: 20em;
+    width: 25em;
     min-height: 1400px;
     height: 100vh;
     background-color: #eeeeee; 
     padding: 1.25em;
 
     @media screen and (max-width: $media-M) {
-        width: 15em;
+        width: 18em;
     }
     @media screen and (max-width: $media-XS) {
         display: none;
@@ -93,7 +98,6 @@
     .menu-nav {
         li {
             text-align: left;
-            //height: 3.5em;
             border-bottom: em(2px) solid rgba(196, 196, 196, 0.4);
             
             &:hover {
@@ -102,12 +106,10 @@
 
             button {
                 text-align: left;
-                //line-height: 1.625em;
             }
 
             button:hover {
                 color: $primary;
-                //text-decoration: underline;
             }
         }
     }
