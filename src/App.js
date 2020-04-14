@@ -21,7 +21,7 @@ import ExploreDailyPost from './pages/ExploreDailyPost';
 
 function App() {
   return (
-    <div className="app flex-container">
+    <div className="app-view flex-container">
       <AppContextProvider>
         <NavView></NavView>
         <MainView> 
