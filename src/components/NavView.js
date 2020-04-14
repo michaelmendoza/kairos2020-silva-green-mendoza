@@ -13,7 +13,7 @@ function NavView() {
       <section className="menu-nav">
         <h2> Menu </h2>
       <ul>
-          <li> <Link to="introduction"> <button> Introduction </button> </Link> </li>
+          <li> <Link to="/"> <button> Introduction </button> </Link> </li>
           <li> <Link to="methods" ><button> Methods </button> </Link> </li>
           <li> <Link to="findings" ><button> Findings </button> </Link> </li>
           <li> <Link to="context" ><button> Context and Discussion </button> </Link> </li>

@@ -26,8 +26,7 @@ function App() {
         <NavView></NavView>
         <MainView> 
           <Router primary={false}> 
-            <Home path="/"></Home>
-            <Introduction path="introduction"></Introduction>
+            <Introduction path="/"></Introduction>
             <Methods path="methods"></Methods>
             <Findings path="findings"></Findings>
             <Context path="context"></Context>

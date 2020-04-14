@@ -8,28 +8,26 @@ function ExploreFilter() {
   const handleExpert = () =>  { setExpert(!expert); };
   
   return (
-    <div className="explore-filter flex-container">
-      <span className="explore-filter-item flex-container flex-center">
-        <label className="switch novice">
-          <input type="checkbox" onChange={handleNovice}/>
-          <span className="slider round"></span>
-        </label>
-        <label className="switch-label">
-          <i className= "fas fa-user"></i> Show Novice
-        </label>
-      </span>
+    <div className="explore-filter flex-container flex-center">
       
+      <label className="explore-show left">
+        Novice 
+        <button className={ novice ? "active" : ""} onClick={handleNovice}> 
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-eye-slash"></i>
+        </button>
+      </label>
+
       <span className="flex-item"></span>
 
-      <span className="explore-filter-item flex-container flex-center">
-        <label className="switch-label">
-          <i className="fas fa-user-graduate"></i> Show Expert
-        </label>
-        <label className="switch expert">
-          <input type="checkbox" onChange={handleExpert}/>
-          <span className="slider round"></span>
-        </label>
-      </span>
+      <label className="explore-show right">
+        Expert
+        <button className={ expert ? "active" : ""} onClick={handleExpert}> 
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-eye-slash"></i>
+        </button>
+      </label>
+
     </div>
   );
 }
