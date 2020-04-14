@@ -36,11 +36,12 @@
 }
 
 .explore-filter {
-    margin: em(10px) 0;
+    margin: em(20px) 0;
 
     .explore-show {
         margin: 0 1em;
         color: #444444;
+        height: 0;
         top: em(40px);
 
         &.left { left: -6.75em; }
