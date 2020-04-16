@@ -56,14 +56,14 @@ function Introduction() {
             writers each year through library-run information literacy sessions.
           </p>
           <p>
-            This web text provides an interactive view of the landscape of our study. We picked five online sources
+            This webtext provides an interactive view of the landscape of our study. We picked five online sources
             which you can explore in the menu in conjunction with your reading of this text. Reading the text will be
             integral to your understanding of the interactive features. You will notice in your exploration that these
             are not the actual articles with which students completed the study. Given copyright constraints, we
             created mockup pages that work as stand-ins for the actual pages. The lorem ipsum text stands in for
             non-relevant parts of the article, and we have emphasized, in our design, any parts of the page that
             students engaged with in our coding of behaviors. We have linked the original pages to the mockups so
-            you can compare and explore the original material as well. Our discussion, findings, and analysis, are all
+            you can compare and explore the original material as well. Our discussion, findings, and analysis are all
             underlined by the interactive features, and we will draw your attention to them as you read. After you
             read, and have the full context of the study, we invite you to explore the interactive features in full.
           </p>
@@ -105,7 +105,6 @@ function Introduction() {
               connection that this behavior is connected to the overall confusion over authority specifically.
             </li>
           </ul>
-
         </article>
       </section>
   );

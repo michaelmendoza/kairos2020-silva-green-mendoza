@@ -1,33 +1,51 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
+import { AppContext } from '../contexts/AppContext';
 import headerimage from '../images/findings.png';
 import HistogramChart from '../components/HistogramChart';
 import { readString } from 'react-papaparse'
 import csv from '../data/scores.js';
+
+function DataRow(props) {
+  const { scoreIndex, setScoreIndex} = useContext(AppContext);
+  const handleScoreIndex = () => {
+    setScoreIndex(props.data.index);
+  }
+
+  return (
+    <tr>
+      <th>{props.data.name}</th>
+      <th>{props.data.status}</th>
+      <th>{props.data.min}</th>
+      <th>{props.data.max}</th>
+      <th>{props.data.mean}</th>
+      <th>{props.data.stdev}</th>
+      <th>{props.data.var}</th>
+      <th>{props.data.count}</th>
+      <th><button onClick={handleScoreIndex}> show </button></th>
+    </tr>
+  )
+}
 
 function DataTable(props) {
   return (
     <table className="table">
       <thead>
         <tr>
-          <td>Field</td>
+          <td>Source</td>
+          <td>Research</td>
           <td>Min</td>
           <td>Max</td>
           <td>Mean</td>
           <td>Std Deviation</td>
           <td>Variance</td>
           <td>Count</td>
+          <td>Plot</td>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th>{props.data.field}</th>
-          <th>{props.data.min}</th>
-          <th>{props.data.max}</th>
-          <th>{props.data.mean}</th>
-          <th>{props.data.stdev}</th>
-          <th>{props.data.var}</th>
-          <th>{props.data.count}</th>
-        </tr>
+        {
+          props.data.map( d => <DataRow data={d}></DataRow> )
+        }
       </tbody>
     </table>
   )
@@ -47,6 +65,8 @@ function getScoreData() {
 }
 
 function Findings() {
+  const { scoreIndex, setScoreIndex } = useContext(AppContext);
+
   return (
       <section className="section-article">
         <img src={headerimage} alt="header"/>
@@ -58,64 +78,104 @@ function Findings() {
             exists about source evaluation behaviors which we review in the context portion of this webtext, the
             timeliness of our study, the demographics studied, and the methods of our data collection gives our
             study a rich overview of first-year writing student evaluation behaviors that can help us decide how to
-            better teach about interacting with web-based information in composition classes. Here, we over view
-            some of the major findings of the study. First, we begin with the basic demographic breakdown of our
-            participants. 
+            better teach about interacting with web-based information in composition classes. Here, we give an
+            overview of some of the major findings of the study. First, we begin with the basic demographic
+            breakdown of our participants.
           </p>
           <p>
-            ********* TODO ********* 
+            ********* CHARTS ********* 
           </p>
           <p>
-            Given the quickly changing ecosystem of information online, studies like ours will continually need to be
-            revisited in the light of shifting evaluative impulses on the part of students. While significant literature
-            exists about source evaluation behaviors which we review in the context portion of this webtext, the
-            timeliness of our study, the demographics studied, and the methods of our data collection gives our
-            study a rich overview of first-year writing student evaluation behaviors that can help us decide how to
-            better teach about interacting with web-based information in composition classes. Here, we over view
-            some of the major findings of the study. First, we begin with the basic demographic breakdown of our
-            participants.
+            Students rated the articles from one to ten, one being very unreliable and ten being very reliable. They
+            rated each article twice: before and after they had time to examine the article in depth. Students were
+            instructed to initially take two minutes to look at a screenshot of the article and provide a quick gut-
+            reaction rating of the article’s reliability. They then were instructed to open a Google tab and investigate
+            the article in any way they chose. Here are the ratings for the five articles both before and after they
+            researched them.
           </p>
           <p>
-            Given the quickly changing ecosystem of information online, studies like ours will continually need to be
-            revisited in the light of shifting evaluative impulses on the part of students. While significant literature
-            exists about source evaluation behaviors which we review in the context portion of this webtext, the
-            timeliness of our study, the demographics studied, and the methods of our data collection gives our
-            study a rich overview of first-year writing student evaluation behaviors that can help us decide how to
-            better teach about interacting with web-based information in composition classes. Here, we over view
-            some of the major findings of the study. First, we begin with the basic demographic breakdown of our
-            participants.
+            Note that the minimum and maximum scores given out of 10 by the research participants, and the
+            number of participants (“count”) to finish the research task. The count goes down as the table
+            progresses because some students did not finish rating each article within the sixty-minute time
+            allotment for each participant. The findings are presented to you in the order students rated the articles.
+          </p>
+          
+          <h4>Reliability: Before and After Research Ratings </h4>
+
+          <DataTable data={ 
+            [
+              {name:"NPR", status:"before", min:1.0, max:10.0, mean:6.47, stdev:2.03, var:4.11, count:89, index:0},
+              {name:"NPR", status:"after", min:1.0, max:10.0, mean:6.85, stdev:2.16, var:4.69, count:89, index:1},
+              {name:"Huffington Post", status:"before", min:3.0, max:10.0, mean:6.34, stdev:1.79, var:3.21, count:89, index:2},
+              {name:"Huffington Post", status:"after", min:3.0, max:10.0, mean:6.49, stdev:2.13, var:4.54, count:89, index:3},
+              {name:"The Blaze", status:"before", min:1.0, max:10.0, mean:5.76, stdev:2.20, var:4.84, count:88, index:4},
+              {name:"The Blaze", status:"after", min:1.0, max:10.0, mean:5.83, stdev:2.47, var:6.12, count:88, index:5},
+              {name:"Washington Post", status:"before", min:4.0, max:10.0, mean:7.69, stdev:1.65, var:2.72, count:87, index:6},
+              {name:"Washington Post", status:"after", min:2.0, max:10.0, mean:8.13, stdev:1.71, var:2.94, count:87, index:7},
+              {name:"Daily Kos", status:"before", min:1.0, max:10.0, mean:5.85, stdev:1.79, var:3.22, count:86, index:8},
+              {name:"Daily Kos", status:"after", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86, index:9}
+            ]}>
+          </DataTable>
+            
+          <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
+            
+          <p>
+            In our grounded theory coding, we took note of what comments appeared the most often in terms of
+            what made each source more/less reliable. These features are summarized below, and are further
+            explicated in the interactive portion of this webtext.
           </p>
 
-          <h4>NPR before research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:6.47, stdev:2.03, var:4.11, count:89}}></DataTable>
-          <h4>NPR after research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:6.85, stdev:2.16, var:4.69, count:89}}></DataTable>
-          <h4>Huffington Post before research</h4>
-          <DataTable data={{field:"Reliability", min:3.0, max:10.0, mean:6.34, stdev:1.79, var:3.21, count:89}}></DataTable>
-          <h4>Huffington Post after research</h4>
-          <DataTable data={{field:"Reliability", min:3.0, max:10.0, mean:6.49, stdev:2.13, var:4.54, count:89}}></DataTable>
-          <h4>The Blaze before research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.76, stdev:2.20, var:4.84, count:88}}></DataTable>
-          <h4>The Blaze after research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.83, stdev:2.47, var:6.12, count:88}}></DataTable>
-          <h4>Washington Post before research</h4>
-          <DataTable data={{field:"Reliability", min:4.0, max:10.0, mean:7.69, stdev:1.65, var:2.72, count:87}}></DataTable>
-          <h4>Washington Post after research</h4>
-          <DataTable data={{field:"Reliability", min:2.0, max:10.0, mean:8.13, stdev:1.71, var:2.94, count:87}}></DataTable>
-          <h4>Daily Kos before research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.85, stdev:1.79, var:3.22, count:86}}></DataTable>
-          <h4>Daily Kos after research</h4>
-          <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86}}></DataTable>
-        
-          <HistogramChart path="histogram" data={getScoreData()[0]}></HistogramChart>
+          <h2>NPR</h2>
+          <ul>
+            <li> More reliable: NPR as a publishing body is familiar and well-known </li>
+            <li> Less reliable: NPR as a publishing body is biased/liberal </li>
+          </ul>
+          <p>
+            Researcher comments: The way students saw the publishing body as both a boon and a detractor
+            showcases student confusion over authority, especially where publishing venues are at play.
+          </p>
 
-          <p>
-            In our grounded theory coding, we took note of what students wrote were the most and least reliable
-            features of each article. Here is our summary of most and least reliable features for each article studied.
-          </p>
-          <p>
-            ********* TODO ********* 
-          </p>
+            <h2>Huffington Post</h2>
+            <ul>
+              <li> More reliable: The author had expertise on the subject of the article </li>
+              <li> Less reliable: The Huffington Post is a dubious publishing venue </li>
+            </ul>
+            <p>
+              Researcher comments: Two forms of authority are at odds here, the author vs. the publication venue.
+              Students hard a hard time balancing their competing feelings. Furthermore, many were unsure if
+              Huffington Post, a fairly mainstream news source, could be trusted.
+            </p>
+
+            <h2>The Blaze</h2>
+            <ul>
+              <li> More reliable: The embedded graph from NASA </li>
+              <li> Less reliable: The article/website bias </li>
+            </ul>
+            <p>
+              Researcher comments: even though students were quick to point out the website’s obvious bias, they
+              were still easily seduced by the graph’s visual rhetoric, which to them lent authority to the piece.
+            </p>
+
+            <h2>Washington Post</h2>
+            <ul>
+              <li> More reliable: Washington Post is a well-known news source </li>
+              <li> Less reliable: “Nothing makes it less reliable” was by far the top comment recorded under “less reliable” for the Washington Post article</li>
+            </ul>
+            <p>
+              Researcher comments: While students generally trusted this source, and it was the highest rated source
+              out of all the articles, the fact that the mean score after research was still an 8/10 showcases a general
+              distrust of media sources even when students can find ostensibly “nothing” wrong with them.
+            </p>
+
+            <h2>Daily Kos</h2>
+            <ul>
+              <li> More reliable: The sources cited/quoted </li>
+              <li> Less reliable: The article’s bias, specifically evidenced in the language </li>
+            </ul>
+            <p>
+              Researcher comments: Students struggled to balance the biased source with the evidence the source
+              provided. Where does bias outweigh evidence, they wondered?
+            </p>                                    
         </article>
       </section>
   );

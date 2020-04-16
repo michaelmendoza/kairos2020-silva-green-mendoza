@@ -1,9 +1,8 @@
 import * as d3 from 'd3';
 import React, { Component }  from 'react';
 
-
-
 class HistogramChart extends Component {
+
     constructor(props) { 
         super(props);
         this.id = 'chart-histogram';
@@ -22,9 +21,9 @@ class HistogramChart extends Component {
     }
 
     componentDidUpdate() {
-        this.draw();
+        this.redraw();
     }
-    
+
     create() {
         this.svg = d3.select("#" + this.id)
             .append("svg")
@@ -33,7 +32,7 @@ class HistogramChart extends Component {
     }
     
     draw() {
-        var data = this.data;
+        var data = this.props.data;
         var whiteLineColor = '#FFFFFF';
 
 		// Get Scale
@@ -64,19 +63,19 @@ class HistogramChart extends Component {
 			.range([height, 0]);
 
         // Create an axis component with d3.axisBottom
-        this.svg.append("g")
+        this.xAxis = this.svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(" + this.margin.left + "," + (height + this.margin.top) + ")")
             .call(d3.axisBottom(x)); 
         
         // Create an axis component with d3.axisLeft       
-        this.svg.append("g")
+        this.yAxis = this.svg.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate(" + (this.margin.left) + ", " + this.margin.top + ")")
             .call(d3.axisLeft(y)); 
 
         // Create histogram
-        g.selectAll("rect")
+        this.bar = g.selectAll("rect")
             .data(bins)
             .enter()
             .append("rect")
@@ -86,6 +85,58 @@ class HistogramChart extends Component {
                 .attr("height", function(d) { return height - y(d.length); })
                 .style("fill", this.fillColor)
         
+    }
+
+    redraw() {
+        var data = this.props.data;
+
+		// Get Scale
+		var width = this.width - this.margin.left - this.margin.right;
+        var height = this.height - this.margin.top - this.margin.bottom;
+ 
+                
+        // Get x scale
+        var xmax = this.binMax;
+		var x = d3.scaleLinear()
+			.domain([0, xmax])
+            .range([0, width]);
+        
+        var histogram = d3.histogram()
+            .value(function(d) { return d; })
+            .domain(x.domain())
+            .thresholds(x.ticks(this.bins - 1))
+
+        var bins = histogram(data)
+        
+        // Get y scale 
+        var ymax = d3.max(bins, function(d) { return d.length; });
+		var y = d3.scaleLinear()
+			.domain([0 , ymax])
+			.range([height, 0]);
+
+        // Create an axis component with d3.axisBottom
+        this.xAxis.attr("class", "x axis")
+            .transition()
+            .duration(1000)
+            .attr("transform", "translate(" + this.margin.left + "," + (height + this.margin.top) + ")")
+            .call(d3.axisBottom(x)); 
+        
+        // Create an axis component with d3.axisLeft       
+        this.yAxis.attr("class", "y axis")
+            .transition()
+            .duration(1000)
+            .attr("transform", "translate(" + (this.margin.left) + ", " + this.margin.top + ")")
+            .call(d3.axisLeft(y)); 
+
+        // Create histogram
+        this.bar.data(bins)
+            .transition()
+            .duration(1000)
+            .attr("x", 1)
+            .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; })
+            .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
+            .attr("height", function(d) { return height - y(d.length); })
+            .style("fill", this.fillColor)
     }
 
     render() {

@@ -12,18 +12,18 @@ function Implications() {
               Some findings of our study are straightforward: Students find visuals (pictures, graphs, and videos)
               reliable, and are hyper-aware of advertisements and web design features of sources (Silva, Green, &amp;
               Walker, 2018). Fewer, however, are able to dig deeper and articulate why certain design choices have
-              the effect they have, and what that might suggest about the information source.            
+              the effect they have, and what that might suggest about the information source.  
             </p>
-            <p>
+            <p> 
               The trickier finding of our study is that students find authority important while evaluating a source, but
               there is little agreement about what authority actually means. What makes something authoritative or
               not? How do we define authority and who gets to decide? What parts of an article speak to authority?
-              When different parts of an article have competing authority claims which ones are more or less
+              When different parts of an article have competing authority claims, which ones are more or less
               important? Given their difficulty rating sources it might seem that students did not understand the
               importance of authority. However, we contend that our students clearly understood that authority was
-              significant component of source evaluation. They knew they should look for authority markers, but they
-              struggled to know how sources were created clearly enough to put their finger on what might make
-              them authoritative to a particular audience, for a particular research task.
+              a significant component of source evaluation. They knew they should look for authority markers, but
+              they struggled to know how sources were created clearly enough to put their finger on what might
+              make them authoritative to a particular audience, for a particular research task.
             </p>
             <p>
               This finding is both unsurprising but also very difficult to confront. In an era of teaching students pithy
@@ -34,14 +34,14 @@ function Implications() {
               each criterion is a subset of authority, teaching blanket truths about something as contextual as
               authority unduly simplifies the issue. Indeed, compositionist Jonathan Ostenson (2014) has asked us to
               move away from these kinds of rules of thumb, but teaching the CRAAP test is still ubiquitous in high
-              schools, and in university information literacy pedagogy.
+              schools and university information literacy pedagogy.
             </p>
             <p>
               Furthermore, the students’ misunderstanding of information types, like the inability to evaluate
               mainstream media any differently than fringe media, showcases a naiveite about how online
               publications are written, edited, and for what reason these publications exist. And while some
               immaturity is to be expected of students at this level, the amount of time our students spend online
-              begs for better instruction on how to evaluate online source material.              
+              begs for better instruction on how to evaluate online source material.        
             </p>
             
             <h2>Changing Praxis</h2>
@@ -70,13 +70,13 @@ function Implications() {
               created the information at hand.
             </p>
             <p>
-              Furthermore, we focus on teaching the difference between evaluating academic sources and popular
-              sources, and focus on lateral reading strategies when talking about online, open source material. This
-              comes directly from Sam Wineburg’s (2016) work on Civic Digital Literacies through the Stanford History
-              Education Group, where researchers found that advanced fact checkers spend little time on a website
-              itself (reading vertically up and down the page), but rather, fact checkers got off of the website to check
-              its credibility through Google searches and other methods, on average opening up seven tabs in the first
-              few seconds of evaluating a source.            
+                Furthermore, we focus on teaching the difference between evaluating academic sources and popular
+                sources and focus on lateral reading strategies when talking about online, open source material. This
+                comes directly from Sam Wineburg’s (2017) work through the Stanford History Education Group, where
+                researchers found that advanced fact checkers spend little time on a website itself (reading vertically up
+                and down the page), but rather, fact checkers got off of the website to check its credibility through
+                Google searches and other methods, on average opening up seven tabs in the first few seconds of
+                evaluating a source.     
             </p>
             <p>
               These strategies do not come naturally to students, especially if they have the inclination to assess a
@@ -144,16 +144,17 @@ function Implications() {
               subject might shut them off from learning. Furthermore, discussions on intellectual silos and echo
               chambers are helpful to aid students in seeing how the information environments in which they live
               affect their beliefs. Mike Caulfield, media professor, and Director of Blended Network Learning at
-              Washington State University in Vancouver writes in Web Literacy for Student Fact-Checkers (2017) that
+              Washington State University in Vancouver, writes in Web Literacy for Student Fact-Checkers (2017) that
               in addition to developing good fact-checking habits, we must always check ourselves. He cautions,
               “When you feel strong emotion–happiness, anger, pride, vindication–and that emotion pushes you to
               share a ‘fact’ with others, STOP. Above all, these are the claims that you must fact-check. Why? Because
               you’re already likely to check things you know are important to get right, and you’re predisposed to
-              analyze things that put you an intellectual frame of mind. But things that make you angry or overjoyed,
-              well… our record as humans are not good with these things” (Building a Fact-Checking Habit by Checking
-              Your Emotions section, para. 3-4). While librarians may be able to start discussions about bias, it’s
-              unlikely that in 30 or 50 minutes, or even in one to two class periods we would be able to revisit the
-              issue in enough depth to help students confront their own beliefs and question their own biases.
+              analyze things that put you [in] an intellectual frame of mind. But things that make you angry or
+              overjoyed, well… our record as humans are not good with these things” (Building a Fact-Checking Habit
+              by Checking Your Emotions section, para. 3-4). While librarians may be able to start discussions about
+              bias, it’s unlikely that in 30 or 50 minutes, or even in one to two class periods, we would be able to
+              revisit the issue in enough depth to help students confront their own beliefs and question their own
+              biases.
             </p>
             <p>
               Given the extent of our study, the nearly 100 hours of recorded research behavior and 500 pages of
@@ -161,7 +162,7 @@ function Implications() {
               in composition classes and complicate those findings. We find much to be hopeful for. Students seem to
               have impulses in assessing information sources productively, but lack the context and instruction to help
               them successfully place themselves within information ecosystems. Indeed, many of us that fall on the
-              more expert side of the spectrum also struggle with our own biases, and issues of trust.  
+              more expert side of the spectrum also struggle with our own biases and issues of trust.
             </p>
             <p>
               Overall, we believe that first-year writing courses can help with such media and information literacy

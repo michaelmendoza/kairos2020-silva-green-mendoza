@@ -14,11 +14,16 @@
     td, th {
         font-weight: 300;
         border: 1px solid #ccc;
-        padding: 1.2em;
     }
 
     td {
         font-size: 0.9em;
+        padding: 1em; 
+    }
+
+    th {
+        font-size: 0.9em;
+        padding: 0.75em 1em;
     }
 
     tr:last-child td:first-child {

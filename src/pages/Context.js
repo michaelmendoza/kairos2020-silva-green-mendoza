@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@reach/router';
 import headerimage from '../images/context.png';
 
 function Context() {
@@ -13,7 +14,8 @@ function Context() {
             studies), and civic reasoning (social studies). While no discipline holds the corner on the market of
             source evaluation studies, looking at them together can create a better picture of student evaluative
             behaviors, and how composition instructors can confront this issue which affects source-based writing.
-
+        </p> 
+        <p>
             In this section, we review what previous research has shown about source evaluation trends, and how
             our student participants follow, complicate, or deviate from these trends. While we observed our
             students following several well-established tendencies like using shallow source evaluation techniques,
@@ -40,21 +42,21 @@ function Context() {
             range of examples from which to extrapolate what “superficial” and “deep” behaviors might look like.
           </p>
           <p>
-            For instance, in the APR (NPR) example, many students noticed that there were several hyperlinks in the
-            article. In fact, the NPR article was the most well-soured article out of any of the ones we included in the
-            test. However, fewer students actually clicked on the hyperlinks. To notice the hyperlink is not a bad
+            For instance, in the <Link to="/apr">APR</Link> (NPR) example, many students noticed that there were several hyperlinks in the
+            article. In fact, the NPR article was the most well-sourced article out of any of the ones we included in
+            the test. However, fewer students actually clicked on the hyperlinks. To notice the hyperlink is not a bad
             impulse, but it is a novice one: the presence of hyperlinks tells an evaluator relatively little. Expert
             students who clicked on the hyperlinks were able to corroborate information, do research on individuals
             quoted in the article, and engaged in deeper source evaluation behaviors. If students were just looking
-            at hyperlinks to evaluate a source, they were easily duped by The Flame (The Blaze) source which also
-            had hyperlinks to outside articles—but unlike the APR (NPR) article, these hyperlinks did not link back to
+            at hyperlinks to evaluate a source, they were easily duped by <Link to='/theflame'>The Flame</Link> (The Blaze) source which also
+            had hyperlinks to outside articles—but unlike the <Link to="/apr">APR</Link> (NPR) article, these hyperlinks did not link back to
             original/primary source material. It takes deeper source evaluation work (actually clicking on the link) to
             discover this. As Miriam J. Metzger (2007) argues, students do not often take the time to complete
             evaluative tasks that are more time consuming and “that require effort to perform, even if the effort is
             fairly minimal” (p. 2080).
           </p>
           <p>
-            Another example of shallow behaviors comes from the Jefferson Post (Washington Post). Novices
+            Another example of shallow behaviors comes from the <Link to="jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
             pointed out that the ads on the side of the page affected their opinion of the source without being able
             to articulate why they did so. Noticing ads is not a bad behavior. To some extent it is true that more
             obtrusive ads and pop ups may suggest a lower-tier publication; however, many of these novice
@@ -78,7 +80,7 @@ function Context() {
             information context.
           </p>
           <p>
-            For instance, the student comments on the PuffyHost (Huffington Post) article showcase a disconnect
+            For instance, the student comments on the <Link to="/puffyhost">PuffyHost</Link> (Huffington Post) article showcase a disconnect
             between novice concepts of authority vs. more thoughtful interactions with the source material. Novices
             relied on the out-of-date .com/.org differentiation as markers of authority, whereas information experts
             realize that these differentiations are relatively meaningless in the current ecosystem of the Web.
@@ -87,7 +89,7 @@ function Context() {
             information online because they lack a basic awareness of how webpages come to be.
           </p>
           <p>
-            More expert students were able to see the PuffyHost (Huffington Post) article for what it was: an
+            More expert students were able to see the <Link to="/puffyhost">PuffyHost</Link> (Huffington Post) article for what it was: an
             opinion editorial written by someone with significant authority on the subject. In other words, it is a
             piece of information that is highly contextual in its rhetorical situation and within its genre constraints.
             Experts were able to see the information for how it was created and for what purpose, while novices
@@ -114,14 +116,15 @@ function Context() {
             Such confusion over authority has been studied by digital literacy scholars like Sam Wineburg and the
             Stanford History Education Group (2016). Wineburg et al astutely observed that this difficulty is not
             something on which to blame students, but instead, a symptom of our current information
-
             environment: “Ordinary people once relied on publishers, editors, and subject matter experts to vet the
             information they consumed. But on the unregulated internet, all bets are off” (p. 4).
+          </p>
+          <p>
             Finally, as Randall McClure and Kellian Clink (2009) suggest, “The evaluation of authority is ultimately
             subjective (p. 121). However, what our study adds to the conversation is a landscape in which we see
             students demonstrating that authority is something they know they should consider while evaluating
             sources, but a criterion they struggle to unpack in different contexts and with different publication
-            types.
+            types.  
           </p>
           <h2>Confirmation Bias</h2>
           <p>
@@ -132,14 +135,14 @@ function Context() {
             times more likely to select information that supports their prior attitudes” (p. 246).
           </p>
           <p>
-            Our study corroborates such findings. The greatest example of where confirmation bias was in The
-            Flame (The Blaze) article entitled “Global warming fail: Study finds melting sea ice is actually helping
-            arctic animals.” This fringe website is using primary data, several times removed, to suggest that climate
-            change is benefiting arctic animals—a sub point of the original study, and one that is not substantiated
-            by other compelling evidence. The writing of the article is sloppy, riddled with grammatical and spelling
-            errors, and the information is difficult to corroborate. Clearly, this is a biased source that should be
-            treated with great suspicion; however, some novice students weren’t worried about the content of the
-            piece as it agreed with their beliefs. 
+            Our study corroborates such findings. The greatest example of where confirmation bias happened for
+            students was in <Link to="/theflame">The Flame</Link> (The Blaze) article entitled “Global warming fail: Study finds melting sea ice is
+            actually helping arctic animals.” This fringe website is using primary data, several times removed, to
+            suggest that climate change is benefiting arctic animals—a sub point of the original study, and one that
+            is not substantiated by other compelling evidence. The writing of the article is sloppy, riddled with
+            grammatical and spelling errors, and the information is difficult to corroborate. Clearly, this is a biased
+            source that should be treated with great suspicion; however, some novice students weren’t worried
+            about the content of the piece as it agreed with their beliefs.
           </p>
           <p>
             We also noticed students having very biased reactions to other articles as well, namely the APR (NPR)
@@ -151,8 +154,8 @@ function Context() {
           </p>
           <h2>Visual Rhetoric</h2>
           <p>
-            Closely related to the discussion on superficial source evaluation it was very apparent that students
-            were seduced by the visual aspects of the webpages tested, specifically pictures, graphs, and videos. 
+            Closely related to the discussion on superficial source evaluation, it was very apparent that students
+            were seduced by the visual aspects of the webpages tested, specifically pictures, graphs, and videos.
           </p>
           <p>
             In terms of previous research, Saskia Brand-Gruwel, Yvonne Kammerer, Ludo Van Meeuwen, and
@@ -162,28 +165,28 @@ function Context() {
             based on perceived motives or biases” (p. 236).
           </p>
           <p>
-            In assessing our own student responses, the Jefferson Post (Washington Post) article was a fairly
+            In assessing our own student responses, the <Link to="jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
             straightforward piece of news on a Space X launch. What really convinced students, though, was the
             video of the launch. Without any prompting on our part, 31% of students found the video very
             persuasive in establishing credibility. While the video is a functional part of the ethos of the piece to be
             sure, many of these students missed other markers of authority (perhaps the greatest marker being the
-            publication venue the reputable Washington Post). For the many students that stopped to watch the
-            video while we were testing them, fewer went on to triangulate areas of authority on the webpage. In
-            an era of “deep fake” (the ability to fake videos for political or financial gain), the sincere trust many
-            students put in these parts of the websites is disturbing. 
+            publication venue, the reputable Washington Post). For many students that stopped to watch the video
+            while we were testing them, fewer went on to triangulate areas of authority on the webpage. In an era
+            of “deep fake” (the ability to fake videos for political or financial gain), the sincere trust many students
+            put in these parts of the websites is disturbing. 
           </p>
           <p>
-            Another example was the graph on The Flame (The Blaze) website. In the original website that claimed
+            Another example was the graph on <Link to="theflame">The Flame</Link> (The Blaze) website. In the original website that claimed
             arctic animals were thriving due to global warming, the authors linked a graph from NASA as part of
             their publication. While the graph has been removed from the current iteration of The Blaze’s article
             (NASA updated their graphs since it was published), when we ran the study originally, the graph was a
             prominent part of the article. We link to the Way Back Machine’s archived version of the website so that
             our readers can see what students would have seen when they evaluated the source. 39% of students
             commented on the graph as being something that established credibility for the source. The problem is
-            this: the graph simply delineated that ice levels were rising. The graph did not support the article’s main
-            assertion that arctic animals were thriving due to climate change. Only 5% of our student participants
-            noticed the disconnect, showing how very compelling students find the visual markers on online
-            publications. The rest found the graph very convincing, as articulated by this student participant:
+            this: the graph simply delineated that ice levels were declining. The graph did not support the article’s
+            main assertion that arctic animals were thriving due to climate change. Only 5% of our student
+            participants noticed the disconnect, showing how very compelling students find the visual markers on
+            online publications. The rest found the graph very convincing, as articulated by this student participant:
           </p>
           <blockquote className="blockquote">
             They have a graph in here. Graphs are amazing support for almost anything. Really benefits
@@ -209,7 +212,7 @@ function Context() {
             while experts “expressed more specific utterances” (p. 246).
           </p>
           <p>
-            Take, for instance, the Daily Post (Daily Kos) article. One major feature of this article was a popup at the
+            Take, for instance, the <Link to="/dailypost">Daily Post</Link> (Daily Kos) article. One major feature of this article was a popup at the
             beginning urging readers to sign a petition against Trump, a clear indication as to the political leanings of
             the website. Many students noticed this, and said it made it less reliable for them, but few were able to
             articulate why the popup was a problem (aside from the fact that they found it annoying). The popup
@@ -220,21 +223,21 @@ function Context() {
             Perhaps student difficulty explaining why a feature made the source more or less reliable to them comes
             from their (unearned, scholars might note) confidence in evaluating source material. Indeed, “students
             seem to trust their own judgement when determining the credibility of sources they found on the
-            internet” (Dubicki, 2015, p. 676). This trend continues on the Daily Post (Daily Kos) article where novice
+            internet” (Dubicki, 2015, p. 676). This trend continues on the <Link to="/dailypost">Daily Post</Link> (Daily Kos) article where novice
             students were dissuaded by word choice they did not understand, and more expert students recognized
             that word choice used in the article said something about the biased nature of the information therein.
             As Clark A. Chinn and Ronald W. Rinehart (2016) summarize, students often rely on source features to
             determine credibility, without understanding the underlying why these features matter. Instead, those
             that are able to articulate a source’s authoritative and persuasive processes within a given context tend
-            to be more expert evaluators (p. 1716). 
+            to be more expert evaluators (p. 1716).
           </p>
           <h2>In Sum</h2>
           <p>
             We live in confusing times for student evaluators. We lack traditional modes of assessing authority, and
             traditional methods of vetting. We live, in short, in an online environment of container collapse: “[t]he
             visual context and cues that print containers provide [that] used to help individuals identify a
-            document’s origins and measure its value [are harder to discern] . . .. In digital format, a document is
-            decanted from its original container and must be carefully examined to determine the journey, it took to
+            document’s origins and measure its value [are harder to discern] . . .In digital format, a document is
+            decanted from its original container and must be carefully examined to determine the journey it took to
             reach the individual” (Connaway, 2018). Students have a hard time finding productive modes and
             methods by which to evaluate online material precisely because online material is increasingly difficult
             to categorize. As the rules of digital citizenry rapidly change, how are instructors rising to the challenge
