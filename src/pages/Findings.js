@@ -1,5 +1,8 @@
 import React from 'react';
 import headerimage from '../images/findings.png';
+import HistogramChart from '../components/HistogramChart';
+import { readString } from 'react-papaparse'
+import csv from '../data/scores.js';
 
 function DataTable(props) {
   return (
@@ -28,6 +31,19 @@ function DataTable(props) {
       </tbody>
     </table>
   )
+}
+
+function getScoreData() {
+  var config = { delimiter:",", dynamicTyping: true}
+  var results = readString(csv, config) // Read csv
+  var data = results.data.splice(1, results.data.length - 1); // Remove headers
+
+  var scores = []
+  for(var i = 0; i < 10; i++) {
+    scores[i] = data.map( (d)=> { return d[i]; })
+  }
+  
+  return scores;
 }
 
 function Findings() {
@@ -90,15 +106,17 @@ function Findings() {
           <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.85, stdev:1.79, var:3.22, count:86}}></DataTable>
           <h4>Daily Kos after research</h4>
           <DataTable data={{field:"Reliability", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86}}></DataTable>
-        </article>
         
-        <p>
-          In our grounded theory coding, we took note of what students wrote were the most and least reliable
-          features of each article. Here is our summary of most and least reliable features for each article studied.
-        </p>
-        <p>
-          ********* TODO ********* 
-        </p>
+          <HistogramChart path="histogram" data={getScoreData()[0]}></HistogramChart>
+
+          <p>
+            In our grounded theory coding, we took note of what students wrote were the most and least reliable
+            features of each article. Here is our summary of most and least reliable features for each article studied.
+          </p>
+          <p>
+            ********* TODO ********* 
+          </p>
+        </article>
       </section>
   );
 }

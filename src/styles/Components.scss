@@ -3,7 +3,7 @@
     /* Add shadows to create the "card" effect */
     box-shadow: 0 em(4px) em(8px) 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-
+    
     /* On mouse-over, add a deeper shadow */
     &:hover {
         box-shadow: 0 em(8px) em(16px) 0 rgba(0,0,0,0.4);
@@ -46,7 +46,7 @@
     .explore-filter-label {
         margin: 0 1em;
     }
-    
+
     .explore-show {
         margin: 0 0.25em;
         color: #444444;
