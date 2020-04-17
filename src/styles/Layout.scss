@@ -69,6 +69,25 @@
     }
     @media screen and (max-width: $media-XS) {
         display: none;
+
+        &.nav-mobile-on {
+            top:6.8em;
+            width: 100%;
+            text-align: center;
+            display: block;
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            
+            h2 {
+                width: 100%;;
+            }
+
+            .menu-nav li {
+                text-align: center;
+            }
+        }
     }
 
     h2 {

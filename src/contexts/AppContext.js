@@ -1,12 +1,5 @@
 import React, { Component, createContext } from 'react';
 
-export const exploreModes = {
-    NONE: 'None', 
-    NOVICE: 'Novice',
-    EXPERT: 'Expert',
-    BOTH: 'Both'
-}
-
 export const AppContext = createContext();
 
 class AppContextProvider extends Component {
@@ -15,20 +8,17 @@ class AppContextProvider extends Component {
         novice: false, // Show all novice comments
         expert: false,  // Show all expert comments
         scoreIndex: 0,
-        scoreData: null,
-        draw: null
+        mobileNav: false
     }
     
     setNovice = (show) => { this.setState({ novice: show }); console.log("Debug: Show Novice - " + show); } 
     setExpert = (show) => { this.setState({ expert: show }); console.log("Debug: Show Expert - " + show); } 
     setScoreIndex = (index) => { this.setState({ scoreIndex: index}); console.log("Dubug: Score Index - " + index); };
-    setDrawRef = (drawRef) => { this.setState({ draw: drawRef}); console.log("Dubug: Draw Ref Set");
-    
-    }
+    setMobileNav = (show) => { this.setState({ mobileNav:show}); console.log("Debug: Show MobileNavs - " + show); }
 
     render() {
         return(
-            <AppContext.Provider value={{...this.state, setNovice:this.setNovice, setExpert:this.setExpert, setScoreIndex:this.setScoreIndex, setDrawRef:this.setDrawRef}}>
+            <AppContext.Provider value={{...this.state, setNovice:this.setNovice, setExpert:this.setExpert, setScoreIndex:this.setScoreIndex, setMobileNav:this.setMobileNav}}>
                 { this.props.children}
             </AppContext.Provider>
         )

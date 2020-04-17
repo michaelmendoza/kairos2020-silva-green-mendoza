@@ -11,7 +11,7 @@ function DataRow(props) {
   const handleScoreIndex = () => {
     setScoreIndex(props.data.index);
   }
-
+  
   return (
     <tr>
       <th>{props.data.name}</th>

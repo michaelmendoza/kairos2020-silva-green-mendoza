@@ -122,14 +122,20 @@
     width: 100%;
     border-bottom: 2px solid $primary;
 
+    button {
+        background-color: transparent;
+        border: none;
+        color: $primary;  
+
+        &:hover {
+            color: #222222;
+        }
+    }
+
     .header-content {
         font-size: 1.6em;
         margin: 0.8em 0;
     }
-
-    .fa-bars {
-        color: $primary;  
-        }
     
     .title {
         font-size: 1em;

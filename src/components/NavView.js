@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from '@reach/router';
+import { AppContext } from '../contexts/AppContext';
 
 import apr from '../images/apr.png';
 import puffyhost from '../images/puffyhost.png';
@@ -8,28 +9,32 @@ import jeffersonpost from '../images/thejeffersonpost.png';
 import dailypost from '../images/thedailypost.png';
 
 function NavView() {
+  const { mobileNav, setMobileNav } = useContext(AppContext);
+  const handleMobileNav = () => { setMobileNav(false) }; 
+  const navClass = "nav-view " + (mobileNav ? 'nav-mobile-on':'');
+
   return (
-    <nav className="nav-view"> 
+    <nav className={navClass}> 
       <section className="menu-nav">
         <h2> Menu </h2>
       <ul>
-          <li> <Link to="/"> <button> Introduction </button> </Link> </li>
-          <li> <Link to="methods" ><button> Methods </button> </Link> </li>
-          <li> <Link to="findings" ><button> Findings </button> </Link> </li>
-          <li> <Link to="context" ><button> Context and Discussion </button> </Link> </li>
-          <li> <Link to="implications" ><button> Implications </button> </Link> </li>
-          <li> <Link to="references"><button> References </button></Link></li>
-          <li> <Link to="contact" ><button> Contact </button> </Link> </li>
+          <li> <Link to="/"> <button onClick={handleMobileNav}> Introduction </button> </Link> </li>
+          <li> <Link to="methods" ><button onClick={handleMobileNav}> Methods </button> </Link> </li>
+          <li> <Link to="findings" ><button onClick={handleMobileNav}> Findings </button> </Link> </li>
+          <li> <Link to="context" ><button onClick={handleMobileNav}> Context and Discussion </button> </Link> </li>
+          <li> <Link to="implications" ><button onClick={handleMobileNav}> Implications </button> </Link> </li>
+          <li> <Link to="references"><button onClick={handleMobileNav}> References </button></Link></li>
+          <li> <Link to="contact" ><button onClick={handleMobileNav}> Contact </button> </Link> </li>
         </ul> 
       </section>
       <section className="explore-nav"> 
         <h2> Explore </h2>
         <ul>
-          <li> <Link to="apr"> <button> <img className="card" src={apr} alt="apr"/> </button> </Link> </li>
-          <li> <Link to="puffyhost"> <button> <img className="card" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
-          <li> <Link to="theflame"> <button> <img className="card" src={theflame} alt="Flame"/> </button> </Link> </li>
-          <li> <Link to="jeffersonpost"> <button> <img className="card" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
-          <li> <Link to="dailypost"> <button> <img className="card" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
+          <li> <Link to="apr"> <button onClick={handleMobileNav}> <img className="card" src={apr} alt="apr"/> </button> </Link> </li>
+          <li> <Link to="puffyhost"> <button onClick={handleMobileNav}> <img className="card" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
+          <li> <Link to="theflame"> <button onClick={handleMobileNav}> <img className="card" src={theflame} alt="Flame"/> </button> </Link> </li>
+          <li> <Link to="jeffersonpost"> <button onClick={handleMobileNav}> <img className="card" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
+          <li> <Link to="dailypost"> <button onClick={handleMobileNav}> <img className="card" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
         </ul>
       </section> 
     </nav>
