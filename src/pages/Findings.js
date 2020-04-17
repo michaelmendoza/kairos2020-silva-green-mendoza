@@ -84,7 +84,7 @@ function Findings() {
             breakdown of our participants.
           </p>
 
-          <div className="pie-chart-container flex-container flex-center flex-space-between">
+          <div className="pie-chart-container flex-container flex-center flex-wrap">
             <PieChart path="pie" data={[48, 49]} labels={['male', 'female']} title="Self-Reported Sex"></PieChart>
             <PieChart path="pie" data={[51, 13, 13, 12]} labels={['0','1','2','3+']} title="Number of Semesters Completed"></PieChart>
             <PieChart path="pie" data={[42, 3, 11, 20, 13]} labels={['18','19','20','21','22+']} title="Age Range"></PieChart>
@@ -104,10 +104,10 @@ function Findings() {
             allotment for each participant. The findings are presented to you in the order students rated the articles.
           </p>
           
-          <div className="chart-container">
+          <div className="reliability-chart-container">
             <h4 className="chart-title">Reliability: Before and After Research Ratings </h4>
 
-            <div className="flex-container flex-center flex-space-around ">
+            <div className="flex-container flex-center flex-between flex-wrap">
               <DataTable data={ 
                 [
                   {name:"NPR", status:"before", min:1.0, max:10.0, mean:6.47, stdev:2.03, var:4.11, count:89, index:0},
@@ -122,7 +122,7 @@ function Findings() {
                   {name:"Daily Kos", status:"after", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86, index:9}
                 ]}>
               </DataTable>
-                
+
               <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
             </div>
           </div>
