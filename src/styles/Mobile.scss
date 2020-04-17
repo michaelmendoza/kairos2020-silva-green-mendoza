@@ -1,0 +1,46 @@
+
+@media screen and (max-width: $media-M) {
+    .nav-view {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: $media-XS) {
+
+    .nav-view {
+        display: none;
+
+        &.nav-mobile-on {
+            top:6.8em;
+            width: 100%;
+            text-align: center;
+            display: block;
+            position: fixed;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            
+            h2 {
+                width: 100%;;
+            }
+
+            .menu-nav li {
+                text-align: center;
+            }
+        } 
+    }
+
+    .main-view {
+        margin: 0;
+        padding: 0 2em;
+    }
+
+    .interactive-panel {
+        padding: 5em;
+        
+        .interactive-item .interactive-prompt.expert {
+            right:4em;
+        }
+    }
+}
+

@@ -39,17 +39,6 @@
     margin: 0;
     padding: 0 7em;
     width: 100%;
-
-    @media screen and (max-width: $media-XS) {
-        margin: 0;
-        //padding: 0 2em;
-    }
-}
-
-.section-explore {
-    @media screen and (max-width: $media-XS) {
-        //margin: 0 5em;
-    }
 }
 
 // Styles for nav list items 
@@ -63,32 +52,6 @@
     height: 100vh;
     background-color: #eeeeee; 
     padding: 1.25em;
-
-    @media screen and (max-width: $media-M) {
-        width: 18em;
-    }
-    @media screen and (max-width: $media-XS) {
-        display: none;
-
-        &.nav-mobile-on {
-            top:6.8em;
-            width: 100%;
-            text-align: center;
-            display: block;
-            position: fixed;
-            left: 0;
-            right: 0;
-            z-index: 1;
-            
-            h2 {
-                width: 100%;;
-            }
-
-            .menu-nav li {
-                text-align: center;
-            }
-        }
-    }
 
     h2 {
         border-bottom: 0.125em solid $primary;
