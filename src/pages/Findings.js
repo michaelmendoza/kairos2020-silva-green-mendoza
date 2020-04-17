@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import headerimage from '../images/findings.png';
 import HistogramChart from '../components/HistogramChart';
+import PieChart from '../components/PieChart';
 import { readString } from 'react-papaparse'
 import csv from '../data/scores.js';
 
@@ -68,7 +69,7 @@ function Findings() {
   const { scoreIndex, setScoreIndex } = useContext(AppContext);
 
   return (
-      <section className="section-article">
+      <section className="section-article findings-page">
         <img src={headerimage} alt="header"/>
         <h1>Findings</h1>
         <article>
@@ -82,9 +83,12 @@ function Findings() {
             overview of some of the major findings of the study. First, we begin with the basic demographic
             breakdown of our participants.
           </p>
-          <p>
-            ********* CHARTS ********* 
-          </p>
+
+          <div className="pie-chart-container flex-container flex-center flex-space-between">
+            <PieChart path="pie" data={[48, 49]} labels={['male', 'female']} title="Self-Reported Sex"></PieChart>
+            <PieChart path="pie" data={[51, 13, 13, 12]} labels={['0','1','2','3+']} title="# of Semesters Completed"></PieChart>
+            <PieChart path="pie" data={[42, 3, 11, 20, 13]} labels={['18','19','20','21','22+']} title="Age Range"></PieChart>
+          </div>
           <p>
             Students rated the articles from one to ten, one being very unreliable and ten being very reliable. They
             rated each article twice: before and after they had time to examine the article in depth. Students were
@@ -100,25 +104,29 @@ function Findings() {
             allotment for each participant. The findings are presented to you in the order students rated the articles.
           </p>
           
-          <h4>Reliability: Before and After Research Ratings </h4>
+          <div className="chart-container">
+            <h4 className="chart-title">Reliability: Before and After Research Ratings </h4>
 
-          <DataTable data={ 
-            [
-              {name:"NPR", status:"before", min:1.0, max:10.0, mean:6.47, stdev:2.03, var:4.11, count:89, index:0},
-              {name:"NPR", status:"after", min:1.0, max:10.0, mean:6.85, stdev:2.16, var:4.69, count:89, index:1},
-              {name:"Huffington Post", status:"before", min:3.0, max:10.0, mean:6.34, stdev:1.79, var:3.21, count:89, index:2},
-              {name:"Huffington Post", status:"after", min:3.0, max:10.0, mean:6.49, stdev:2.13, var:4.54, count:89, index:3},
-              {name:"The Blaze", status:"before", min:1.0, max:10.0, mean:5.76, stdev:2.20, var:4.84, count:88, index:4},
-              {name:"The Blaze", status:"after", min:1.0, max:10.0, mean:5.83, stdev:2.47, var:6.12, count:88, index:5},
-              {name:"Washington Post", status:"before", min:4.0, max:10.0, mean:7.69, stdev:1.65, var:2.72, count:87, index:6},
-              {name:"Washington Post", status:"after", min:2.0, max:10.0, mean:8.13, stdev:1.71, var:2.94, count:87, index:7},
-              {name:"Daily Kos", status:"before", min:1.0, max:10.0, mean:5.85, stdev:1.79, var:3.22, count:86, index:8},
-              {name:"Daily Kos", status:"after", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86, index:9}
-            ]}>
-          </DataTable>
-            
-          <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
-            
+            <div className="flex-container flex-center flex-space-around ">
+              <DataTable data={ 
+                [
+                  {name:"NPR", status:"before", min:1.0, max:10.0, mean:6.47, stdev:2.03, var:4.11, count:89, index:0},
+                  {name:"NPR", status:"after", min:1.0, max:10.0, mean:6.85, stdev:2.16, var:4.69, count:89, index:1},
+                  {name:"Huffington Post", status:"before", min:3.0, max:10.0, mean:6.34, stdev:1.79, var:3.21, count:89, index:2},
+                  {name:"Huffington Post", status:"after", min:3.0, max:10.0, mean:6.49, stdev:2.13, var:4.54, count:89, index:3},
+                  {name:"The Blaze", status:"before", min:1.0, max:10.0, mean:5.76, stdev:2.20, var:4.84, count:88, index:4},
+                  {name:"The Blaze", status:"after", min:1.0, max:10.0, mean:5.83, stdev:2.47, var:6.12, count:88, index:5},
+                  {name:"Washington Post", status:"before", min:4.0, max:10.0, mean:7.69, stdev:1.65, var:2.72, count:87, index:6},
+                  {name:"Washington Post", status:"after", min:2.0, max:10.0, mean:8.13, stdev:1.71, var:2.94, count:87, index:7},
+                  {name:"Daily Kos", status:"before", min:1.0, max:10.0, mean:5.85, stdev:1.79, var:3.22, count:86, index:8},
+                  {name:"Daily Kos", status:"after", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86, index:9}
+                ]}>
+              </DataTable>
+              
+              <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
+            </div>
+          </div>
+
           <p>
             In our grounded theory coding, we took note of what comments appeared the most often in terms of
             what made each source more/less reliable. These features are summarized below, and are further

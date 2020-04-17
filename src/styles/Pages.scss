@@ -11,4 +11,26 @@
             //height: 10.5em;
         }
     }
+
+    &.findings-page {
+        .pie-chart-container {
+            margin: 3em 0;
+        }
+
+        .chart-container {
+            margin: 4em -8em;
+        }
+        .chart-title {
+            text-align: center;
+        }
+        .table {
+            font-size: 0.9em;
+            margin: 1em;
+            width: 50%;
+        }
+
+        .chart {
+            
+        }
+    }
 }
