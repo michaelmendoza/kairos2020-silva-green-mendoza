@@ -86,7 +86,7 @@ function Findings() {
 
           <div className="pie-chart-container flex-container flex-center flex-space-between">
             <PieChart path="pie" data={[48, 49]} labels={['male', 'female']} title="Self-Reported Sex"></PieChart>
-            <PieChart path="pie" data={[51, 13, 13, 12]} labels={['0','1','2','3+']} title="# of Semesters Completed"></PieChart>
+            <PieChart path="pie" data={[51, 13, 13, 12]} labels={['0','1','2','3+']} title="Number of Semesters Completed"></PieChart>
             <PieChart path="pie" data={[42, 3, 11, 20, 13]} labels={['18','19','20','21','22+']} title="Age Range"></PieChart>
           </div>
           <p>
