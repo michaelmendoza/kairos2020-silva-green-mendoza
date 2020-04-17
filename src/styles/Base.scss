@@ -1,8 +1,9 @@
 // Media query sizes
-$media-L: 1440px;
-$media-M: 900px;
-$media-S: 768px;
-$media-XS: 668px;
+$media-XL: 1920px; // 1080 p - Desktop
+$media-L: 1440px; // Laptop
+$media-M: 1024px; // Tablet - Landscape 
+$media-S: 768px; // Tablet - Portait
+$media-XS: 668px; // Phone
 
 // Colors
 $primary:#4468dc;
