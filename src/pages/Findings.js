@@ -11,7 +11,7 @@ function DataRow(props) {
   const handleScoreIndex = () => {
     setScoreIndex(props.data.index);
   }
-  
+
   return (
     <tr>
       <th>{props.data.name}</th>
@@ -122,7 +122,7 @@ function Findings() {
                   {name:"Daily Kos", status:"after", min:1.0, max:10.0, mean:5.43, stdev:2.15, var:4.62, count:86, index:9}
                 ]}>
               </DataTable>
-              
+                
               <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
             </div>
           </div>

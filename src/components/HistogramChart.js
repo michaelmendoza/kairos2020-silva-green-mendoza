@@ -6,7 +6,7 @@ class HistogramChart extends Component {
     constructor(props) { 
         super(props);
         this.id = 'chart-histogram';
-        this.width = 500; // ViewBox Width
+        this.width = 400; // ViewBox Width
         this.height = 500; // ViewBox Height
         this.margin = { top: 40, right: 40, bottom: 40, left: 50 };    
         this.data = props.data;
