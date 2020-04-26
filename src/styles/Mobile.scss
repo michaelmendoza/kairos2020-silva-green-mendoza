@@ -26,7 +26,8 @@
 
 @media screen and (max-width: $media-M) {
     .nav-view {
-        width: 18em;
+        width: 14.5em;
+        min-width: 14.5em;
     }
 }
 
@@ -67,7 +68,7 @@
             position: fixed;
             left: 0;
             right: 0;
-            z-index: 1;
+            z-index: 2;
             
             h2 {
                 width: 100%;;
