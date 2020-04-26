@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import { Link } from '@reach/router';
 import { AppContext } from '../contexts/AppContext';
 
-import apr from '../images/apr.png';
-import puffyhost from '../images/puffyhost.png';
-import theflame from '../images/theflame.png';
-import jeffersonpost from '../images/thejeffersonpost.png';
-import dailypost from '../images/thedailypost.png';
+import apr from '../images/apr-logo.png';
+import puffyhost from '../images/puffyhost-logo.png';
+import theflame from '../images/theflame-logo.png';
+import jeffersonpost from '../images/thejeffersonpost-logo.png';
+import dailypost from '../images/thedailypost-logo.png';
 
 function NavView() {
   const { mobileNav, setMobileNav } = useContext(AppContext);
