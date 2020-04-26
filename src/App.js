@@ -5,7 +5,7 @@ import './App.scss';
 import AppContextProvider from './contexts/AppContext';
 import MainView from './components/MainView';
 import NavView from './components/NavView';
-import Home from './pages/Home';
+import SideView from './components/SideView';
 import Introduction from './pages/Introduction';
 import Methods from './pages/Methods';
 import Context from './pages/Context';
@@ -22,15 +22,6 @@ import ExploreDailyPost from './pages/ExploreDailyPost';
 export const ScrollToTop = ({ children, location }) => {
   React.useEffect(() => window.scrollTo(0, 0), [location.pathname])
   return children
-}
-
-export const SideView = () => {
-  return (
-    <section className="side-view"> 
-      <div className="side-view-background"></div>
-      <label className="interactive-panel-header"> <i class="fas fa-layer-group"></i> Explore </label>
-    </section>
-  )
 }
 
 function App() {
