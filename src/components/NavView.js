@@ -30,11 +30,11 @@ function NavView() {
       <section className="explore-nav"> 
         <h2> Explore </h2>
         <ul>
-          <li> <Link to="apr"> <button onClick={handleMobileNav}> <img className="card-button" src={apr} alt="apr"/> </button> </Link> </li>
-          <li> <Link to="puffyhost"> <button onClick={handleMobileNav}> <img className="card-button" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
-          <li> <Link to="theflame"> <button onClick={handleMobileNav}> <img className="card-button" src={theflame} alt="Flame"/> </button> </Link> </li>
-          <li> <Link to="jeffersonpost"> <button onClick={handleMobileNav}> <img className="card-button" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
-          <li> <Link to="dailypost"> <button onClick={handleMobileNav}> <img className="card-button" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
+          <li> <Link to="explore/apr"> <button onClick={handleMobileNav}> <img className="card-button" src={apr} alt="apr"/> </button> </Link> </li>
+          <li> <Link to="explore/puffyhost"> <button onClick={handleMobileNav}> <img className="card-button" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
+          <li> <Link to="explore/theflame"> <button onClick={handleMobileNav}> <img className="card-button" src={theflame} alt="Flame"/> </button> </Link> </li>
+          <li> <Link to="explore/jeffersonpost"> <button onClick={handleMobileNav}> <img className="card-button" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
+          <li> <Link to="explore/dailypost"> <button onClick={handleMobileNav}> <img className="card-button" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
         </ul>
       </section> 
     </nav>

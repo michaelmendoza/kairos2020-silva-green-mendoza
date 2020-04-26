@@ -24,6 +24,14 @@ export const ScrollToTop = ({ children, location }) => {
   return children
 }
 
+export const SideView = () => {
+  return (
+    <section className="side-view"> 
+      <label className="interactive-panel-header"> <i class="fas fa-layer-group"></i> Explore </label>
+    </section>
+  )
+}
+
 function App() {
   return (
     <div className="app-view flex-container">
@@ -39,18 +47,17 @@ function App() {
               <Implications path="implications"></Implications>
               <References path="references"></References>
               <Contact path="contact"></Contact>
-              <ExploreAPR path="apr"></ExploreAPR>
-              <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
-              <ExploreTheFlame path="theflame"></ExploreTheFlame>
-              <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
-              <ExploreDailyPost path="dailypost"></ExploreDailyPost>
+              <ExploreAPR path="explore/apr"></ExploreAPR>
+              <ExplorePuffyHost path="explore/puffyhost"></ExplorePuffyHost>
+              <ExploreTheFlame path="explore/theflame"></ExploreTheFlame>
+              <ExploreJeffersonPost path="explore/jeffersonpost"></ExploreJeffersonPost>
+              <ExploreDailyPost path="explore/dailypost"></ExploreDailyPost>
             </ScrollToTop>
           </Router>
         </MainView>
-        <section className="side-view"> 
-          <label className="interactive-panel-header"> <i class="fas fa-layer-group"></i> Explore </label>
-        </section>
-
+        <Router primary={false}>
+          <SideView path="/explore/*"></SideView>
+        </Router>
       </AppContextProvider>
     </div>
   );
