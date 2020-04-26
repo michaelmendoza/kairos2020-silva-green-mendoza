@@ -27,6 +27,7 @@ export const ScrollToTop = ({ children, location }) => {
 export const SideView = () => {
   return (
     <section className="side-view"> 
+      <div className="side-view-background"></div>
       <label className="interactive-panel-header"> <i class="fas fa-layer-group"></i> Explore </label>
     </section>
   )
@@ -38,7 +39,7 @@ function App() {
       <AppContextProvider>
         <NavView></NavView>
         <MainView> 
-          <Router primary={false}> 
+          <Router primary={false} className="route-main-view"> 
             <ScrollToTop path="/">
               <Introduction path="/"></Introduction>
               <Methods path="methods"></Methods>
@@ -55,7 +56,7 @@ function App() {
             </ScrollToTop>
           </Router>
         </MainView>
-        <Router primary={false}>
+        <Router primary={false} className="route-side-view">
           <SideView path="/explore/*"></SideView>
         </Router>
       </AppContextProvider>
