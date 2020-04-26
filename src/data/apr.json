@@ -2,11 +2,11 @@
   "novice": [
     { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": "7% of students explicity remarked that they had no previous experience with NPR: “I haven't heard of the website before, so that makes it less reliable.”" },
     { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": "16% of students focused on the casual tone: “The language has a tendency to be informal or even conversational” and “the writing didn't sound very scientific.”" },
-    { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": "Novices noticed that the article had hyperlinks to many sources: “it actually has links to the study and information cited.” They did not click on the links, however. Nor did they understand what about the evidence cited was convincing or reliable. " }
+    { "style": { "top": "74%"}, "style2": {"left": "5%"}, "text": "Novices noticed that the article had hyperlinks to many sources: “it actually has links to the study and information cited.” They did not click on the links, however. Nor did they understand what about the evidence cited was convincing or reliable. " }
   ],
   "expert": [
-      { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": "31% of students recognized NPR as a well-known source: “NPR is a nationally recognized radio station” and “NPR is a trusted news site.”" },
-      { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": "Experts dug deep enough to find the author’s credentials: “She works with news related to health issues, so she knows what she's talking about.”" },
-      { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": "Experts recognized the expert, credible research presented: “They have a quote from someone at John Hopkins University” and “[she] has researched among many organizations such as the FDA.”" }
+      { "style": { "top": "0%"}, "style2": {"left": "50%"}, "text": "31% of students recognized NPR as a well-known source: “NPR is a nationally recognized radio station” and “NPR is a trusted news site.”" },
+      { "style": { "top": "16%"}, "style2": {"left": "50%"}, "text": "Experts dug deep enough to find the author’s credentials: “She works with news related to health issues, so she knows what she's talking about.”" },
+      { "style": { "top": "65%"}, "style2": {"left": "50%"}, "text": "Experts recognized the expert, credible research presented: “They have a quote from someone at John Hopkins University” and “[she] has researched among many organizations such as the FDA.”" }
   ]
 }

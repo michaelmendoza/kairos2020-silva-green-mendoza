@@ -20,6 +20,10 @@
             .interactive-prompt.expert, .interactive-prompt.novice {
                 right: em(-160px);
             }
+
+            .interactive-card {
+                font-size: 0.9em;
+            }
         }
     }
 }
@@ -50,6 +54,10 @@
         .interactive-item {
             .interactive-prompt.expert, .interactive-prompt.novice {
                 right: em(-128px);
+            }
+
+            .interactive-card {
+                font-size: 0.8em;
             }
         }
     }
@@ -101,5 +109,14 @@
             }
         } 
     }
+    
+    .interactive-panel {        
+        .interactive-item {
+            .interactive-card {
+                font-size: 0.7em;
+            }
+        }
+    }    
+
 }
 

@@ -2,11 +2,11 @@
   "novice": [
     { "style": { "top": "5%"}, "style2": {"left": "5%"}, "text": "Novices noticed website design but did not dig further than that. They said things like “one thing that made this source more reliable for me is that the website looked very organized” and “[it] looks and feels to me more professional and scholarly.”" },
     { "style": { "top": "45%"}, "style2": {"left": "5%"}, "text": "31% found the video very persuasive: “Although you can fake anything with video and make it look better than a real recording, [a video] still enhances the credibility.” These stuents did not often dig deeper or corroborate what was in the video." },
-    { "style": { "top": "74%"}, "style2": {"left": "20%"}, "text": "Novices also pointed out that “unintrusive ads” affected their opinion: “Ads on the side of the screen seem more professional.” These students were seduced by the site design and did not demonstrate understanding of funding models for news sources. " }
+    { "style": { "top": "74%"}, "style2": {"left": "5%"}, "text": "Novices also pointed out that “unintrusive ads” affected their opinion: “Ads on the side of the screen seem more professional.” These students were seduced by the site design and did not demonstrate understanding of funding models for news sources. " }
   ],
   "expert": [
-      { "style": { "top": "2%"}, "style2": {"left": "20%"}, "text": "Experts commented that “The Washington Post is a recognizable and reliable source” and that it is “a well-known news source” which “many people rely on and trust.”" },
-      { "style": { "top": "16%"}, "style2": {"left": "20%"}, "text": "Experts focused on the “highly reliable quotes and sources for the article” and the “facts presented in [a] professional matter.”" },
-      { "style": { "top": "72%"}, "style2": {"left": "65%"}, "text": "20% of students did some research and found that the author “specializes in space and defense industries,” which made him a “reliable author.”" }
+      { "style": { "top": "0%"}, "style2": {"left": "50%"}, "text": "Experts commented that “The Washington Post is a recognizable and reliable source” and that it is “a well-known news source” which “many people rely on and trust.”" },
+      { "style": { "top": "16%"}, "style2": {"left": "50%"}, "text": "Experts focused on the “highly reliable quotes and sources for the article” and the “facts presented in [a] professional matter.”" },
+      { "style": { "top": "65%"}, "style2": {"left": "50%"}, "text": "20% of students did some research and found that the author “specializes in space and defense industries,” which made him a “reliable author.”" }
   ]
 }
