@@ -90,41 +90,6 @@
     }
 }
 
-.button-group {
-    margin: em(20px) 0;
-
-    button {
-        padding: em(12px) em(20px);
-        border: em(1px) solid rgba(196, 196, 196, 0.4);
-        color: rgba(120, 120, 120, 1.0);
-
-        &.active {
-            border: em(1px) solid $primary;
-            color: $primary;
-            background-color: rgba(196, 196, 196, 0.2);
-        }
-
-        &:hover {
-            border: em(1px) solid $primary;
-            background-color: rgba(196, 196, 196, 0.2);
-        }
-
-        &:focus {
-            outline:none;
-        }
-
-        &:first-of-type {
-            border-top-left-radius: em(20px);
-            border-bottom-left-radius: em(20px);
-        }
-
-        &:last-of-type {
-            border-top-right-radius: em(20px);
-            border-bottom-right-radius: em(20px);
-        }
-    }
-}
-
 .header {
     width: 100%;
     border-bottom: 2px solid $primary;
