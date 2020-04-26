@@ -14,11 +14,11 @@
     }
 
     .interactive-panel {
-        padding: 0 3em;
+        padding: 0;
         
         .interactive-item {
             .interactive-prompt.expert, .interactive-prompt.novice {
-                right: em(-120px);
+                right: em(-160px);
             }
         }
     }
@@ -45,11 +45,11 @@
     }
 
     .interactive-panel {
-        padding: 0 5em;
+        padding: 0;
         
         .interactive-item {
             .interactive-prompt.expert, .interactive-prompt.novice {
-                right: em(-60px);
+                right: em(-128px);
             }
         }
     }
@@ -61,7 +61,7 @@
         display: none;
 
         &.nav-mobile-on {
-            top:6.8em;
+            top:0em;
             width: 100%;
             text-align: center;
             display: block;
@@ -72,6 +72,28 @@
             
             h2 {
                 width: 100%;;
+            }
+
+            .nav-close {
+                display: block;
+                position: absolute;
+                right: 1em;
+                top: 1.5em;
+
+                button {
+                    padding: 0;
+                    width: 3em;
+                    height: 3em;
+                    color: $primary;
+                    &:hover {
+                        color: #444444;
+                    }
+                }
+
+                i {
+                    top: -0.4em;
+                    font-size: 2em;
+                }
             }
 
             .menu-nav li {
