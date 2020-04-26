@@ -19,6 +19,11 @@ import ExploreTheFlame from './pages/ExploreTheFlame';
 import ExploreJeffersonPost from './pages/ExploreJeffersonPost';
 import ExploreDailyPost from './pages/ExploreDailyPost';
 
+export const ScrollToTop = ({ children, location }) => {
+  React.useEffect(() => window.scrollTo(0, 0), [location.pathname])
+  return children
+}
+
 function App() {
   return (
     <div className="app-view flex-container">
@@ -26,18 +31,20 @@ function App() {
         <NavView></NavView>
         <MainView> 
           <Router primary={false}> 
-            <Introduction path="/"></Introduction>
-            <Methods path="methods"></Methods>
-            <Findings path="findings"></Findings>
-            <Context path="context"></Context>
-            <Implications path="implications"></Implications>
-            <References path="references"></References>
-            <Contact path="contact"></Contact>
-            <ExploreAPR path="apr"></ExploreAPR>
-            <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
-            <ExploreTheFlame path="theflame"></ExploreTheFlame>
-            <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
-            <ExploreDailyPost path="dailypost"></ExploreDailyPost>
+            <ScrollToTop path="/">
+              <Introduction path="/"></Introduction>
+              <Methods path="methods"></Methods>
+              <Findings path="findings"></Findings>
+              <Context path="context"></Context>
+              <Implications path="implications"></Implications>
+              <References path="references"></References>
+              <Contact path="contact"></Contact>
+              <ExploreAPR path="apr"></ExploreAPR>
+              <ExplorePuffyHost path="puffyhost"></ExplorePuffyHost>
+              <ExploreTheFlame path="theflame"></ExploreTheFlame>
+              <ExploreJeffersonPost path="jeffersonpost"></ExploreJeffersonPost>
+              <ExploreDailyPost path="dailypost"></ExploreDailyPost>
+            </ScrollToTop>
           </Router>
         </MainView>
       </AppContextProvider>

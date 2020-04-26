@@ -56,7 +56,7 @@ function Context() {
             fairly minimal” (p. 2080).
           </p>
           <p>
-            Another example of shallow behaviors comes from the <Link to="jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
+            Another example of shallow behaviors comes from the <Link to="/jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
             pointed out that the ads on the side of the page affected their opinion of the source without being able
             to articulate why they did so. Noticing ads is not a bad behavior. To some extent it is true that more
             obtrusive ads and pop ups may suggest a lower-tier publication; however, many of these novice
@@ -165,7 +165,7 @@ function Context() {
             based on perceived motives or biases” (p. 236).
           </p>
           <p>
-            In assessing our own student responses, the <Link to="jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
+            In assessing our own student responses, the <Link to="/jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
             straightforward piece of news on a Space X launch. What really convinced students, though, was the
             video of the launch. Without any prompting on our part, 31% of students found the video very
             persuasive in establishing credibility. While the video is a functional part of the ethos of the piece to be
@@ -176,7 +176,7 @@ function Context() {
             put in these parts of the websites is disturbing. 
           </p>
           <p>
-            Another example was the graph on <Link to="theflame">The Flame</Link> (The Blaze) website. In the original website that claimed
+            Another example was the graph on <Link to="/theflame">The Flame</Link> (The Blaze) website. In the original website that claimed
             arctic animals were thriving due to global warming, the authors linked a graph from NASA as part of
             their publication. While the graph has been removed from the current iteration of The Blaze’s article
             (NASA updated their graphs since it was published), when we ran the study originally, the graph was a

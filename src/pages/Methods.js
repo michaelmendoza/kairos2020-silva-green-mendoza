@@ -61,7 +61,7 @@ function Methods() {
                 “A Third Way for Universities”
                 </a>
               </td>
-              <td>Huffington Post (<Link to="puffyhost">PuffyHost</Link>)</td>
+              <td>Huffington Post (<Link to="/puffyhost">PuffyHost</Link>)</td>
               <td>Chosen as an opinion editorial from a well-known website that appeals to younger readers.</td>
             </tr>
             <tr>
@@ -70,7 +70,7 @@ function Methods() {
                 “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
                 </a>
               </td>
-              <td>The Blaze (<Link to="theflame">The Flame</Link>)</td>
+              <td>The Blaze (<Link to="/theflame">The Flame</Link>)</td>
               <td>Chosen for a far-right bias, inaccurate use of data and information, a hot-button political issue, and use of visuals. (The online version of this article no longer includes a graph from NASA delineating melting sea ice levels that was in the original version)</td>
             </tr>
             <tr>
@@ -79,7 +79,7 @@ function Methods() {
                 “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
                 </a>
               </td>
-              <td>The Washington Post  (<Link to="jeffersonpost">The Jefferson Post</Link>)</td>
+              <td>The Washington Post  (<Link to="/jeffersonpost">The Jefferson Post</Link>)</td>
               <td>Chosen to represent a well-known newspaper reporting on an event, for its apolitical subject, and inclusion of a video.</td>
             </tr>
             <tr>
@@ -88,7 +88,7 @@ function Methods() {
                 “There's a Growing Crisis in Care for Disabled and Elderly People. Oh, and It's a Jobs Crisis, Too”
                 </a>
               </td>
-              <td>Daily Kos (<Link to="dailypost">The Daily Post</Link>)</td>
+              <td>Daily Kos (<Link to="/dailypost">The Daily Post</Link>)</td>
               <td>Chosen for a fringe, far left bias and use of a combative, biased tone. Also, casual language. </td>
             </tr>
           </tbody>
@@ -126,7 +126,7 @@ function Methods() {
           Using grounded theory, we devised coding protocols after we collected student responses. Because
           most students showed both strengths and weaknesses in their analysis of the sources, we decided to
           classify behaviors, rather than specific individuals, as expert or novice. For example, after we noticed
-          many students commenting on the graph in <Link to="theflame">The Blaze article</Link>, members of the research team searched
+          many students commenting on the graph in <Link to="/theflame">The Blaze article</Link>, members of the research team searched
           for references to the graph and divided them into students who had remarked upon the graph’s
           convincing and reliable nature (novice) and those students who had realized that the graph did not
           support the claims made in the argument (expert). Some behaviors such as looking at the author’s
