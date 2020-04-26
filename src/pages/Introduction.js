@@ -76,8 +76,8 @@ function Introduction() {
             We offer our own pedagogical implications in the final section of the webtext.
           </p>
           <ul>
-            <li>
-              First, is a confusion over what constitutes authority online. Students had difficulty following
+            <li> 
+              <b>First, is a confusion over what constitutes authority online.</b> Students had difficulty following
               rules of thumb for information evaluation in the ever-changing landscape of the web. Who or
               what do they trust? As we transcribed each session, we could hear the confusion in their voices,
               and it was obvious in their justifications for what made the articles more or less reliable as
@@ -85,10 +85,10 @@ function Introduction() {
               most important to assess when it comes to authority, especially when some features seem to
               conflict with one another. Students had difficulty pinpointing what authority was credible and
               why.
-            </li>
+            </li> 
             <li>
-              Second, given the difficulty assessing authority, students relied on their own assessments of
-              credibility and reliability, oftentimes resulting in confirmation bias and other problematic,
+              Second, given the difficulty assessing authority, <b>students relied on their own assessments of
+              credibility and reliability, oftentimes resulting in confirmation bias</b> and other problematic,
               short-sighted, narrow responses to the information presented. Such responses were not
               indicative of how the information existed in a wider context, but instead, within a very narrow,
               personally-inflected reading by the student. In response to conflicting feelings, emotions, or
@@ -96,8 +96,8 @@ function Introduction() {
               jerk responses to material.
             </li>
             <li>
-              Third, also connected to difficulty ascertaining where authority is derived online, students were
-              easily seduced by visual rhetoric like graphs, videos, and web design features. They believe that
+              Third, also connected to difficulty ascertaining where authority is derived online, <b>students were
+              easily seduced by visual rhetoric</b> like graphs, videos, and web design features. They believe that
               these were stand-ins for believability and trustworthiness, and as such, ignored more important
               markers when assessing information’s value, like if the information could be corroborated, was
               well-researched, or was disseminated by a trusted source. Such shallow source-evaluation
