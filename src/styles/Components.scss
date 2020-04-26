@@ -2,6 +2,11 @@
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 em(4px) em(8px) 0 rgba(0,0,0,0.2);
+}
+
+.card-button {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 em(4px) em(8px) 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     
     /* On mouse-over, add a deeper shadow */
@@ -12,6 +17,8 @@
 
 /* Taken from https://leaverou.github.io/bubbly/ */
 .speech-bubble {
+    animation: fadein 2s;
+
 	position: relative;
 	background: #c74542;
     border-radius: .4em;
@@ -154,6 +161,13 @@
     position: relative;
     width: 100%;
 
+    .interactive-panel-header {
+        position: absolute;
+        right: em(-96px);
+        font-weight: 300;
+        color: #444444;
+    }
+
     .interactive-explore-image {
         width: 100%;
         margin: 0;
@@ -165,33 +179,25 @@
 
         .interactive-prompt {
             position: absolute;
+            right: em(-214px);
             width: em(80px);
             height: em(80px);
             padding: 0;
             border: none; 
             background-color: transparent;
-
+            z-index: 1;
+            
             &.novice {
-                left: em(-100px);
-
                 .speech-bubble {
                     background: $novice;
-                    
-                    &:after {
-                        border-top-color: $novice;
-                    }
+                    &:after { border-top-color: $novice; }
                 }
             }
 
             &.expert {
-                right: em(-96px);
-
                 .speech-bubble {
                     background: $expert;
-                    
-                    &:after {
-                        border-top-color: $expert;
-                    }
+                    &:after { border-top-color: $expert; }
                 }
             }
 

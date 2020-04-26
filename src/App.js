@@ -47,6 +47,10 @@ function App() {
             </ScrollToTop>
           </Router>
         </MainView>
+        <section className="side-view"> 
+          <label className="interactive-panel-header"> <i class="fas fa-layer-group"></i> Explore </label>
+        </section>
+
       </AppContextProvider>
     </div>
   );

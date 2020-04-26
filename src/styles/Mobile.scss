@@ -14,10 +14,12 @@
     }
 
     .interactive-panel {
-        padding: 3em;
+        padding: 0 3em;
         
-        .interactive-item .interactive-prompt.expert {
-            right: 0em;
+        .interactive-item {
+            .interactive-prompt.expert, .interactive-prompt.novice {
+                right: em(-120px);
+            }
         }
     }
 }
@@ -42,14 +44,15 @@
     }
 
     .interactive-panel {
-        padding: 5em;
+        padding: 0 5em;
         
-        .interactive-item .interactive-prompt.expert {
-            right: 4em;
+        .interactive-item {
+            .interactive-prompt.expert, .interactive-prompt.novice {
+                right: em(-60px);
+            }
         }
     }
 }
-
 
 @media screen and (max-width: $media-XS) {
 
