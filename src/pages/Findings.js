@@ -11,9 +11,9 @@ function DataRow(props) {
   const handleScoreIndex = () => {
     setScoreIndex(props.data.index);
   }
-
+  
   return (
-    <tr>
+    <tr className={scoreIndex == props.index ? "active" : ""} >
       <th>{props.data.name}</th>
       <th>{props.data.status}</th>
       <th>{props.data.min}</th>
@@ -45,7 +45,7 @@ function DataTable(props) {
       </thead>
       <tbody>
         {
-          props.data.map( d => <DataRow data={d}></DataRow> )
+          props.data.map( (d,i) => <DataRow data={d} index={i} key={i}></DataRow> )
         }
       </tbody>
     </table>

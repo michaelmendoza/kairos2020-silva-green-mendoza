@@ -11,6 +11,7 @@ class HistogramChart extends Component {
         this.margin = { top: 40, right: 40, bottom: 40, left: 50 };    
         this.data = props.data;
         this.fillColor = '#89D7F9'; //"#69b3a2";
+        this.textColor = '#222222';
         this.binMax = 10;
         this.bins = 10;
     }
@@ -50,11 +51,12 @@ class HistogramChart extends Component {
             .range([0, width]);
         
         var histogram = d3.histogram()
-            .value(function(d) { return d; })
+            .value(function(d) { return d - 0.1; })
             .domain(x.domain())
             .thresholds(x.ticks(this.bins - 1))
 
-        var bins = histogram(data)
+        var bins = histogram(data);
+        //console.log(bins);
 
         // Get y scale 
         var ymax = d3.max(bins, function(d) { return d.length; });
@@ -85,6 +87,21 @@ class HistogramChart extends Component {
                 .attr("height", function(d) { return height - y(d.length); })
                 .style("fill", this.fillColor)
         
+        var format_count = d3.format(",.0f"); 
+        this.text = g.selectAll("text") 
+            .data(bins)
+            .enter()
+            .append("text")
+                .attr("dy", "1.5em")
+                .attr("y", function(d) { return y(d.length); })
+                .attr("x", function(d) { return  x(d.x0 + 0.5) ; })
+                .attr("text-anchor", "middle")
+                .style("fill", this.textColor)
+                .style("font-size", 10)
+                .style("opacity", function(d, i) { return i >= bins.length - 1 ? 0 : 1})
+                .text(function(d) {
+                    return format_count(d.length);
+                });
     }
 
     redraw() {
@@ -94,7 +111,6 @@ class HistogramChart extends Component {
 		var width = this.width - this.margin.left - this.margin.right;
         var height = this.height - this.margin.top - this.margin.bottom;
  
-                
         // Get x scale
         var xmax = this.binMax;
 		var x = d3.scaleLinear()
@@ -102,12 +118,13 @@ class HistogramChart extends Component {
             .range([0, width]);
         
         var histogram = d3.histogram()
-            .value(function(d) { return d; })
+            .value(function(d) { return d - 0.1; })
             .domain(x.domain())
             .thresholds(x.ticks(this.bins - 1))
 
         var bins = histogram(data)
-        
+        //console.log(bins);
+
         // Get y scale 
         var ymax = d3.max(bins, function(d) { return d.length; });
 		var y = d3.scaleLinear()
@@ -137,6 +154,15 @@ class HistogramChart extends Component {
             .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
             .attr("height", function(d) { return height - y(d.length); })
             .style("fill", this.fillColor)
+
+        var format_count = d3.format(",.0f"); 
+        this.text.data(bins)
+            .transition()
+            .duration(1000)
+            .attr("y", function(d) { return y(d.length); })
+            .text(function(d) {
+                return d == 0 ? "" : format_count(d.length);
+            });            
     }
 
     render() {

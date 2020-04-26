@@ -42,21 +42,21 @@ function Context() {
             range of examples from which to extrapolate what “superficial” and “deep” behaviors might look like.
           </p>
           <p>
-            For instance, in the <Link to="/apr">APR</Link> (NPR) example, many students noticed that there were several hyperlinks in the
+            For instance, in the <Link to="/explore/apr">APR</Link> (NPR) example, many students noticed that there were several hyperlinks in the
             article. In fact, the NPR article was the most well-sourced article out of any of the ones we included in
             the test. However, fewer students actually clicked on the hyperlinks. To notice the hyperlink is not a bad
             impulse, but it is a novice one: the presence of hyperlinks tells an evaluator relatively little. Expert
             students who clicked on the hyperlinks were able to corroborate information, do research on individuals
             quoted in the article, and engaged in deeper source evaluation behaviors. If students were just looking
-            at hyperlinks to evaluate a source, they were easily duped by <Link to='/theflame'>The Flame</Link> (The Blaze) source which also
-            had hyperlinks to outside articles—but unlike the <Link to="/apr">APR</Link> (NPR) article, these hyperlinks did not link back to
+            at hyperlinks to evaluate a source, they were easily duped by <Link to='explore/theflame'>The Flame</Link> (The Blaze) source which also
+            had hyperlinks to outside articles—but unlike the <Link to="/explore/apr">APR</Link> (NPR) article, these hyperlinks did not link back to
             original/primary source material. It takes deeper source evaluation work (actually clicking on the link) to
             discover this. As Miriam J. Metzger (2007) argues, students do not often take the time to complete
             evaluative tasks that are more time consuming and “that require effort to perform, even if the effort is
             fairly minimal” (p. 2080).
           </p>
           <p>
-            Another example of shallow behaviors comes from the <Link to="/jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
+            Another example of shallow behaviors comes from the <Link to="/explore/jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
             pointed out that the ads on the side of the page affected their opinion of the source without being able
             to articulate why they did so. Noticing ads is not a bad behavior. To some extent it is true that more
             obtrusive ads and pop ups may suggest a lower-tier publication; however, many of these novice
@@ -80,7 +80,7 @@ function Context() {
             information context.
           </p>
           <p>
-            For instance, the student comments on the <Link to="/puffyhost">PuffyHost</Link> (Huffington Post) article showcase a disconnect
+            For instance, the student comments on the <Link to="/explore/puffyhost">PuffyHost</Link> (Huffington Post) article showcase a disconnect
             between novice concepts of authority vs. more thoughtful interactions with the source material. Novices
             relied on the out-of-date .com/.org differentiation as markers of authority, whereas information experts
             realize that these differentiations are relatively meaningless in the current ecosystem of the Web.
@@ -89,7 +89,7 @@ function Context() {
             information online because they lack a basic awareness of how webpages come to be.
           </p>
           <p>
-            More expert students were able to see the <Link to="/puffyhost">PuffyHost</Link> (Huffington Post) article for what it was: an
+            More expert students were able to see the <Link to="/explore/puffyhost">PuffyHost</Link> (Huffington Post) article for what it was: an
             opinion editorial written by someone with significant authority on the subject. In other words, it is a
             piece of information that is highly contextual in its rhetorical situation and within its genre constraints.
             Experts were able to see the information for how it was created and for what purpose, while novices
@@ -136,7 +136,7 @@ function Context() {
           </p>
           <p>
             Our study corroborates such findings. The greatest example of where confirmation bias happened for
-            students was in <Link to="/theflame">The Flame</Link> (The Blaze) article entitled “Global warming fail: Study finds melting sea ice is
+            students was in <Link to="/explore/theflame">The Flame</Link> (The Blaze) article entitled “Global warming fail: Study finds melting sea ice is
             actually helping arctic animals.” This fringe website is using primary data, several times removed, to
             suggest that climate change is benefiting arctic animals—a sub point of the original study, and one that
             is not substantiated by other compelling evidence. The writing of the article is sloppy, riddled with
@@ -165,7 +165,7 @@ function Context() {
             based on perceived motives or biases” (p. 236).
           </p>
           <p>
-            In assessing our own student responses, the <Link to="/jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
+            In assessing our own student responses, the <Link to="/explore/jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
             straightforward piece of news on a Space X launch. What really convinced students, though, was the
             video of the launch. Without any prompting on our part, 31% of students found the video very
             persuasive in establishing credibility. While the video is a functional part of the ethos of the piece to be
@@ -176,7 +176,7 @@ function Context() {
             put in these parts of the websites is disturbing. 
           </p>
           <p>
-            Another example was the graph on <Link to="/theflame">The Flame</Link> (The Blaze) website. In the original website that claimed
+            Another example was the graph on <Link to="/explore/theflame">The Flame</Link> (The Blaze) website. In the original website that claimed
             arctic animals were thriving due to global warming, the authors linked a graph from NASA as part of
             their publication. While the graph has been removed from the current iteration of The Blaze’s article
             (NASA updated their graphs since it was published), when we ran the study originally, the graph was a
@@ -212,7 +212,7 @@ function Context() {
             while experts “expressed more specific utterances” (p. 246).
           </p>
           <p>
-            Take, for instance, the <Link to="/dailypost">Daily Post</Link> (Daily Kos) article. One major feature of this article was a popup at the
+            Take, for instance, the <Link to="/explore/dailypost">Daily Post</Link> (Daily Kos) article. One major feature of this article was a popup at the
             beginning urging readers to sign a petition against Trump, a clear indication as to the political leanings of
             the website. Many students noticed this, and said it made it less reliable for them, but few were able to
             articulate why the popup was a problem (aside from the fact that they found it annoying). The popup
@@ -223,7 +223,7 @@ function Context() {
             Perhaps student difficulty explaining why a feature made the source more or less reliable to them comes
             from their (unearned, scholars might note) confidence in evaluating source material. Indeed, “students
             seem to trust their own judgement when determining the credibility of sources they found on the
-            internet” (Dubicki, 2015, p. 676). This trend continues on the <Link to="/dailypost">Daily Post</Link> (Daily Kos) article where novice
+            internet” (Dubicki, 2015, p. 676). This trend continues on the <Link to="/explore/dailypost">Daily Post</Link> (Daily Kos) article where novice
             students were dissuaded by word choice they did not understand, and more expert students recognized
             that word choice used in the article said something about the biased nature of the information therein.
             As Clark A. Chinn and Ronald W. Rinehart (2016) summarize, students often rely on source features to

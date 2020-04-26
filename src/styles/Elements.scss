@@ -28,6 +28,10 @@
         padding: 0.75em 1em;
     }
 
+    tr.active {
+        background-color: #eeeeee;
+    }
+
     tr:last-child td:first-child {
         border-bottom-left-radius: em(10px);
     }

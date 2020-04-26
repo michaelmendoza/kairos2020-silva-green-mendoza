@@ -15,7 +15,7 @@ function NavView() {
 
   return (
     <nav className={navClass}> 
-      <span className="nav-close"> <button onClick={handleMobileNav}> <i class="fas fa-times"></i> </button> </span> 
+      <span className="nav-close"> <button onClick={handleMobileNav}> <i className="fas fa-times"></i> </button> </span> 
       <section className="menu-nav">
         <h2> Menu </h2>
       <ul>
