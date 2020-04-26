@@ -15,7 +15,7 @@ function Contact() {
             <h2>Elise Silva</h2>
             <h4>University of Pittsburgh</h4>
             <h4>elise.c.silva@gmail.com</h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Sit amet est placerat in. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. </p>
+            <p> Elise is the former BYU Writing Programs Librarian. She holds an MA in English and a Master's of Library and Information Science. She is currently a PhD student in English Composition at the University of Pittsburgh. Her sub-specialty is in Digital Humanities. </p>
           </div>
           <div className="card contact-card">
             <img src={jessicaimage}></img>
@@ -29,7 +29,7 @@ function Contact() {
             <h2>Michael Mendoza</h2>
             <h4>Imperial College London</h4>
             <h4>askmichaelmendoza@gmail.com</h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Sit amet est placerat in. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. </p>
+            <p> Michael is software developer and data scientist. He holds a BS and MS in Electrical Engineering. He is currently a PhD student in Bioengineering at Imperial College London. His research is focused on Medical Imaging, Machine Learning, and Data Visualization. </p>
           </div>
         </article>
       </section>
