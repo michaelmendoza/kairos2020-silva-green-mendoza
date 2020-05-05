@@ -23,15 +23,15 @@ function Introduction() {
             watching the pandemic break, we observed, in interest, and also unease, as information spread faster
             than the illness itself. We wondered how students were receiving this information about something so
             exigent, so timely. We continue to wonder if educators are any surer than their students in their
-            information-evaluation footing in such times of uncertainty and fear. Our research into source-
+            information-evaluation footing in such times of uncertainty and fear. Our research into source
             evaluation behaviors of first-year students, we realize, can give us some answers into how individuals
             interact with information online, and may be a beginning step to consider what composition courses can
-            do to incorporate better media and information-literacy pedagogy into curriculum.
+            do to incorporate better media and information literacy pedagogy into curriculum.
           </p>
           <p>
-            Those of us associated with first year writing (FYW) students realize that many of them get their first
-            formalized media and information literacy instruction in conjunction with first year composition courses
-            (Artman Frisicaro-Pawlowski and Monge, 2010, p. 94). It remains difficult to ascertain, however, how
+            Those of us associated with first-year writing (FYW) students realize that many of them get their first
+            formalized media and information literacy instruction in conjunction with first-year composition courses
+            (Artman et al, 2010, p. 94). It remains difficult to ascertain, however, how
             exactly students are interacting with online content, and what, precisely, composition teachers and
             librarians should be teaching first-year students in their writing classes. How can curriculum respond to
             very real habits we see students new to the university enact in their information consumption
@@ -52,7 +52,7 @@ function Introduction() {
             article genres. Using a proctored survey, talk-aloud protocols, and screen recording, we observed source
             evaluation behaviors from first-year students, and then coded them using grounded theory. As we
             assessed our findings, we began to separate major trends into novice or expert-level evaluation
-            behaviors based on previous research, and our own expertise interacting with thousands of freshmen
+            behaviors based on previous research and our own expertise interacting with thousands of freshmen
             writers each year through library-run information literacy sessions.
           </p>
           <p>
@@ -77,7 +77,7 @@ function Introduction() {
           </p>
           <ul>
             <li> 
-              <b>First, is a confusion over what constitutes authority online.</b> Students had difficulty following
+              <b>First, there is a confusion over what constitutes authority online.</b> Students had difficulty following
               rules of thumb for information evaluation in the ever-changing landscape of the web. Who or
               what do they trust? As we transcribed each session, we could hear the confusion in their voices,
               and it was obvious in their justifications for what made the articles more or less reliable as
@@ -92,12 +92,12 @@ function Introduction() {
               short-sighted, narrow responses to the information presented. Such responses were not
               indicative of how the information existed in a wider context, but instead, within a very narrow,
               personally-inflected reading by the student. In response to conflicting feelings, emotions, or
-              markers of credibility, students relied on pre-existing notions, emotional reactions, and knee-
-              jerk responses to material.
+              markers of credibility, students relied on pre-existing notions, emotional reactions, and instinctive
+              responses to material.
             </li>
             <li>
               Third, also connected to difficulty ascertaining where authority is derived online, <b>students were
-              easily seduced by visual rhetoric</b> like graphs, videos, and web design features. They believe that
+              easily seduced by visual rhetoric</b> like graphs, videos, and web design features. They believed that
               these were stand-ins for believability and trustworthiness, and as such, ignored more important
               markers when assessing information’s value, like if the information could be corroborated, was
               well-researched, or was disseminated by a trusted source. Such shallow source-evaluation
