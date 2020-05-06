@@ -50,13 +50,8 @@ function Methods() {
             <tr>
               <td>NPR</td>
               <td>
-<<<<<<< HEAD
                 <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">
                 “Over-the-counter birth control pills would be safe for teens, researchers say”
-=======
-                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say" target="_blank" rel="noopener noreferrer">
-                “Over-The-Counter Birth Control Pills Would Be Safe For Teens, Researchers Say”
->>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
               <td> <Link to="/explore/apr">APR</Link> </td>
@@ -65,13 +60,8 @@ function Methods() {
             <tr>
               <td>Huffington Post</td>
               <td>
-<<<<<<< HEAD
-                <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4">
-                “A third way for universities”
-=======
                 <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4" target="_blank" rel="noopener noreferrer">
                 “A Third Way for Universities”
->>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
               <td> <Link to="/explore/puffyhost">PuffyHost</Link></td>
@@ -80,13 +70,8 @@ function Methods() {
             <tr>
               <td>The Blaze</td>
               <td>
-<<<<<<< HEAD
-                <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals">
-                “Global warming fail: Study finds melting sea ice is actually helping arctic animals”
-=======
                 <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals" target="_blank" rel="noopener noreferrer">
                 “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
->>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
               <td><Link to="/explore/theflame">The Flame</Link></td>
@@ -95,13 +80,8 @@ function Methods() {
             <tr>
               <td>The Washington Post</td>
               <td>
-<<<<<<< HEAD
-                <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2">
-                “Elon Musk’s SpaceX makes history by launching a ‘flight-proven’ rocket”
-=======
                 <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2" target="_blank" rel="noopener noreferrer">
                 “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
->>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
               <td><Link to="/explore/jeffersonpost">The Jefferson Post</Link></td>
