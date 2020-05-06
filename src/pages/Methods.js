@@ -61,7 +61,7 @@ function Methods() {
               <td>Huffington Post</td>
               <td>
                 <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4" target="_blank" rel="noopener noreferrer">
-                “A Third Way for Universities”
+                “A third way for universities”
                 </a>
               </td>
               <td> <Link to="/explore/puffyhost">PuffyHost</Link></td>
@@ -71,17 +71,17 @@ function Methods() {
               <td>The Blaze</td>
               <td>
                 <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals" target="_blank" rel="noopener noreferrer">
-                “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
+                “Global warming fail: Study finds melting sea ice is actually helping arctic animals”
                 </a>
               </td>
               <td><Link to="/explore/theflame">The Flame</Link></td>
-              <td>Chosen for a far-right bias, inaccurate use of data and information, a hot-button political issue, and use of visuals. (The online version of this article no longer includes a graph from NASA delineating melting sea ice levels that was in the original version)</td>
+              <td>Chosen for a far-right bias, inaccurate use of data and information, a hot-button political issue, and use of visuals. (The online version of this article no longer includes a graph from NASA delineating melting sea ice levels that was in the original version.)</td>
             </tr>
             <tr>
               <td>The Washington Post</td>
               <td>
                 <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2" target="_blank" rel="noopener noreferrer">
-                “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
+                “Elon Musk’s SpaceX makes history by launching a ‘flight-proven’ rocket”
                 </a>
               </td>
               <td><Link to="/explore/jeffersonpost">The Jefferson Post</Link></td>
@@ -91,7 +91,7 @@ function Methods() {
               <td>Daily Kos</td>
               <td>
                 <a href="https://www.dailykos.com/stories/2017/4/24/1655792/%E2%80%93There%E2%80%93s%E2%80%93a%E2%80%93growing%E2%80%93crisis%E2%80%93in%E2%80%93care%E2%80%93for%E2%80%93disabled%E2%80%93and%E2%80%93elderly%E2%80%93people%E2%80%93Oh%E2%80%93and%E2%80%93it%E2%80%93s%E2%80%93a%E2%80%93jobs%E2%80%93crisis%E2%80%93too" target="_blank" rel="noopener noreferrer">
-                “There's a Growing Crisis in Care for Disabled and Elderly People. Oh, and It's a Jobs Crisis, Too”
+                “There's a growing crisis in care for disabled and elderly people. Oh, and it's a jobs crisis, too”
                 </a>
               </td>
               <td><Link to="/explore/dailypost">The Daily Post</Link></td>
@@ -105,12 +105,12 @@ function Methods() {
           take a few minutes to open up a new browser tab and do any “research” they deemed necessary to
           evaluate the article. We did not define what we meant by “research” so as to observe, as closely as
           possible, how students might naturally go about assessing the reliability of information sources.
-          Students took anywhere from twenty-five minutes to sixty minutes to complete this test, but we
-          estimated that most students would compete the task in forty minutes.
+          Students took anywhere from twenty-five minutes to sixty minutes to complete the entire test with all five articles,
+          but we estimated that most students would compete the test in fourty minutes.
         </p>
         <p>
           For each article the students examined, we asked the students to respond to the following questions in
-          written form at the end of the talk aloud portion of the evaluation:
+          written form at the end of the talk-aloud portion of the evaluation:
         </p>
         <ul>
           <li>Overall, what qualities/attributes make this source <b>more</b> reliable to you?</li>
@@ -119,10 +119,10 @@ function Methods() {
         <p>
           <b>The answers to these written questions are specifically where we get the quotes and statistics on
           which we report in the interactive portion of our webtext. </b> More analysis of the talk aloud protocols
-          and screen recordings can be found in a published article in the Journal of Information Literacy (Silva,
-          Walker, Green, 2018). For this webtext we chose to focus on what students wrote because students
+          and screen recordings can be found in a published article in the <i>Journal of Information Literacy</i> (Silva,
+          Walker & Green, 2018). For this webtext we chose to focus on what students wrote because students
           often recorded what the most salient features of the articles were to them (as opposed to the things
-          they were less aware of which we noticed in the talk aloud portion of the study). In other words, if
+          they were less aware of which we noticed in the talk-aloud portion of the study). In other words, if
           students were able to write it down, it was an important feature, and therefore, it underlined significant
           trends that we wanted to highlight for those engaging with first-year writing students. As the research
           team examined the written responses reported on in this webtext, trends in evaluative criteria became
@@ -145,7 +145,7 @@ function Methods() {
           and were able to articulate relevant context about the source.
         </p>
         <p>
-          TThe behaviors that we coded for owe much to the Association of College &amp; Research
+          The behaviors that we coded for owe much to the Association of College &amp; Research
           Libraries’ Framework for Information Literacy for Higher Education (2015). This Framework breaks up
           threshold concepts related to information literacy into six interconnected frames. We use these frames
           to help explain the difference between novice and expert behaviors in different domains. For example,
@@ -161,7 +161,7 @@ function Methods() {
           After determining expert and novice behaviors for each article, three members of the research team
           coded the responses and determined how many students had exhibited each behavior, resulting in the
           novice and expert comments seen in the interactive mockups in this webtext. We review our wider
-          findings of the written portion of the student tests in the next section.
+          findings of the written portion of the student responses in the next section.
         </p>
       </article>
     </section>
