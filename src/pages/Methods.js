@@ -49,7 +49,7 @@ function Methods() {
             <tr>
               <td>
                 <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">
-                “Over-The-Counter Birth Control Pills Would Be Safe For Teens, Researchers Say”
+                “Over-the-counter birth control pills would be safe for teens, researchers say”
                 </a>
               </td>
               <td> NPR (<Link to="/explore/apr">APR</Link>) </td>
@@ -58,7 +58,7 @@ function Methods() {
             <tr>
               <td>
                 <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4">
-                “A Third Way for Universities”
+                “A third way for universities”
                 </a>
               </td>
               <td>Huffington Post (<Link to="/explore/puffyhost">PuffyHost</Link>)</td>
@@ -67,7 +67,7 @@ function Methods() {
             <tr>
               <td>
                 <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals">
-                “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
+                “Global warming fail: Study finds melting sea ice is actually helping arctic animals”
                 </a>
               </td>
               <td>The Blaze (<Link to="/explore/theflame">The Flame</Link>)</td>
@@ -76,7 +76,7 @@ function Methods() {
             <tr>
               <td>
                 <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2">
-                “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
+                “Elon Musk’s SpaceX makes history by launching a ‘flight-proven’ rocket”
                 </a>
               </td>
               <td>The Washington Post  (<Link to="/explore/jeffersonpost">The Jefferson Post</Link>)</td>
