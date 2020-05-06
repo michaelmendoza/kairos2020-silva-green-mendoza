@@ -50,7 +50,7 @@ function Methods() {
             <tr>
               <td>NPR</td>
               <td>
-                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">
+                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say" target="_blank">
                 “Over-The-Counter Birth Control Pills Would Be Safe For Teens, Researchers Say”
                 </a>
               </td>
@@ -60,7 +60,7 @@ function Methods() {
             <tr>
               <td>Huffington Post</td>
               <td>
-                <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4">
+                <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4" target="_blank">
                 “A Third Way for Universities”
                 </a>
               </td>
@@ -70,7 +70,7 @@ function Methods() {
             <tr>
               <td>The Blaze</td>
               <td>
-                <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals">
+                <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals" target="_blank">
                 “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
                 </a>
               </td>
@@ -80,7 +80,7 @@ function Methods() {
             <tr>
               <td>The Washington Post</td>
               <td>
-                <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2">
+                <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2" target="_blank">
                 “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
                 </a>
               </td>
@@ -90,7 +90,7 @@ function Methods() {
             <tr>
               <td>Daily Kos</td>
               <td>
-                <a href="https://www.dailykos.com/stories/2017/4/24/1655792/%E2%80%93There%E2%80%93s%E2%80%93a%E2%80%93growing%E2%80%93crisis%E2%80%93in%E2%80%93care%E2%80%93for%E2%80%93disabled%E2%80%93and%E2%80%93elderly%E2%80%93people%E2%80%93Oh%E2%80%93and%E2%80%93it%E2%80%93s%E2%80%93a%E2%80%93jobs%E2%80%93crisis%E2%80%93too">
+                <a href="https://www.dailykos.com/stories/2017/4/24/1655792/%E2%80%93There%E2%80%93s%E2%80%93a%E2%80%93growing%E2%80%93crisis%E2%80%93in%E2%80%93care%E2%80%93for%E2%80%93disabled%E2%80%93and%E2%80%93elderly%E2%80%93people%E2%80%93Oh%E2%80%93and%E2%80%93it%E2%80%93s%E2%80%93a%E2%80%93jobs%E2%80%93crisis%E2%80%93too" target="_blank">
                 “There's a Growing Crisis in Care for Disabled and Elderly People. Oh, and It's a Jobs Crisis, Too”
                 </a>
               </td>
@@ -99,7 +99,7 @@ function Methods() {
             </tr>
           </tbody>
         </table>
-
+    
         <p>
           First, students were to take two minutes to evaluate a screen shot of the article, and then they were to
           take a few minutes to open up a new browser tab and do any “research” they deemed necessary to
