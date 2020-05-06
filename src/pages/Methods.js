@@ -40,55 +40,81 @@ function Methods() {
         <table className="table">
           <thead>
               <tr>
+              <th>Publication</th>
               <th>Article Title</th>
-              <th>Source</th>
+              <th>Mockup</th>
               <th>Selection Criteria</th>
             </tr>
           </thead>
           <tbody>
             <tr>
+              <td>NPR</td>
               <td>
+<<<<<<< HEAD
                 <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">
                 “Over-the-counter birth control pills would be safe for teens, researchers say”
+=======
+                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say" target="_blank" rel="noopener noreferrer">
+                “Over-The-Counter Birth Control Pills Would Be Safe For Teens, Researchers Say”
+>>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
-              <td> NPR (<Link to="/explore/apr">APR</Link>) </td>
+              <td> <Link to="/explore/apr">APR</Link> </td>
               <td>Chosen as a reliable, mainstream news article that cited academic research and other reliable sources.</td>
             </tr>
             <tr>
+              <td>Huffington Post</td>
               <td>
+<<<<<<< HEAD
                 <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4">
                 “A third way for universities”
+=======
+                <a href="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4" target="_blank" rel="noopener noreferrer">
+                “A Third Way for Universities”
+>>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
-              <td>Huffington Post (<Link to="/explore/puffyhost">PuffyHost</Link>)</td>
+              <td> <Link to="/explore/puffyhost">PuffyHost</Link></td>
               <td>Chosen as an opinion editorial from a well-known website that appeals to younger readers.</td>
             </tr>
             <tr>
+              <td>The Blaze</td>
               <td>
+<<<<<<< HEAD
                 <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals">
                 “Global warming fail: Study finds melting sea ice is actually helping arctic animals”
+=======
+                <a href="http://web.archive.org/web/20170428073641/https:/www.theblaze.com/news/2017/04/02/global-warming-fail-study-finds-melting-sea-ice-is-actually-helping-arctic-animals" target="_blank" rel="noopener noreferrer">
+                “Global Warming Fail: Study Finds Melting Sea Ice is Actually Helping Arctic Animals”
+>>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
-              <td>The Blaze (<Link to="/explore/theflame">The Flame</Link>)</td>
+              <td><Link to="/explore/theflame">The Flame</Link></td>
               <td>Chosen for a far-right bias, inaccurate use of data and information, a hot-button political issue, and use of visuals. (The online version of this article no longer includes a graph from NASA delineating melting sea ice levels that was in the original version)</td>
             </tr>
             <tr>
+              <td>The Washington Post</td>
               <td>
+<<<<<<< HEAD
                 <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2">
                 “Elon Musk’s SpaceX makes history by launching a ‘flight-proven’ rocket”
+=======
+                <a href="https://www.washingtonpost.com/news/the-switch/wp/2017/03/30/elon-musks-spacex-makes-history-by-launching-a-flight-proven-rocket/?noredirect=on%26utm_term=.e01648f3a9e2" target="_blank" rel="noopener noreferrer">
+                “Elon Musk’s SpaceX Makes History by Launching a ‘Flight-Proven’ Rocket”
+>>>>>>> bd7f7439e0df2ee10a9b06be59f73d73e9730a82
                 </a>
               </td>
-              <td>The Washington Post  (<Link to="/explore/jeffersonpost">The Jefferson Post</Link>)</td>
+              <td><Link to="/explore/jeffersonpost">The Jefferson Post</Link></td>
               <td>Chosen to represent a well-known newspaper reporting on an event, for its apolitical subject, and inclusion of a video.</td>
             </tr>
             <tr>
+              <td>Daily Kos</td>
               <td>
-                <a href="https://www.dailykos.com/stories/2017/4/24/1655792/%E2%80%93There%E2%80%93s%E2%80%93a%E2%80%93growing%E2%80%93crisis%E2%80%93in%E2%80%93care%E2%80%93for%E2%80%93disabled%E2%80%93and%E2%80%93elderly%E2%80%93people%E2%80%93Oh%E2%80%93and%E2%80%93it%E2%80%93s%E2%80%93a%E2%80%93jobs%E2%80%93crisis%E2%80%93too">
+                <a href="https://www.dailykos.com/stories/2017/4/24/1655792/%E2%80%93There%E2%80%93s%E2%80%93a%E2%80%93growing%E2%80%93crisis%E2%80%93in%E2%80%93care%E2%80%93for%E2%80%93disabled%E2%80%93and%E2%80%93elderly%E2%80%93people%E2%80%93Oh%E2%80%93and%E2%80%93it%E2%80%93s%E2%80%93a%E2%80%93jobs%E2%80%93crisis%E2%80%93too" target="_blank" rel="noopener noreferrer">
                 “There's a Growing Crisis in Care for Disabled and Elderly People. Oh, and It's a Jobs Crisis, Too”
                 </a>
               </td>
-              <td>Daily Kos (<Link to="/explore/dailypost">The Daily Post</Link>)</td>
+              <td><Link to="/explore/dailypost">The Daily Post</Link></td>
               <td>Chosen for a fringe, far left bias and use of a combative, biased tone. Also, casual language. </td>
             </tr>
           </tbody>
