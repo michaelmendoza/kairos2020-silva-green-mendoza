@@ -10,7 +10,7 @@ function Implications() {
             <h2>What do students find reliable?</h2>
             <p> 
               Some findings of our study are straightforward: Students find visuals (pictures, graphs, and videos)
-              reliable, and are hyper-aware of advertisements and web design features of sources (Silva, Green, &amp;
+              reliable and are hyper-aware of advertisements and web design features of sources (Silva, Green, &amp;
               Walker, 2018). Fewer, however, are able to dig deeper and articulate why certain design choices have
               the effect they have, and what that might suggest about the information source.  
             </p>
@@ -34,7 +34,7 @@ function Implications() {
               each criterion is a subset of authority, teaching blanket truths about something as contextual as
               authority unduly simplifies the issue. Indeed, compositionist Jonathan Ostenson (2014) has asked us to
               move away from these kinds of rules of thumb, but teaching the CRAAP test is still ubiquitous in high
-              schools and university information literacy pedagogy.
+              school and university information literacy pedagogy.
             </p>
             <p>
               Furthermore, the students’ misunderstanding of information types, like the inability to evaluate
@@ -52,11 +52,11 @@ function Implications() {
               have students for a short period of time. For some of us, we might only have one shot to teach
               everything we need to teach. Historically we’ve used this time for point and click instruction, instruction
               that is more task-oriented and less concept-oriented. In other words, our instruction has been very
-              skills-based and not metacognitively oriented (Mackey and Jacobson p.62) To truly change the way
+              skills-based and not metacognitively oriented (Mackey & Jacobson, 2011, p.62) To truly change the way
               librarians teach about source evaluation would be to incorporate them into the curriculum more
               integrally from the beginning—something that not all library staff are prepared to do given budget and
               personnel constraints. We are a far cry from the first scholars to suggest such an approach. Indeed,
-              Artman, Frisicaro-Pawlowski, and Monge argue that such a collaborative approach will improve the
+              Artman, Frisicaro-Pawlowski, and Monge (2010) argue that such a collaborative approach will improve the
               transferability of information literacy competencies for first-year students (105).
             </p>
             <p>
@@ -85,7 +85,7 @@ function Implications() {
               library we have come to the conclusion that if information literacy concepts are to be taught effectively
               in the classroom, librarians (especially in the way they are traditionally incorporated into composition
               courses) may not be the ones best equipped to teach it. That is not because we are not qualified, but
-              rather, because the composition teachers are the ones with the strongest ethos, and extended face time
+              rather, because the composition teachers are the ones with the strongest ethos and extended face time
               with student researchers.
             </p>
             <p>
@@ -107,7 +107,7 @@ function Implications() {
             <p>
               Students struggled understanding the differences between fringe and mainstream news media outlets.
               They exhibited distrust of the media in general with little understanding of how different kinds of
-              information are created and how that affects the value of the information. The Framework of
+              information are created and how that affects the value of the information. The Framework for
               Information Literacy for Higher Education, the document that outlines major competencies for
               information literacy standards, puts it this way: “The unique capabilities and constraints of each creation
               process as well as the specific information need determine how the product is used. Experts recognize
@@ -115,7 +115,7 @@ function Implications() {
               workplace. Elements that affect or reflect on the creation, such as a pre- or post-publication editing or
               reviewing process, may be indicators of quality.” (ACRL, 2015, “Information Creation as a Process”
               frame, para. 2). Showing students examples of different sources and unpacking the ways they were
-              created, may help students grasp this concept in their research processes (Ostenson and Silva, 2019).
+              created, may help students grasp this concept in their research processes (Ostenson & Silva, 2019).
             </p>
             <h2>2. Authority is contextual</h2>
             <p>
@@ -134,7 +134,7 @@ function Implications() {
               authority from analyzing texts within their rhetorical contexts to analyzing sources within their research
               contexts may help students understand this principle. Indeed, as Andrea Baer (2018) argues, moving
               away from the good/bad dichotomy within information evaluation discussions will help students situate
-              information within its contextual ecosystem, becoming more sophisticated information users (p. 72).
+              information within its contextual ecosystem and become more sophisticated information users (p. 72).
             </p>
             <h2>3. Check your bias</h2>
             <p>
@@ -162,7 +162,16 @@ function Implications() {
               in composition classes and complicate those findings. We find much to be hopeful for. Students seem to
               have impulses in assessing information sources productively, but lack the context and instruction to help
               them successfully place themselves within information ecosystems. Indeed, many of us that fall on the
-              more expert side of the spectrum also struggle with our own biases and issues of trust.
+              more expert side of the spectrum also struggle with our own biases and issues of trust. For instance,
+              throughout this article we have consistently discussed the Washington Post as a reputable source because 
+              of our previous experience with that source, and, perhaps, our own biases regarding the kind of journalism
+              we have grown to trust. However, the Washington Post also publishes humor and opinion editorials. If we teach
+              students that the Washington Post is always trustworthy, students will struggle when they come across alternative genres in that venue.
+              Instead, we should teach students to consider their biases, including previous experience, and help them realize when the venue's 
+              reputation coincides with other markers of authority as well (like relevant evidence, 
+              links to corroborating sources, prior work on the same subject by authors, neutral tone, etc.). In this example, the publication venue
+              is a shortcut, but not a substitute, for various authority markers. Checking bias can help students, and ourselves,
+              make sure we are looking for all of these markers and weighing them within the information's context.
             </p>
             <p>
               Overall, we believe that first-year writing courses can help with such media and information literacy

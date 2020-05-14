@@ -8,6 +8,7 @@ function References() {
     "Baer, Andrea. (2018). It’s all relative? Post-truth rhetoric, relativism, and teaching on ‘authority as constructed and contextual.’ College & Research Libraries News, 79(2), 72.",
     "Brand-Gruwel, Saskia, Kammerer, Yvonne, Van Meeuwen, Ludo, & Van Gog, Tamara. (2017). Source evaluation of domain experts and novices during web search. Journal of Computer Assisted Learning, 33(3), 234-251",
     "Burton, Vicki T., & Chadwick, Scott A. (2000). Investigating the practices of student researchers: Patterns of use and criteria for use of internet and library sources. Computers and Composition, 17(3), 309-328.",
+    "Caulfield, Michael A. (2017). Web literacy for student fact-checkers. Retrieved from https://webliteracy.pressbooks.com/",
     "Chinn, Clark A., & Rinehart, Ronald W. (2016). Commentary: Advances in research on sourcing—source credibility and reliable processes for producing knowledge claims. Reading and Writing, 29(8), 1701-1717.",
     "Connaway, Lynn S. (2018). What is “container collapse” and why should librarians and teachers care? OCLC. Retrieved June 20, 2019, from http://www.oclc.org/blog/main/what-is-container-collapse-and-why-should-librarians-and-teachers-care/",
     "Currie, Lea, Devlin, Frances, Emde, Judith, & Graves, Kathryn. (2010). Undergraduate search strategies and evaluation criteria: Searching for credible sources. New Library World, 111(3/4), 113-124.",
@@ -23,6 +24,7 @@ function References() {
     "Silva, Elise, Green, Jessica, & Walker, Cole. (2018). Source evaluation behaviours of first-year university students. Journal of Information Literacy, 12(2), 24-43. Retrieved June 24, 2019, from https://doi.org/10.11645/12.2.2512",
     "Sundar, S. Shyam. (2008). The MAIN model: A heuristic approach to understanding technology effects on credibility. In Andrew J. Flanagin & Miriam J. Metzger (Eds.), Digital media, youth, and credibility (pp. 73-100). Cambridge, MA: The MIT Press. Retrieved June 24, 2019, from doi: 10.1162/dmal.9780262562324.073",
     "van Strien, Johan L., Kammerer, Yvonne, Brand-Gruwel, Saskia, & Boshuizen, Henny P. (2016). How attitude strength biases information processing and evaluation on the web. Computers in Human Behavior, 60, 245-252.",
+    "Wineburg, Sam, & McGrew, Sarah. (2017). Lateral reading: Reading less and learning more when evaluating digital information. Stanford History Education Group Working Paper, 2017 (A1). Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3048994",
     "Wineburg, Sam, McGrew, Sarah, Breakstone, Joel, & Ortega, Teresa. (2016). Evaluating information: The cornerstone of civic online reasoning. Stanford Digital Repository. Retrieved June 24, 2019, from http://purl.stanford.edu/fv751yt5934"
   ]
 

@@ -37,6 +37,7 @@ function Introduction() {
             very real habits we see students new to the university enact in their information consumption
             behaviors?
           </p>
+          <h2>How to read</h2>
           <p>
             This webtext attempts to answer these questions using the results from a study of first-year composition
             students’ information evaluation behaviors as a basis for analysis and implications. In the summer of

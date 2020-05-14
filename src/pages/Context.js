@@ -59,7 +59,7 @@ function Context() {
             Another example of shallow behaviors comes from the <Link to="/explore/jeffersonpost">Jefferson Post</Link> (Washington Post). Novices
             pointed out that the ads on the side of the page affected their opinion of the source without being able
             to articulate why they did so. Noticing ads is not a bad behavior. To some extent it is true that more
-            obtrusive ads and pop ups may suggest a lower-tier publication; however, many of these novice
+            obtrusive ads and pop-ups may suggest a lower-tier publication; however, many of these novice
             students stopped their evaluation there. They did not dig deeper or think about what the presence of
             ads or placement of ads suggested about the type of information they were consuming. Such behaviors
             show little awareness about how online publishing is funded, and what that ultimately means about the
@@ -82,8 +82,8 @@ function Context() {
           <p>
             For instance, the student comments on the <Link to="/explore/puffyhost">PuffyHost</Link> (Huffington Post) article showcase a disconnect
             between novice concepts of authority vs. more thoughtful interactions with the source material. Novices
-            relied on the out-of-date .com/.org differentiation as markers of authority, whereas information experts
-            realize that these differentiations are relatively meaningless in the current ecosystem of the Web.
+            relied on the out-of-date .com/.org differentiation as a marker of authority, whereas information experts
+            realize that this differentiation is relatively meaningless in the current ecosystem of the web.
             Students who rely on the .com/.org distinction do not understand how information is created and how
             webpages are published. This misunderstanding puts them at a disadvantage when evaluating
             information online because they lack a basic awareness of how webpages come to be.
@@ -114,7 +114,7 @@ function Context() {
           </blockquote>
           <p>
             Such confusion over authority has been studied by digital literacy scholars like Sam Wineburg and the
-            Stanford History Education Group (2016). Wineburg et al astutely observed that this difficulty is not
+            Stanford History Education Group (2016). Wineburg's group astutely observed that this difficulty is not
             something on which to blame students, but instead, a symptom of our current information
             environment: “Ordinary people once relied on publishers, editors, and subject matter experts to vet the
             information they consumed. But on the unregulated internet, all bets are off” (p. 4).
@@ -138,8 +138,8 @@ function Context() {
             Our study corroborates such findings. The greatest example of where confirmation bias happened for
             students was in <Link to="/explore/theflame">The Flame</Link> (The Blaze) article entitled “Global warming fail: Study finds melting sea ice is
             actually helping arctic animals.” This fringe website is using primary data, several times removed, to
-            suggest that climate change is benefiting arctic animals—a sub point of the original study, and one that
-            is not substantiated by other compelling evidence. The writing of the article is sloppy, riddled with
+            suggest that climate change is benefiting arctic animals—something the original article only points to in a very limited way for microscopic
+            organisms, and one that is not substantiated for wider artic ecosystems by other compelling evidence. The writing of the article is sloppy, riddled with
             grammatical and spelling errors, and the information is difficult to corroborate. Clearly, this is a biased
             source that should be treated with great suspicion; however, some novice students weren’t worried
             about the content of the piece as it agreed with their beliefs.
@@ -166,12 +166,12 @@ function Context() {
           </p>
           <p>
             In assessing our own student responses, the <Link to="/explore/jeffersonpost">Jefferson Post</Link> (Washington Post) article was a fairly
-            straightforward piece of news on a Space X launch. What really convinced students, though, was the
+            straightforward piece of news on a SpaceX launch. What really convinced students, though, was the
             video of the launch. Without any prompting on our part, 31% of students found the video very
             persuasive in establishing credibility. While the video is a functional part of the ethos of the piece to be
             sure, many of these students missed other markers of authority (perhaps the greatest marker being the
-            publication venue, the reputable Washington Post). For many students that stopped to watch the video
-            while we were testing them, fewer went on to triangulate areas of authority on the webpage. In an era
+            publication venue, the reputable Washington Post). Many students that stopped to watch the video
+            while we were testing them, but fewer went on to triangulate areas of authority on the webpage. In an era
             of “deep fake” (the ability to fake videos for political or financial gain), the sincere trust many students
             put in these parts of the websites is disturbing. 
           </p>
@@ -203,19 +203,19 @@ function Context() {
           
           <h2>Inability to Articulate Why</h2>
           <p>
-            Some readers considering our expert vs novice student comments may be surprised at how we, the
+            Some readers considering our expert vs. novice student comments may be surprised at how we, the
             researchers, differentiated the two. We note here that many behaviors we coded as novice might have
             been seen as more expert if only the student had been able to thoughtfully articulate why the issue they
             pinpointed made a source more or less reliable. Without this self-awareness, we were left coding these
-            students’ behaviors as novice because they lacked metacognitive awareness. In Brand-Gruwel et al’s
+            students’ behaviors as novice because they lacked metacognitive awareness. In Brand-Gruwel et al.’s
             study (2017) they differentiated domain novices who “expressed more utterances on a superficial level”
             while experts “expressed more specific utterances” (p. 246).
           </p>
           <p>
-            Take, for instance, the <Link to="/explore/dailypost">Daily Post</Link> (Daily Kos) article. One major feature of this article was a popup at the
+            Take, for instance, the <Link to="/explore/dailypost">Daily Post</Link> (Daily Kos) article. One major feature of this article was a pop-up at the
             beginning urging readers to sign a petition against Trump, a clear indication as to the political leanings of
             the website. Many students noticed this, and said it made it less reliable for them, but few were able to
-            articulate why the popup was a problem (aside from the fact that they found it annoying). The popup
+            articulate why the pop-up was a problem (aside from the fact that they found it annoying). The pop-up
             said something about the persuasive bent of the website, but few students were able to pinpoint why
             this was a problem.
           </p>
@@ -233,7 +233,7 @@ function Context() {
           </p>
           <h2>In Sum</h2>
           <p>
-            We live in confusing times for student evaluators. We lack traditional modes of assessing authority, and
+            We live in confusing times for student evaluators. We lack traditional modes of assessing authority and
             traditional methods of vetting. We live, in short, in an online environment of container collapse: “[t]he
             visual context and cues that print containers provide [that] used to help individuals identify a
             document’s origins and measure its value [are harder to discern] . . .In digital format, a document is

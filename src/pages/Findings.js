@@ -32,7 +32,7 @@ function Findings() {
             Given the quickly changing ecosystem of information online, studies like ours will continually need to be
             revisited in the light of shifting evaluative impulses on the part of students. While significant literature
             exists about source evaluation behaviors which we review in the context portion of this webtext, the
-            timeliness of our study, the demographics studied, and the methods of our data collection gives our
+            timeliness of our study, the demographics studied, and the methods of our data collection give our
             study a rich overview of first-year writing student evaluation behaviors that can help us decide how to
             better teach about interacting with web-based information in composition classes. Here, we give an
             overview of some of the major findings of the study. First, we begin with the basic demographic
@@ -53,7 +53,7 @@ function Findings() {
             researched them.
           </p>
           <p>
-            Note that the minimum and maximum scores given out of 10 by the research participants, and the
+            Note both that the minimum and maximum scores given out of ten by the research participants and the
             number of participants (“count”) to finish the research task. The count goes down as the table
             progresses because some students did not finish rating each article within the sixty-minute time
             allotment for each participant. The findings are presented to you in the order students rated the articles.
@@ -115,7 +115,7 @@ function Findings() {
               <li> Less reliable: The article/website bias </li>
             </ul>
             <p>
-              Researcher comments: even though students were quick to point out the website’s obvious bias, they
+              Researcher comments: Even though students were quick to point out the website’s obvious bias, they
               were still easily seduced by the graph’s visual rhetoric, which to them lent authority to the piece.
             </p>
 

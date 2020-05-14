@@ -142,7 +142,9 @@ function Methods() {
           about the reliability of a website nowadays. Certain behaviors, like remarking on previous experience
           with the website, had both novice and expert facets. Novices remarked on having no previous
           experience with the publication. Experts revealed that the source was one they had encountered before
-          and were able to articulate relevant context about the source.
+          and were able to articulate relevant context about the source. In other words, a novice would treat
+          a lack of information as a reason to reject information, while an expert approach would treat a lack of 
+          information as a reason to withold judgement until more information could be found. 
         </p>
         <p>
           The behaviors that we coded for owe much to the Association of College &amp; Research
