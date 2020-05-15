@@ -105,6 +105,10 @@
                 color: $primary;
             }
         }
+        
+        li.active button{
+            color: $primary;
+        }
     }
 
     .explore-nav {
