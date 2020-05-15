@@ -7,7 +7,7 @@ class HistogramChart extends Component {
         super(props);
         this.id = 'chart-histogram';
         this.width = 400; // ViewBox Width
-        this.height = 500; // ViewBox Height
+        this.height = 400; // ViewBox Height
         this.margin = { top: 40, right: 40, bottom: 40, left: 50 };    
         this.data = props.data;
         this.fillColor = '#89D7F9'; //"#69b3a2";
@@ -30,6 +30,9 @@ class HistogramChart extends Component {
             .append("svg")
             .attr("width", this.width)
 			.attr("height", this.height)	
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", "0 0 400 400")
+            .classed("svg-content", true);
     }
     
     draw() {
@@ -167,7 +170,7 @@ class HistogramChart extends Component {
 
     render() {
         return (
-            <div id={this.id} className="chart"></div>
+            <div id={this.id} className="histogram-chart"></div>
         )
     }
 }

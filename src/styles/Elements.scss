@@ -3,8 +3,8 @@
     border-collapse: collapse;
     border-radius: em(10px);
     border-style: hidden; /* hide standard table (collapsed) border */
-    margin: 3em 0;
-    box-shadow: 0 0 0 1px #ccc, 0 8px 16px 0 rgba(128,128,128,0.5); /* this draws the table border and shadow */ 
+    margin: 2em 0;
+    box-shadow: 0 0 0 1px #ccc, 0 8px 16px 0 rgba(128,128,128,0.3); /* this draws the table border and shadow */ 
     
     thead tr {
         color: $table;
@@ -57,4 +57,11 @@
      &:after {
         content: '\201D';
      }
-  }
+}
+
+caption {
+    display: block;
+    margin: 1em 0 1em 0;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}

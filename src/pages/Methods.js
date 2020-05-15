@@ -99,6 +99,8 @@ function Methods() {
             </tr>
           </tbody>
         </table>
+        
+        <caption> Table 1: Articles used in survey. Links included to original articles, and Mockups. </caption>
 
         <p>
           First, students were to take two minutes to evaluate a screen shot of the article, and then they were to

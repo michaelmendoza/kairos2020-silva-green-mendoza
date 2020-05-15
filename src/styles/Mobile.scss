@@ -1,4 +1,20 @@
 
+@media screen and (max-width: $media-XL) {
+    .section-article.findings-page {
+        .reliability-chart-container {
+            margin: 4em -12em;
+        }
+        .histogram-chart svg{ 
+            transform: scale(0.9);
+            left: 1em;
+        }
+        .table {
+            transform: scale(0.9);
+            right: 1em;
+        }
+    } 
+}
+
 @media screen and (max-width: $media-L) {
 
     .main-view {
@@ -13,6 +29,20 @@
         li {  padding: 0 0 0 1em; }
         p, li { font-size: 1.4em; }
     }
+
+    .section-article.findings-page {
+        .reliability-chart-container {
+            margin: 4em 0em;
+        }
+        .histogram-chart svg{ 
+            transform: scale(1);
+            left: 0em;
+        }
+        .table {
+            transform: scale(1);
+            right: 0em;
+        }
+    } 
 
     .interactive-panel {
         padding: 0;
