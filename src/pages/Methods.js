@@ -50,7 +50,7 @@ function Methods() {
             <tr>
               <td>NPR</td>
               <td>
-                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say">
+                <a href="https://www.npr.org/sections/health-shots/2017/03/16/520268440/over-the-counter-birth-control-pills-would-be-safe-for-teens-researchers-say" target="_blank" rel="noopener noreferrer">
                 “Over-the-counter birth control pills would be safe for teens, researchers say”
                 </a>
               </td>
