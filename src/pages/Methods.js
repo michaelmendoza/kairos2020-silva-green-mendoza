@@ -168,6 +168,11 @@ function Methods() {
           findings of the written portion of the student responses in the next section.
         </p>
       </article>
+
+      <div className="next-page-button"> 
+          <label> Next Page: </label>
+          <Link to="findings">Findings</Link>
+        </div>
     </section>
   );
 }

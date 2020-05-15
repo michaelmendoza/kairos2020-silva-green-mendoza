@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@reach/router';
 import headerimage from '../images/implications.png';
 
 function Implications() {
@@ -189,7 +190,12 @@ function Implications() {
               first-year students.
             </p>
           </article>
-       </section>
+          
+          <div className="next-page-button"> 
+            <label> Next Page: </label>
+            <Link to="references">References</Link>
+          </div>
+        </section>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import headerimage from '../images/introduction.png';
+import { Link } from '@reach/router';
 
 function Introduction() {
   return (
@@ -107,6 +108,11 @@ function Introduction() {
             </li>
           </ul>
         </article>
+
+        <div className="next-page-button"> 
+          <label> Next Page: </label>
+          <Link to="methods">Methods</Link>
+        </div>
       </section>
   );
 }

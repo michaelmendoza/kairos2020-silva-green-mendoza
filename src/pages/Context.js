@@ -244,6 +244,11 @@ function Context() {
             of helping students become more thoughtful consumers and producers of information?            
           </p>
         </article>
+
+        <div className="next-page-button"> 
+            <label> Next Page: </label>
+            <Link to="implications">Implications</Link>
+          </div>
       </section>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@reach/router';
 import headerimage from '../images/references.png';
 
 function References() {
@@ -31,6 +32,11 @@ function References() {
           <p> Wineburg, Sam, & McGrew, Sarah. (2017). Lateral reading: Reading less and learning more when evaluating digital information. <i>Stanford History Education Group Working Paper</i>, 2017 (A1). Retrieved from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3048994 </p>
           <p> Wineburg, Sam, McGrew, Sarah, Breakstone, Joel, & Ortega, Teresa. (2016). Evaluating information: The cornerstone of civic online reasoning. <i>Stanford Digital Repository.</i> Retrieved June 24, 2019, from http://purl.stanford.edu/fv751yt5934" </p>
         </article>
+
+        <div className="next-page-button"> 
+            <label> Next Page: </label>
+            <Link to="contact">Contact</Link>
+          </div>
       </section>
   );
 }

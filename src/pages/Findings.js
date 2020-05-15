@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from '@reach/router';
 import { AppContext } from '../contexts/AppContext';
 import DataTable from '../components/DataTable';
 import HistogramChart from '../components/HistogramChart';
@@ -84,7 +85,7 @@ function Findings() {
           </div>
 
           <div className="caption"> Figure 2: Survey statistics showing reliability of the survey results before and after research ratings. Statistics for all survey questions given in table. Participant response distribution for highlighted question shown in histogram. (Histogram is interactive: Click on show button in table to change the current highlighted survey question)  </div>
-                
+
           <p>
             In our grounded theory coding, we took note of what comments appeared the most often in terms of
             what made each source more/less reliable. These features are summarized below, and are further
@@ -143,6 +144,11 @@ function Findings() {
               provided. Where does bias outweigh evidence, they wondered?
             </p>                                    
         </article>
+
+        <div className="next-page-button"> 
+          <label> Next Page: </label>
+          <Link to="context">Context and Discussion</Link>
+        </div>
       </section>
   );
 }
