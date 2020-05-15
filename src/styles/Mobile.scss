@@ -2,7 +2,7 @@
 @media screen and (max-width: $media-XL) {
     .section-article.findings-page {
         .reliability-chart-container {
-            margin: 4em -12em;
+            margin: 2em -12em;
         }
         .histogram-chart svg{ 
             transform: scale(0.9);
@@ -29,10 +29,10 @@
         li {  padding: 0 0 0 1em; }
         p, li { font-size: 1.4em; }
     }
-
+    
     .section-article.findings-page {
         .reliability-chart-container {
-            margin: 4em 0em;
+            margin: 2em 0em;
         }
         .histogram-chart svg{ 
             transform: scale(1);

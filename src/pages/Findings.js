@@ -81,11 +81,10 @@ function Findings() {
                 ]}>
               </DataTable>
             </div>
-
-            <div className="caption"> Figure 2: Survey statistics showing reliability of the survey results before and after research ratings. Statistics for all survey questions given in table. Participant response distribution for highlighted question shown in histogram. (Histogram is interactive: Click on show button in table to change the current highlighted survey question)  </div>
-
           </div>
 
+          <div className="caption"> Figure 2: Survey statistics showing reliability of the survey results before and after research ratings. Statistics for all survey questions given in table. Participant response distribution for highlighted question shown in histogram. (Histogram is interactive: Click on show button in table to change the current highlighted survey question)  </div>
+                
           <p>
             In our grounded theory coding, we took note of what comments appeared the most often in terms of
             what made each source more/less reliable. These features are summarized below, and are further
