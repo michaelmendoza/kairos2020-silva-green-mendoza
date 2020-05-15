@@ -45,7 +45,7 @@ function Findings() {
             <PieChart path="pie" data={[42, 3, 11, 20, 13]} labels={['18','19','20','21','22+']} title="Age Range"></PieChart>
           </div>
 
-          <caption> Figure 1: Demographic break of survey participants </caption>
+          <div className="caption"> Figure 1: Demographic break of survey participants </div>
 
           <p>
             Students rated the articles from one to ten, one being very unreliable and ten being very reliable. They
@@ -82,7 +82,7 @@ function Findings() {
               </DataTable>
             </div>
 
-            <caption> Figure 2: Survey statistics showing reliability of the survey results before and after research ratings. Statistics for all survey questions given in table. Participant response distribution for highlighted question shown in histogram. (Histogram is interactive: Click on show button in table to change the current highlighted survey question)  </caption>
+            <div className="caption"> Figure 2: Survey statistics showing reliability of the survey results before and after research ratings. Statistics for all survey questions given in table. Participant response distribution for highlighted question shown in histogram. (Histogram is interactive: Click on show button in table to change the current highlighted survey question)  </div>
 
           </div>
 

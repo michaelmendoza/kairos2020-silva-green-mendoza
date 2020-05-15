@@ -100,7 +100,7 @@ function Methods() {
           </tbody>
         </table>
         
-        <caption> Table 1: Articles used in survey. Links included to original articles, and Mockups. </caption>
+        <div className="caption"> Table 1: Articles used in survey. Links included to original articles, and Mockups. </div>
 
         <p>
           First, students were to take two minutes to evaluate a screen shot of the article, and then they were to
