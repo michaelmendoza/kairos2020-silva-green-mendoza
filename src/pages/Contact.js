@@ -22,7 +22,7 @@ function Contact() {
             <h2>Jessica Green</h2>
             <h4>Brigham Young University</h4>
             <h4>jessica_green@byu.edu</h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est sit amet facilisis magna etiam tempor. Sit amet est placerat in. Nulla porttitor massa id neque aliquam vestibulum morbi blandit. </p>
+            <p> Jessica is the Writing Programs Supervisor at the Harold B. Lee Library at BYU. She has an MA in Rhetoric and Composition and teaches hundreds of students how to find and evaluate information each year. </p>
           </div>
           <div className="card contact-card">
             <img src={michaelimage}></img>
