@@ -7,7 +7,7 @@ import jsondata from '../data/puffyhost.json';
 function ExplorePuffyHost() {
   return (
       <section className="section-explore">
-        <ExploreFilter></ExploreFilter>
+        <ExploreFilter linkname="Huffington Post" linkref="https://www.huffpost.com/entry/a-third-way-for-universities_b_58ce8a71e4b07112b6472ec4"></ExploreFilter>
         <InteractivePanel img={puffyhost} json={jsondata}></InteractivePanel>
       </section>
   );

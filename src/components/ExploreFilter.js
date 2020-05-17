@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
+import { Link } from '@reach/router';
 import { AppContext } from '../contexts/AppContext';
 
-function ExploreFilter() {
+function ExploreFilter(props) {
   const { novice, expert, setNovice, setExpert } = useContext(AppContext);
   const handleNovice = () => { setNovice(!novice); };
   const handleExpert = () =>  { setExpert(!expert); };
@@ -10,8 +11,8 @@ function ExploreFilter() {
     <div className="explore-filter ">
 
       <div className="flex-container">
-        <label> Explore article. Hover on chat bubbles to see novice or expert comments on article. </label>
-       
+        <label> Explore article. Hover on chat bubbles to see novice or expert comments on article. Orignal article from <a href={props.linkref} target="_blank" rel="noopener noreferrer">{props.linkname}</a>. </label>
+
         <span className="flex-item"></span>
 
         <label className="explore-filter-label"> Filters: </label>

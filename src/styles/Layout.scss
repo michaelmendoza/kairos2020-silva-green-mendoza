@@ -90,7 +90,7 @@
 
     .menu-nav {
         li {
-            text-align: left;
+            text-align: left; 
             border-bottom: em(2px) solid rgba(196, 196, 196, 0.4);
             
             &:hover {
@@ -105,7 +105,7 @@
                 color: $primary;
             }
         }
-        
+
         li.active button{
             color: $primary;
         }

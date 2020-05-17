@@ -43,7 +43,7 @@
 }
 
 .explore-filter {
-    margin: em(20px) 0;
+    margin: 1.25em 0 1.25em 0;
 
     .top { height: 0; top: em(0px); }
     .left { left: -5.25em; }
@@ -88,6 +88,14 @@
             }
         }
     }
+}
+ 
+.flat-button {
+    background-color: transparent;
+    padding: 0.75em;
+    border-radius: 0.2em;
+    border: solid 1px #aaaaaa;
+    font-size: 0.8em;
 }
 
 .header {
