@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { Link } from '@reach/router';
 import { AppContext } from '../contexts/AppContext';
 
 function ExploreFilter(props) {
