@@ -35,7 +35,7 @@ function References() {
 
         <div className="next-page-button"> 
             <label> Next Page: </label>
-            <Link to="contact">Contact</Link>
+            <Link to="../contact">Contact</Link>
           </div>
       </section>
   );

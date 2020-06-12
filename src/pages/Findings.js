@@ -147,7 +147,7 @@ function Findings() {
 
         <div className="next-page-button"> 
           <label> Next Page: </label>
-          <Link to="context">Context and Discussion</Link>
+          <Link to="../context">Context and Discussion</Link>
         </div>
       </section>
   );

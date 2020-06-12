@@ -171,7 +171,7 @@ function Methods() {
 
       <div className="next-page-button"> 
           <label> Next Page: </label>
-          <Link to="findings">Findings</Link>
+          <Link to="../findings">Findings</Link>
         </div>
     </section>
   );

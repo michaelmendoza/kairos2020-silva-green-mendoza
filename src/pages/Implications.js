@@ -193,7 +193,7 @@ function Implications() {
           
           <div className="next-page-button"> 
             <label> Next Page: </label>
-            <Link to="references">References</Link>
+            <Link to="../references">References</Link>
           </div>
         </section>
   );

@@ -247,7 +247,7 @@ function Context() {
 
         <div className="next-page-button"> 
             <label> Next Page: </label>
-            <Link to="implications">Implications</Link>
+            <Link to="../implications">Implications</Link>
           </div>
       </section>
   );
