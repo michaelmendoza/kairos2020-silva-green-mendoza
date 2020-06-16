@@ -48,7 +48,7 @@ function Context() {
             impulse, but it is a novice one: the presence of hyperlinks tells an evaluator relatively little. Expert
             students who clicked on the hyperlinks were able to corroborate information, do research on individuals
             quoted in the article, and engaged in deeper source evaluation behaviors. If students were just looking
-            at hyperlinks to evaluate a source, they were easily duped by <Link to='explore/theflame'>The Flame</Link> (The Blaze) source which also
+            at hyperlinks to evaluate a source, they were easily duped by <Link to='/explore/theflame'>The Flame</Link> (The Blaze) source which also
             had hyperlinks to outside articles—but unlike the <Link to="/explore/apr">APR</Link> (NPR) article, these hyperlinks did not link back to
             original/primary source material. It takes deeper source evaluation work (actually clicking on the link) to
             discover this. As Miriam J. Metzger (2007) argues, students do not often take the time to complete
