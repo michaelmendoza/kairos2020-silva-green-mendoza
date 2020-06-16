@@ -8,7 +8,7 @@ function References() {
         <img src={headerimage} alt="header"/>
         <h1>References</h1> 
         <article>
-          <p> Artman, Margaret, Frisicaro-Pawlowskica, & Monge, Robert. (2010). Not j, Eriust one shot: Extending the dialogue about information literacy in composition classes. <i> Composition Studies, 38</i>(2), 93-110. </p>
+          <p> Artman, Margaret, Frisicaro-Pawlowskica, & Monge, Robert. (2010). Not just a one shot: Extending the dialogue about information literacy in composition classes. <i> Composition Studies, 38</i>(2), 93-110. </p>
           <p> The Association of College and Research Libraries. (2015). Framework for information literacy for higher education. Chicago, IL: American Library Association. Retrieved June 21, 2019, from http://www.ala.org/acrl/standards/ilframework </p>
           <p> Baer, Andrea. (2018). It’s all relative? Post-truth rhetoric, relativism, and teaching on ‘authority as constructed and contextual.’ <i> College & Research Libraries News, 79</i>(2), 72. </p>
           <p> Brand-Gruwel, Saskia, Kammerer, Yvonne, Van Meeuwen, Ludo, & Van Gog, Tamara. (2017). Source evaluation of domain experts and novices during web search. <i>Journal of Computer Assisted Learning, 33</i>(3), 234-251 </p>
