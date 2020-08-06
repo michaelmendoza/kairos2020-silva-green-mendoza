@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="header"> 
         <div className="header-content flex-container"> 
-          <span> <button onClick={handleMobileNav}> <i className="fas fa-bars"></i></button> </span> 
+          <span className="header-mobile-nav"> <button onClick={handleMobileNav}> <i className="fas fa-bars"></i></button> </span> 
           <h2 className="title"> What do first-year students find reliable in online sources? </h2>
           <span className="flex-item"></span>
           <div className="authors"> Silva, Green</div>

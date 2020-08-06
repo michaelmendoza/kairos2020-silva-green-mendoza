@@ -96,6 +96,16 @@
 
 @media screen and (max-width: $media-XS) {
 
+    .header {
+        .header-mobile-nav {
+            display: inline;
+        }
+        
+        .title {
+            margin: 0 1em;
+        }
+    }
+
     .nav-view {
         display: none;
 

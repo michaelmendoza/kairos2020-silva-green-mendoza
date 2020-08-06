@@ -17,7 +17,7 @@ function ExploreFilter(props) {
         <label className="explore-filter-label"> Filters: </label>
 
         <label className="explore-show flex-container">
-          Novice 
+          Novice Behavior
           <button className={ novice ? "active" : ""} onClick={handleNovice}> 
               <i className="fa fa-eye"></i>
               <i className="fa fa-eye-slash"></i>
@@ -25,7 +25,7 @@ function ExploreFilter(props) {
         </label>
         
         <label className="explore-show flex-container">
-          Expert
+          Expert Behavior
           <button className={ expert ? "active" : ""} onClick={handleExpert}> 
               <i className="fa fa-eye"></i>
               <i className="fa fa-eye-slash"></i>

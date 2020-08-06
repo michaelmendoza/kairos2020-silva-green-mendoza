@@ -18,7 +18,7 @@ function NavView() {
     <nav className={navClass}> 
       <span className="nav-close"> <button onClick={handleMobileNav}> <i className="fas fa-times"></i> </button> </span> 
       <section className="menu-nav">
-      <h2> Menu </h2>
+      <h2> Read </h2>
       <ul> 
           <li className={ activeNavClass("/") }> <Link to="/"> <button onClick={handleMobileNav}> Introduction </button> </Link> </li>
           <li className={ activeNavClass("/methods") }> <Link to="methods" ><button onClick={handleMobileNav}> Methods </button> </Link> </li>

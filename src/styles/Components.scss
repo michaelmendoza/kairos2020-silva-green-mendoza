@@ -118,9 +118,13 @@
         margin: 0.8em 0;
     }
     
+    .header-mobile-nav {
+        display: none;;
+    }
+
     .title {
         font-size: 1em;
-        margin: 0 1em;
+        margin: 0 1em 0 0;
         font-weight: 400;
     }
 
