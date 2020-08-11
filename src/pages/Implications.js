@@ -10,21 +10,27 @@ function Implications() {
           <article>
             <h2>What do students find reliable?</h2>
             <p> 
-              Some findings of our study are straightforward: Students find visuals (pictures, graphs, and videos)
-              reliable and are hyper-aware of advertisements and web design features of sources (Silva, Green, &amp;
-              Walker, 2018). Fewer, however, are able to dig deeper and articulate why certain design choices have
-              the effect they have, and what that might suggest about the information source.  
+            Some findings of our study are straightforward: Students find visuals (pictures, graphs, and videos)
+            reliable and are hyper-aware of advertisements and web design features of sources (Silva, Green, & Walker, 2018).
+            Fewer, however, are able to dig deeper and articulate why certain design choices have the effect they have, 
+            and what that might suggest about the information source. Given the fact that misinformation online about racial
+            histories and realities of oppression in our country abound, white supremacist groups may be just one good web
+            designer away from convincing a new group of young folks that their viewpoints are valid. 
             </p>
             <p> 
-              The trickier finding of our study is that students find authority important while evaluating a source, but
-              there is little agreement about what authority actually means. What makes something authoritative or
-              not? How do we define authority and who gets to decide? What parts of an article speak to authority?
-              When different parts of an article have competing authority claims, which ones are more or less
-              important? Given their difficulty rating sources it might seem that students did not understand the
-              importance of authority. However, we contend that our students clearly understood that authority was
-              a significant component of source evaluation. They knew they should look for authority markers, but
-              they struggled to know how sources were created clearly enough to put their finger on what might
-              make them authoritative to a particular audience, for a particular research task.
+            The trickier finding of our study is that students find authority important while evaluating a source,
+            but there is little agreement about what authority actually means. What makes something authoritative
+            or not? When you have the current Trump administration at odds with the CDC, which avenue of authority
+            are students supposed to trust? How do we define authority, and who gets to decide? What parts of an article
+            speak to authority? When different parts of an article have competing authority claims, which ones are more
+            or less important? Given students’ difficulty rating sources it might seem that students did not understand
+            the importance of authority. However, we contend that our students clearly understood that authority was a
+            significant component of source evaluation. They knew they should look for authority markers, but they struggled
+            to know how sources were created clearly enough to put their finger on what might make them authoritative
+            to a particular audience, for a particular research task. This might lead students to think that the answer
+            in these situations is to believe whatever they want. In our current moment of civil unrest and an awakening
+            of public consciousness surrounding Black Lives Matter and police brutality, believing whatever you want when
+            authority markers are unconventional has life and death consequences for members of our communities. 
             </p>
             <p>
               This finding is both unsurprising but also very difficult to confront. In an era of teaching students pithy
@@ -106,17 +112,19 @@ function Implications() {
             </p>
             <h2>1. How does information come to be?</h2>
             <p>
-              Students struggled understanding the differences between fringe and mainstream news media outlets.
-              They exhibited distrust of the media in general with little understanding of how different kinds of
-              information are created and how that affects the value of the information. The Framework for
-              Information Literacy for Higher Education, the document that outlines major competencies for
-              information literacy standards, puts it this way: “The unique capabilities and constraints of each creation
-              process as well as the specific information need determine how the product is used. Experts recognize
-              that information creations are valued differently in different contexts, such as academia or the
-              workplace. Elements that affect or reflect on the creation, such as a pre- or post-publication editing or
-              reviewing process, may be indicators of quality.” (ACRL, 2015, “Information Creation as a Process”
-              frame, para. 2). Showing students examples of different sources and unpacking the ways they were
-              created, may help students grasp this concept in their research processes (Ostenson & Silva, 2019).
+            Students struggled understanding the differences between fringe and mainstream news media outlets.
+            They exhibited distrust of the media in general with little understanding of how different kinds of
+            information are created and how that affects the value of the information. The Framework for Information
+            Literacy for Higher Education, the document that outlines major competencies for information literacy
+            standards, puts it this way: “The unique capabilities and constraints of each creation process as well
+            as the specific information need determine how the product is used. Experts recognize that information
+            creations are valued differently in different contexts, such as academia or the workplace. Elements that
+            affect or reflect on the creation, such as a pre- or post-publication editing or reviewing process, may
+            be indicators of quality.” (ACRL, 2015, “Information Creation as a Process” frame, para. 2). Showing
+            students examples of different sources and unpacking the ways they were created, may help students grasp
+            this concept in their research processes (Ostenson & Silva, 2019). Current examples of wildly differing
+            source material surrounding the #BLM conversations and Coronavirus would surely prove salient jumping
+            off points for students right now. 
             </p>
             <h2>2. Authority is contextual</h2>
             <p>
@@ -181,13 +189,13 @@ function Implications() {
               could uncover practical pedagogical interventions to make a difference in students’ critical literacy skills.
             </p>
             <p>
-              Indeed, if our current moment has taught us anything, it is that with the ever-changing information
-              engine that is the web, we are all of us re-learning how to evaluate information. Part of showing
-              students how to be better evaluators of information is to reflect on our own information consumption
-              and usage, and ask ourselves how we came to be the experts we are? Coronavirus has shown us all our
-              blind spots as fear and confusion have overtaken our information patterns. Perhaps starting with
-              personal reflection will better ground us to be more thoughtful information literacy instructors for our
-              first-year students.
+            Indeed, if our current moment of Covid 19 and a resurgence of discussions surrounding race in America
+            has taught us anything, it is that with the ever-changing information engine that is the web, we are
+            all of us re-learning how to evaluate information. Part of showing students how to be better evaluators
+            of information is to reflect on our own information consumption and usage, and ask ourselves how we came
+            to be the experts we are? Coronavirus and #BLM protests have shown us all our blind spots as fear and
+            confusion have overtaken our information patterns. Perhaps starting with personal reflection will better
+            ground us to be more thoughtful information literacy instructors for our first-year students.
             </p>
           </article>
           

@@ -9,34 +9,34 @@ function Introduction() {
         <h1>Introduction</h1>
         <article>
           <p> 
-            It has become almost rote to say that now, more than ever, students need to understand how to
-            navigate web content to find verifiable and reliable information sources. While the data-collection
-            portion of this study took place in the aftermath of the 2016 American presidential election, with
-            students, and the public, increasingly confused about #fakenews and what media sources to trust to
-            disseminate information (Raine and Anderson, 2017), structural revisions of this article took place during
-            the Covid19 outbreak in the United States. As university campuses closed around the country, students,
-            professors, and librarians alike headed home to watch the stories unfold online. As the outbreak evolved
-            quickly, so did misinformation, partial information, and well-meaning, but bad, information. Will
-            ibuprofen make me more likely to be hospitalized if I get Coronavirus? Can I make my own hand
-            sanitizer? Are young people dying from the illness? Will a mask help? These questions, and varied
-            answers to them, spread like wildfire on the open web, with people grasping for any semblance of an
-            answer during a time when answers were as scarce as toilet paper. As trained information professionals
-            watching the pandemic break, we observed, in interest, and also unease, as information spread faster
-            than the illness itself. We wondered how students were receiving this information about something so
-            exigent, so timely. We continue to wonder if educators are any surer than their students in their
-            information-evaluation footing in such times of uncertainty and fear. Our research into source
-            evaluation behaviors of first-year students, we realize, can give us some answers into how individuals
-            interact with information online, and may be a beginning step to consider what composition courses can
-            do to incorporate better media and information literacy pedagogy into curriculum.
+            It has become almost rote to say that now, more than ever, students need to understand how to navigate web
+            content to find verifiable and reliable information sources. While the data-collection portion of this study
+            took place in the aftermath of the 2016 American presidential election, with students, and the public,
+            increasingly confused about #fakenews and what media sources to trust to disseminate information
+            (Raine and Anderson, 2017), structural revisions of this article took place during the Covid19 outbreak
+            and ensuing racial protests in the United States. As university campuses closed around the country, students,
+            professors, and librarians alike headed home to watch the stories unfold online. And many of them also took
+            to the streets in support of the Black Lives Matter Movement. As the outbreak and protests evolved quickly,
+            so did misinformation, partial information, and well-meaning, but bad, information. Will ibuprofen make me
+            more likely to be hospitalized if I get Coronavirus? Did federal enforcement groups take protesters off
+            the streets in unmarked vehicles? Can I make my own hand sanitizer? Are young people dying from the illness?
+            Which white nationalist groups were involved in rioting? These questions, and varied answers to them, spread
+            like wildfire on the open web, with people grasping for any semblance of an answer during a time when answers
+            were as scarce as toilet paper. As trained information professionals watching the pandemic break, we observed,
+            in interest, and also unease, as information spread faster than the illness and societal unrest did. We wondered
+            how students were receiving this information about something so exigent, so timely. We continue to wonder if
+            educators are any surer than their students in their information-evaluation footing in such times of uncertainty
+            and fear. Our research into source evaluation behaviors of first-year students, we realize, can give us some
+            answers into how individuals interact with information online, and may be a beginning step to consider what
+            composition courses can do to incorporate better media and information literacy pedagogy into curriculum.
           </p>
           <p>
-            Those of us associated with first-year writing (FYW) students realize that many of them get their first
-            formalized media and information literacy instruction in conjunction with first-year composition courses
-            (Artman et al, 2010, p. 94). It remains difficult to ascertain, however, how
-            exactly students are interacting with online content, and what, precisely, composition teachers and
-            librarians should be teaching first-year students in their writing classes. How can curriculum respond to
-            very real habits we see students new to the university enact in their information consumption
-            behaviors?
+          Those of us associated with first-year writing (FYW) students realize that many of them get their first
+          formalized media and information literacy instruction in conjunction with first-year composition courses
+          (Artman et al, 2010, p. 94). It remains difficult to ascertain, however, how exactly students are interacting
+          with online content, and what, precisely, composition teachers and librarians should be teaching first-year
+          students in their writing classes. How can curriculum respond to very real habits we see students new to
+          the university enact in their information consumption behaviors?
           </p>
           <h2>How to read</h2>
           <p>
@@ -107,6 +107,23 @@ function Introduction() {
               connection that this behavior is connected to the overall confusion over authority specifically.
             </li>
           </ul>
+          <p>
+          The ability to distinguish between reliable and less reliable information objects will only
+          continue to grow in importance in an era of deep fakes, social media news, and distrust
+          of mainstream media outlets. Correctly interpreting evidence-based claims about how to protect
+          yourself against COVID-19 can have long-term health consequences, and discerning between biased and
+          unbiased information relating to the protests surrounding racial inequities can have a significant impact
+          on what structural changes are made in American institutions and society moving forward.  
+          </p>
+          <p>
+          Throughout the rest of this webtext, we will discuss the ways in which students interact with
+          popular sources and how students determine whether information is credible or not. We will
+          address how they responded when confronted with unknown websites and ideas that challenged their
+          points of view as well as how educators might best teach students to critically assess the cascade
+          of information students are exposed to each day. By better understanding how students evaluate
+          information, we can better facilitate the types of learning necessary for students to become responsible
+          digital citizens in this time of uncertainty and change.
+          </p>
         </article>
 
         <div className="next-page-button"> 
