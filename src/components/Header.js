@@ -12,7 +12,7 @@ function Header() {
           <span className="header-mobile-nav"> <button onClick={handleMobileNav}> <i className="fas fa-bars"></i></button> </span> 
           <h2 className="title"> What do first-year students find reliable in online sources? </h2>
           <span className="flex-item"></span>
-          <div className="authors"> Silva, Green</div>
+          <div className="authors"> Silva, Green, Mendoza </div>
           <Link to="contact" > <i className="far fa-envelope"></i> </Link>
         </div>
     </header>

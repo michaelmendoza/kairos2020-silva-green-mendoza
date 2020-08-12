@@ -11,7 +11,7 @@ function InteractiveCard(props) {
             <img className="interactive-avatar" src={iconImage}/>
             <div className="flex-item">
                 <header>
-                    <span className="interactive-name"> {props.type} </span> 
+                    <span className="interactive-name"> {props.type} Behavior </span> 
                     <i className="fas fa-check-circle interactive-check"></i>
                     <span className="interactive-handle"> {'@'+ props.type} </span> 
                 </header>  
