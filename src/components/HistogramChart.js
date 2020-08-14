@@ -105,6 +105,23 @@ class HistogramChart extends Component {
                 .text(function(d) {
                     return format_count(d.length);
                 });
+
+        // Label for the x axis
+        g.append("text")             
+        .attr("transform",
+                "translate(" + (width/2) + " ," + 
+                            (height + this.margin.top) + ")")
+        .style("text-anchor", "middle")
+        .text("Score");
+
+        // Label for the y axis
+        g.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - this.margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Count");  
     }
 
     redraw() {
