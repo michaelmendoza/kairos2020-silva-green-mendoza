@@ -189,11 +189,11 @@ function Implications() {
               could uncover practical pedagogical interventions to make a difference in students’ critical literacy skills.
             </p>
             <p>
-            Indeed, if our current moment of Covid 19 and a resurgence of discussions surrounding race in America
+            Indeed, if our current moment of Covid-19 and a resurgence of discussions surrounding race in America
             has taught us anything, it is that with the ever-changing information engine that is the web, we are
-            all of us re-learning how to evaluate information. Part of showing students how to be better evaluators
+            all of us re-learning how to evaluate source material. Part of showing students how to be better evaluators
             of information is to reflect on our own information consumption and usage, and ask ourselves how we came
-            to be the experts we are? Coronavirus and #BLM protests have shown us all our blind spots as fear and
+            to be the experts we are? Covid-19 and #BLM protests have shown us all our blind spots as fear and
             confusion have overtaken our information patterns. Perhaps starting with personal reflection will better
             ground us to be more thoughtful information literacy instructors for our first-year students.
             </p>

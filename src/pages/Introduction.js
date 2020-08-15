@@ -11,9 +11,9 @@ function Introduction() {
           <p> 
             It has become almost rote to say that now, more than ever, students need to understand how to navigate web
             content to find verifiable and reliable information sources. While the data-collection portion of this study
-            took place in the aftermath of the 2016 American presidential election, with students, and the public,
+            took place in the aftermath of the 2016 American presidential election, with students and the public
             increasingly confused about #fakenews and what media sources to trust to disseminate information
-            (Raine and Anderson, 2017), structural revisions of this article took place during the Covid19 outbreak
+            (Raine and Anderson, 2017), structural revisions of this article took place during the Covid-19 outbreak
             and ensuing racial protests in the United States. As university campuses closed around the country, students,
             professors, and librarians alike headed home to watch the stories unfold online. And many of them also took
             to the streets in support of the Black Lives Matter Movement. As the outbreak and protests evolved quickly,
@@ -46,7 +46,7 @@ function Introduction() {
             twenty percent of the students enrolled in Writing 150, the university’s FYW course. We wanted to
             know how students go about determining how credible online information is. We were especially
             interested in information that is free and could easily be found through Google searches or social media.
-            In other words, not academic articles hidden by publisher pay walls.
+            In other words, not academic articles hidden by publisher paywalls.
           </p>
           <p>
             As librarians, we wondered what made websites most and least reliable for students. We wondered if
@@ -54,7 +54,7 @@ function Introduction() {
             article genres. Using a proctored survey, talk-aloud protocols, and screen recording, we observed source
             evaluation behaviors from first-year students, and then coded them using grounded theory. As we
             assessed our findings, we began to separate major trends into novice or expert-level evaluation
-            behaviors based on previous research and our own expertise interacting with thousands of freshmen
+            behaviors based on previous research and our own expertise interacting with thousands of first-year
             writers each year through library-run information literacy sessions.
           </p>
           <p>
@@ -99,18 +99,9 @@ function Introduction() {
           The ability to distinguish between reliable and less reliable information objects will only
           continue to grow in importance in an era of deep fakes, social media news, and distrust
           of mainstream media outlets. Correctly interpreting evidence-based claims about how to protect
-          yourself against COVID-19 can have long-term health consequences, and discerning between biased and
+          yourself against Covid-19 can have long-term health consequences, and discerning between biased and
           unbiased information relating to the protests surrounding racial inequities can have a significant impact
           on what structural changes are made in American institutions and society moving forward.  
-          </p>
-          <p>
-          Throughout the rest of this webtext, we will discuss the ways in which students interact with
-          popular sources and how students determine whether information is credible or not. We will
-          address how they responded when confronted with unknown websites and ideas that challenged their
-          points of view as well as how educators might best teach students to critically assess the cascade
-          of information students are exposed to each day. By better understanding how students evaluate
-          information, we can better facilitate the types of learning necessary for students to become responsible
-          digital citizens in this time of uncertainty and change.
           </p>
           <p>
           This webtext provides an interactive view of the landscape of our study. We picked five online sources
@@ -122,7 +113,16 @@ function Introduction() {
           students engaged with in our coding of behaviors. We have linked the original pages to the mockups so
           you can compare and explore the original material as well. Our discussion, findings, and analysis are all
           underlined by the interactive features, and we will draw your attention to them as you read. After you
-          read, and have the full context of the study, we invite you to explore the interactive features in full.
+          read and have the full context of the study, we invite you to explore the interactive features in full.
+          </p>
+          <p>
+          Throughout the rest of this webtext, we will discuss the ways in which students interact with
+          popular sources and how students determine whether information is credible or not. We will
+          address how they responded when confronted with unknown websites and ideas that challenged their
+          points of view as well as how educators might best teach students to critically assess the cascade
+          of information students are exposed to each day. By better understanding how students evaluate
+          information, we can better facilitate the types of learning necessary for students to become responsible
+          digital citizens in this time of uncertainty and change.
           </p>
         </article>
 
