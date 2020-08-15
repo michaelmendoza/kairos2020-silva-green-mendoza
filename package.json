@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "d3": "^5.16.0",
+    "express": "^4.17.1",
     "gatsby": "^2.24.47",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
