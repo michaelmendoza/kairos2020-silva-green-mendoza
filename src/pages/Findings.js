@@ -23,7 +23,7 @@ function Findings({ location }) {
             overview of some of the major findings of the study. First, we begin with the basic demographic
             breakdown of our participants.
           </p>
-
+          
           <div className="pie-chart-container flex-container flex-center flex-wrap">
             <PieChart path="pie" data={[48, 49]} labels={['male', 'female']} title="Self-Reported Sex"></PieChart>
             <PieChart path="pie" data={[51, 13, 13, 12]} labels={['0','1','2','3+']} title="Number of Semesters Completed"></PieChart>
