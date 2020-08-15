@@ -31,7 +31,7 @@ function Contact({ location }) {
             <h2>Michael Mendoza</h2>
             <h4>Imperial College London</h4>
             <h4>askmichaelmendoza@gmail.com</h4>
-            <p> Michael is software developer and data scientist. He holds a BS and MS in Electrical Engineering. He is currently a PhD student in Bioengineering at Imperial College London. His research is focused on Medical Imaging, Machine Learning, and Data Visualization. His primary role was the design and the development of this interactive web text. (Source code is available <a href="https://github.com/michaelmendoza/karios2020-silva-green">here</a>). </p>
+            <p> Michael is software developer and data scientist. He holds a BS and MS in Electrical Engineering. He is currently a PhD student in Bioengineering at Imperial College London. His research is focused on Medical Imaging, Machine Learning, and Data Visualization. His primary role was the design and the development of this interactive webtext. (Source code for this webtext is available <a href="https://github.com/michaelmendoza/karios2020-silva-green">here</a>). </p>
           </div>
         </article>
       </section>
