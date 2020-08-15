@@ -19,7 +19,7 @@ const AppLayout = (props) => {
             <MainView> 
                 {props.children}
             </MainView>
-            { props.useSideView ? <SideView></SideView> : null }
+            { props.useSideView ? <div> <SideView></SideView> </div> : null }
           </AppContextProvider>
         </div>
       );
