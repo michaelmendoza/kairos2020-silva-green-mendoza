@@ -1,30 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from '@reach/router';
-import { AppContext } from '../contexts/AppContext';
 import DataTable from '../components/DataTable';
-import HistogramChart from '../components/HistogramChart';
+import HistogramWrapper from '../components/HistogramWrapper';
 import PieChart from '../components/PieChart';
 import headerimage from '../images/findings.png';
-import { readString } from 'react-papaparse'
-import csv from '../data/scores.js';
 import AppLayout from '../components/AppLayout';
 
-function getScoreData() {
-  var config = { delimiter:",", dynamicTyping: true}
-  var results = readString(csv, config) // Read csv
-  var data = results.data.splice(1, results.data.length - 1); // Remove headers
-
-  var scores = []
-  for(var i = 0; i < 10; i++) {
-    scores[i] = data.map( (d)=> { return d[i]; })
-  }
-  
-  return scores;
-}
-
-function Findings({ location }) {
-  const { scoreIndex, setScoreIndex } = useContext(AppContext);
-  
+function Findings({ location }) {  
   return (
     <AppLayout pathname={location.pathname}>
       <section className="section-article findings-page">
@@ -67,7 +49,7 @@ function Findings({ location }) {
           
           <div className="reliability-chart-container">
             <div className="flex-container flex-center flex-between flex-wrap">
-              <HistogramChart path="histogram" data={getScoreData()[scoreIndex]}></HistogramChart>
+              <HistogramWrapper></HistogramWrapper>
 
               <DataTable data={ 
                 [
