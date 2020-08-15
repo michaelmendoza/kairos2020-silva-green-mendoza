@@ -8,12 +8,12 @@ import theflame from '../images/theflame-logo.png';
 import jeffersonpost from '../images/thejeffersonpost-logo.png';
 import dailypost from '../images/thedailypost-logo.png';
 
-function NavView() {
+function NavView(props) {
   const { mobileNav, setMobileNav } = useContext(AppContext);
   const handleMobileNav = () => { setMobileNav(false) }; 
   const navClass = "nav-view " + (mobileNav ? 'nav-mobile-on':'');
-  const activeNavClass = (path) => { return document.location.pathname == path ? "active" : "" };
-
+  const activeNavClass = (path) => { return props.pathname == path ? "active" : "" };
+  
   return (
     <nav className={navClass}> 
       <span className="nav-close"> <button onClick={handleMobileNav}> <i className="fas fa-times"></i> </button> </span> 
@@ -32,11 +32,11 @@ function NavView() {
       <section className="explore-nav"> 
         <h2> Explore </h2>
         <ul>
-          <li> <Link to="explore/apr"> <button onClick={handleMobileNav}> <img className="card-button" src={apr} alt="apr"/> </button> </Link> </li>
-          <li> <Link to="explore/puffyhost"> <button onClick={handleMobileNav}> <img className="card-button" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
-          <li> <Link to="explore/theflame"> <button onClick={handleMobileNav}> <img className="card-button" src={theflame} alt="Flame"/> </button> </Link> </li>
-          <li> <Link to="explore/jeffersonpost"> <button onClick={handleMobileNav}> <img className="card-button" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
-          <li> <Link to="explore/dailypost"> <button onClick={handleMobileNav}> <img className="card-button" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
+          <li> <Link to="/exploreAPR"> <button onClick={handleMobileNav}> <img className="card-button" src={apr} alt="apr"/> </button> </Link> </li>
+          <li> <Link to="/explorePuffyHost"> <button onClick={handleMobileNav}> <img className="card-button" src={puffyhost} alt="Puffy Host"/> </button> </Link> </li>
+          <li> <Link to="/exploreTheFlame"> <button onClick={handleMobileNav}> <img className="card-button" src={theflame} alt="Flame"/> </button> </Link> </li>
+          <li> <Link to="/exploreJeffersonPost"> <button onClick={handleMobileNav}> <img className="card-button" src={jeffersonpost} alt="Jefferson Post"/> </button> </Link> </li>
+          <li> <Link to="/exploreDailyPost"> <button onClick={handleMobileNav}> <img className="card-button" src={dailypost} alt="Daily Post"/> </button> </Link> </li>
         </ul>
       </section> 
     </nav>

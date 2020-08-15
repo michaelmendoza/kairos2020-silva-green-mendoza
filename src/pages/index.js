@@ -1,9 +1,11 @@
 import React from 'react';
 import headerimage from '../images/introduction.png';
 import { Link } from '@reach/router';
+import AppLayout from '../components/AppLayout';
 
-function Introduction() {
+function Introduction({ location }) {
   return (
+    <AppLayout pathname={location.pathname}>
       <section className="section-article">
         <img src={headerimage} alt="header"/>
         <h1>Introduction</h1>
@@ -128,9 +130,10 @@ function Introduction() {
 
         <div className="next-page-button"> 
           <label> Next Page: </label>
-          <Link to="methods">Methods</Link>
+          <Link to="/methods">Methods</Link>
         </div>
       </section>
+    </AppLayout>
   );
 }
 

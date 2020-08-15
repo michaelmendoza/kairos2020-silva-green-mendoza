@@ -3,9 +3,11 @@ import headerimage from '../images/contact.png';
 import eliseimage from '../images/elisesilva.png';
 import jessicaimage from '../images/jessicagreen.png';
 import michaelimage from '../images/michaelmendoza.jpeg';
+import AppLayout from '../components/AppLayout';
 
-function Contact() {
+function Contact({ location }) {
   return (
+    <AppLayout pathname={location.pathname}>
       <section className="section-article contacts-page">
         <img className="contacts-header_image" src={headerimage} alt="header"/>
         <h1>Contact</h1>
@@ -33,6 +35,7 @@ function Contact() {
           </div>
         </article>
       </section>
+    </AppLayout>
   );
 }
 

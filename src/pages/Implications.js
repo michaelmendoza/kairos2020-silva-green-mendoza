@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from '@reach/router';
 import headerimage from '../images/implications.png';
+import AppLayout from '../components/AppLayout';
 
-function Implications() {
+function Implications({ location }) {
   return (
+    <AppLayout pathname={location.pathname}>
         <section className="section-article">
           <img src={headerimage} alt="header"/>
           <h1>Implications</h1>
@@ -201,9 +203,10 @@ function Implications() {
           
           <div className="next-page-button"> 
             <label> Next Page: </label>
-            <Link to="../references">References</Link>
+            <Link to="/references">References</Link>
           </div>
         </section>
+    </AppLayout>
   );
 }
 

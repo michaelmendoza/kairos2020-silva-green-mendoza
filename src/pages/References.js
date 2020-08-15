@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from '@reach/router';
 import headerimage from '../images/references.png';
+import AppLayout from '../components/AppLayout';
 
-function References() {
+function References({ location }) {
   return (
+    <AppLayout pathname={location.pathname}>
       <section className="section-article references-page">
         <img src={headerimage} alt="header"/>
         <h1>References</h1> 
@@ -35,9 +37,10 @@ function References() {
 
         <div className="next-page-button"> 
             <label> Next Page: </label>
-            <Link to="../contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </div>
       </section>
+    </AppLayout>
   );
 }
 

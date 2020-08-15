@@ -7,6 +7,7 @@ import PieChart from '../components/PieChart';
 import headerimage from '../images/findings.png';
 import { readString } from 'react-papaparse'
 import csv from '../data/scores.js';
+import AppLayout from '../components/AppLayout';
 
 function getScoreData() {
   var config = { delimiter:",", dynamicTyping: true}
@@ -21,10 +22,11 @@ function getScoreData() {
   return scores;
 }
 
-function Findings() {
+function Findings({ location }) {
   const { scoreIndex, setScoreIndex } = useContext(AppContext);
-
+  
   return (
+    <AppLayout pathname={location.pathname}>
       <section className="section-article findings-page">
         <img src={headerimage} alt="header"/>
         <h1>Findings</h1>
@@ -147,9 +149,10 @@ function Findings() {
 
         <div className="next-page-button"> 
           <label> Next Page: </label>
-          <Link to="../context">Context and Discussion</Link>
+          <Link to="/context">Context and Discussion</Link>
         </div>
       </section>
+    </AppLayout>
   );
 }
 
