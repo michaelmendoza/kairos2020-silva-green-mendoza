@@ -69,7 +69,7 @@ class PieChart extends Component {
             })
 
         // Create Labels
-        var labelArc = d3.arc() .innerRadius(0.10 * height) .outerRadius(0.5 * height);
+        var labelArc = d3.arc().innerRadius(0.10 * height).outerRadius(0.5 * height);
         this.svg.append("g")
             .attr("transform", "translate(" + (width / 2 + this.margin.left) + "," + (height / 2 + this.margin.top) + ")")
             .selectAll('label')

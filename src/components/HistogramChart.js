@@ -37,8 +37,7 @@ class HistogramChart extends Component {
     
     draw() {
         var data = this.props.data;
-        var whiteLineColor = '#FFFFFF';
-
+        
 		// Get Scale
 		var width = this.width - this.margin.left - this.margin.right;
         var height = this.height - this.margin.top - this.margin.bottom;
@@ -181,7 +180,7 @@ class HistogramChart extends Component {
             .duration(1000)
             .attr("y", function(d) { return y(d.length); })
             .text(function(d) {
-                return d == 0 ? "" : format_count(d.length);
+                return d === 0 ? "" : format_count(d.length);
             });            
     }
 

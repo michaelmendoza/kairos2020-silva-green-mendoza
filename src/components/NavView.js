@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { Link } from '@reach/router';
 import { AppContext } from '../contexts/AppContext';
 
@@ -12,7 +12,7 @@ function NavView(props) {
   const { mobileNav, setMobileNav } = useContext(AppContext);
   const handleMobileNav = () => { setMobileNav(false) }; 
   const navClass = "nav-view " + (mobileNav ? 'nav-mobile-on':'');
-  const activeNavClass = (path) => { return props.pathname == path ? "active" : "" };
+  const activeNavClass = (path) => { return props.pathname === path ? "active" : "" };
   
   return (
     <nav className={navClass}> 
@@ -21,12 +21,12 @@ function NavView(props) {
       <h2> Read </h2>
       <ul> 
           <li className={ activeNavClass("/") }> <Link to="/"> <button onClick={handleMobileNav}> Introduction </button> </Link> </li>
-          <li className={ activeNavClass("/methods") }> <Link to="methods" ><button onClick={handleMobileNav}> Methods </button> </Link> </li>
-          <li className={ activeNavClass("/findings") }> <Link to="findings" ><button onClick={handleMobileNav}> Findings </button> </Link> </li>
-          <li className={ activeNavClass("/context") }> <Link to="context" ><button onClick={handleMobileNav}> Context and Discussion </button> </Link> </li>
-          <li className={ activeNavClass("/implications") }> <Link to="implications" ><button onClick={handleMobileNav}> Implications </button> </Link> </li>
-          <li className={ activeNavClass("/references") }> <Link to="references"><button onClick={handleMobileNav}> References </button></Link></li>
-          <li className={ activeNavClass("/contact") }> <Link to="contact" ><button onClick={handleMobileNav}> Contact </button> </Link> </li>
+          <li className={ activeNavClass("/methods") }> <Link to="/methods" ><button onClick={handleMobileNav}> Methods </button> </Link> </li>
+          <li className={ activeNavClass("/findings") }> <Link to="/findings" ><button onClick={handleMobileNav}> Findings </button> </Link> </li>
+          <li className={ activeNavClass("/context") }> <Link to="/context" ><button onClick={handleMobileNav}> Context and Discussion </button> </Link> </li>
+          <li className={ activeNavClass("/implications") }> <Link to="/implications" ><button onClick={handleMobileNav}> Implications </button> </Link> </li>
+          <li className={ activeNavClass("/references") }> <Link to="/references"><button onClick={handleMobileNav}> References </button></Link></li>
+          <li className={ activeNavClass("/contact") }> <Link to="/contact" ><button onClick={handleMobileNav}> Contact </button> </Link> </li>
         </ul> 
       </section>
       <section className="explore-nav"> 

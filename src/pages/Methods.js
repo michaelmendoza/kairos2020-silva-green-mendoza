@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from '@reach/router';
 import headerimage from '../images/methods.png';
 import AppLayout from '../components/AppLayout';

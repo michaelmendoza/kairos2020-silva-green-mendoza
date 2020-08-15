@@ -4,11 +4,11 @@ import noviceImage from '../images/novice.png';
 import expertImage from '../images/expert.png';
 
 function InteractiveCard(props) {
-    const iconImage = props.type == 'novice' ? noviceImage : expertImage;
+    const iconImage = props.type === 'novice' ? noviceImage : expertImage;
 
     return (
         <div className="interactive-card card flex-container" style={props.data.style2}>
-            <img className="interactive-avatar" src={iconImage}/>
+            <img className="interactive-avatar" src={iconImage} alt={props.type + "avatar"}/>
             <div className="flex-item">
                 <header>
                     <span className="interactive-name"> {props.type} Behavior </span> 
@@ -43,12 +43,12 @@ function InteractiveItem(props) {
 
 function InteractivePanel(props) {
     const { novice, expert } = useContext(AppContext);
-
+    
     return (
         <div className="interactive-panel"> 
-            <img className="interactive-explore-image card" src={props.img} />
-            { props.json.novice.map((item) => { return <InteractiveItem data={ {...item, show:novice} } type={"novice"}></InteractiveItem> })}
-            { props.json.expert.map((item) => { return <InteractiveItem data={ {...item, show:expert}} type={"expert"}></InteractiveItem> })}
+            <img className="interactive-explore-image card" src={props.img} alt={"interactive-page"}/>
+            { props.json.novice.map((item, index) => { return <InteractiveItem key={index} data={ {...item, show:novice} } type={"novice"}></InteractiveItem> })}
+            { props.json.expert.map((item, index) => { return <InteractiveItem key={index} data={ {...item, show:expert}} type={"expert"}></InteractiveItem> })}
         </div>
     );
 }

@@ -8,7 +8,7 @@ function DataRow(props) {
   }
   
   return (
-    <tr className={scoreIndex == props.index ? "active" : ""} >
+    <tr className={scoreIndex === props.index ? "active" : ""} >
       <th>{props.data.name}</th>
       <th>{props.data.status}</th>
       <th>{props.data.min}</th>

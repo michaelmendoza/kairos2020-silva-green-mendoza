@@ -10,7 +10,7 @@ const getScoreData= () => {
     var data = results.data.splice(1, results.data.length - 1); // Remove headers
   
     var scores = []
-    for(var i = 0; i < 10; i++) {
+    for(let i = 0; i < 10; i++) {
       scores[i] = data.map( (d)=> { return d[i]; })
     }
     
