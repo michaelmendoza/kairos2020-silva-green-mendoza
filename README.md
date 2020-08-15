@@ -10,3 +10,40 @@ What is Karios?
 
 What frameworks were used?
 - Built from stratch using ReactJS, D3, and SASS
+
+## Development Instructions
+
+First install required npm libraries using:
+
+`npm install` 
+
+This web application can be building using create-react-app or gatsby.
+
+To run in development mode with create-react-app use:
+
+`npm run reactstart`
+
+To run in developement mode with gatbsty use:
+
+`npm run build`
+
+
+## Production Instructions
+
+To build a production version with create-react-app use:
+
+`npm run eactbuild`
+
+Then you can run app on simple ndoe server with:
+
+`nodd server.js`
+
+And application will run on http://localhost:9000/
+
+To build a production version with static pages with gatsby use:
+
+`npm run build`
+
+And application can be run with 
+
+`npm run serve`
