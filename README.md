@@ -31,14 +31,14 @@ To run in development mode with create-react-app use:
 
 To run in development mode with gatsby use:
 
-`npm run build`
+`npm run develop`
 
 
 ### Production Instructions
 
 To build a production version with create-react-app use:
 
-`npm run eactbuild`
+`npm run reactbuild`
 
 Then you can run app on simple ndoe server with:
 
