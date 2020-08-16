@@ -11,7 +11,13 @@ What is Karios?
 What frameworks were used?
 - Built from stratch using ReactJS, D3, and SASS
 
-## Development Instructions
+## Hosting App with Production Build
+
+If a build directory exists make sure to make sure to serve the file located here: build/index.html using a server like the one provided in server.js
+
+## Build Instructions 
+
+### Development Instructions
 
 First install required npm libraries using:
 
@@ -23,12 +29,12 @@ To run in development mode with create-react-app use:
 
 `npm run reactstart`
 
-To run in developement mode with gatbsty use:
+To run in development mode with gatsby use:
 
 `npm run build`
 
 
-## Production Instructions
+### Production Instructions
 
 To build a production version with create-react-app use:
 
