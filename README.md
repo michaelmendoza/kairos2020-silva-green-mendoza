@@ -10,10 +10,16 @@ What is Karios?
 
 What frameworks were used?
 - Built from stratch using ReactJS, D3, and SASS
+- Static Page generation supported using Gatbsby
+- Supports Create-React-App for development and production
 
 ## Hosting App with Production Build
 
-If a build directory exists make sure to make sure to serve the file located here: build/index.html using a server like the one provided in server.js
+Static Page Generation:
+If static page generation is used then the application can be served starting from: public/index using a server like the one provided in server-public.js
+
+Create-React-App
+If create-react-app was used for production then the application can be served starting from: build/index using a server like the one provided in server-build.js
 
 ## Build Instructions 
 
@@ -40,9 +46,9 @@ To build a production version with create-react-app use:
 
 `npm run reactbuild`
 
-Then you can run app on simple ndoe server with:
+Then you can run app on simple node server with:
 
-`nodd server.js`
+`node server-build.js`
 
 And application will run on http://localhost:9000/
 
@@ -52,4 +58,4 @@ To build a production version with static pages with gatsby use:
 
 And application can be run with 
 
-`npm run serve`
+`npm run serve` or `node server-public.js`
