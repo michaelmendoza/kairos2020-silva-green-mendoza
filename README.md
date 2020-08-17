@@ -10,7 +10,7 @@ What is Karios?
 
 What frameworks were used?
 - Built from stratch using ReactJS, D3, and SASS
-- Static Page generation supported using Gatbsby
+- Static Page generation supported using Gatbsby for production 
 - Supports Create-React-App for development and production
 
 ## Hosting App with Production Build
@@ -20,6 +20,20 @@ If static page generation is used then the application can be served starting fr
 
 Create-React-App
 If create-react-app was used for production then the application can be served starting from: build/index using a server like the one provided in server-build.js
+
+## SourceCode File Structure
+
+The source code is organized by 
+
+- build : Contains files for dynamic production build created by create-react-app
+- public : Contains files for static page production build created by gatsby
+- src : Contains source code files necessary to run and build app
+- src/components : Contains all react javascript components
+- src/context : Contains context files for app state mangement
+- src/data : Contains data files for app
+- src/images : Contains media and images
+- src/pages : Contains react components that represent site pages
+- src/styles : Contains all stylesheet written in scss 
 
 ## Build Instructions 
 
