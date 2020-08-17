@@ -71,3 +71,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes fadein_animation {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein_pulse_animation {
+  0%   { opacity: 0; }
+  50% { opacity: 1; }
+  75% { opacity: 0.5; }
+  100% { opacity: 1; }
+}

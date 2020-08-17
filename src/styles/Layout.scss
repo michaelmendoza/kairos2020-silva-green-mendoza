@@ -157,7 +157,10 @@
 }
 
 .side-view {
-    animation: fadein 1s;
+    -webkit-animation: fadein_animation 0.5s; /* Safari 4+ */
+    -moz-animation:    fadein_animation 0.5s; /* Fx 5+ */
+    -o-animation:      fadein_animation 0.5s;
+    animation: fadein_animation 0.5s;
     
     top: 0;
     font-weight: 300;

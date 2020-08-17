@@ -17,8 +17,11 @@
 
 /* Taken from https://leaverou.github.io/bubbly/ */
 .speech-bubble {
-    animation: fadein 2s;
-
+    -webkit-animation: fadein_pulse_animation 2s; /* Safari 4+ */
+    -moz-animation:    fadein_pulse_animation 2s; /* Fx 5+ */
+    -o-animation:      fadein_pulse_animation 2s;
+    animation: fadein_pulse_animation 2s;
+    
 	position: relative;
 	background: #c74542;
     border-radius: .4em;
