@@ -4,7 +4,7 @@
   "description": "Interactive Website Project for Kairos - What do first-year students find reliable in online sources?",
   "version": "1.0.0",
   "license": "0BSD",
-  "scripts": { 
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -20,7 +20,7 @@
     "reactbuild": "react-scripts build",
     "reacttest": "react-scripts test",
     "reacteject": "react-scripts eject"
-  }, 
+  },
   "dependencies": {
     "d3": "^5.16.0",
     "express": "^4.17.1",
