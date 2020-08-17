@@ -37,7 +37,7 @@ To run in development mode with create-react-app use:
 
 To run in development mode with gatsby use:
 
-`npm run develop`
+`npm run gatsbydevelop`
 
 
 ### Production Instructions
@@ -54,7 +54,7 @@ And application will run on http://localhost:9000/
 
 To build a production version with static pages with gatsby use:
 
-`npm run build`
+`npm run gatsbybuild`
 
 And application can be run with 
 
