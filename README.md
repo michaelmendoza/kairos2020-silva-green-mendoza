@@ -16,10 +16,10 @@ What frameworks were used?
 ## Hosting App with Production Build
 
 Static Page Generation:
-If static page generation is used then the application can be served starting from: public/index using a server like the one provided in server-public.js
+If static page generation is used for production build then the application can be served starting from: public/index using a server like the one provided in server-public.js
 
 Create-React-App
-If create-react-app was used for production then the application can be served starting from: build/index using a server like the one provided in server-build.js
+If create-react-app was used for production build then the application can be served starting from: build/index using a server like the one provided in server-build.js
 
 ## SourceCode File Structure
 
