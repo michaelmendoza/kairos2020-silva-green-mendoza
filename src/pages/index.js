@@ -1,6 +1,6 @@
 import React from 'react';
 import headerimage from '../images/introduction.png';
-import { Link } from '@reach/router';
+import { Link } from 'gatsby';
 import AppLayout from '../components/AppLayout';
 
 function Introduction({ location }) {

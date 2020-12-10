@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  pathPrefix: '/25.2/topoi/silva-green-mendoza/',
+
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-sass`, 
+  `gatsby-plugin-react-helmet`,
+  ],
 }

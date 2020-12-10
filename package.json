@@ -9,7 +9,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gatsbybuild": "gatsby build",
+    "gatsbybuild": "gatsby build --prefix-paths",
     "gatsbydevelop": "gatsby develop",
     "gatsbyformat": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "gatsbystart": "npm run develop",

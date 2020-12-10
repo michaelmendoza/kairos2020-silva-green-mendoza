@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { Link } from 'gatsby';
 import DataTable from '../components/DataTable';
 import HistogramWrapper from '../components/HistogramWrapper';
 import PieChart from '../components/PieChart';
